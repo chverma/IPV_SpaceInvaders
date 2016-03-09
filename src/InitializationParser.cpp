@@ -110,6 +110,7 @@ CPlayer			defaultPlayer;
 CShip			defaultShip;
 CSupplyShip		defaultSShip;
 CCircleShip		defaultCShip;
+CAirplane		defaultAirplane;
 
 GCHARS_CharacterType CharType;
 bool MeshSemaphore[CHARS_MAX_CHARTYPE];
@@ -519,6 +520,9 @@ void CInitializationReader::EndTag(CLiteHTMLTag *pTag, DWORD dwAppData, bool &bA
 				StateStack.pop();	//Change to the previous state
 				switch (CharType)
 				{
+				case CHARS_AIRPLANE:
+					defaultAirplane.IndAnimation2D = AnimationsManager.Animations.size()-1;
+					break;
 				case CHARS_BONUS:
 						break;
 				case CHARS_BRICK:
@@ -647,6 +651,10 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case EXPLOSION:
 			switch (CharType)
 			{
+			case CHARS_AIRPLANE:
+				defaultAirplane.Hit_duration	= atof (rText);
+				defaultAirplane.Explosion.SubType = CE_SUPPLYSHIP_EXPLOSION;
+				break;
 			case CHARS_BONUS:
 				 defaultBonus.Hit_duration	= atof (rText);
 				break;
@@ -692,6 +700,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case HEALTH:	//How strong is the character. How much has to be hurt before dieing
 			switch (CharType)
 			{
+			case CHARS_AIRPLANE:
+				defaultAirplane.Health	= atof (rText);
+				break;
 			case CHARS_BONUS:
 				 defaultBonus.Health	= atof (rText);
 				break;
@@ -752,6 +763,17 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case MESH_CHARACTER:
 			switch (CharType)
 			{
+			case CHARS_AIRPLANE:
+				if (MeshSemaphore[CHARS_AIRPLANE])
+				{
+					MeshSemaphore[CHARS_AIRPLANE] = false;
+					strcpy(msj, rText);
+					MeshesManager.AddModel(msj);
+					defaultAirplane.IndMesh = MeshesManager.Meshes.size()-1;
+					defaultAirplane.Mesh = MeshesManager.Meshes[defaultAirplane.IndMesh];
+					strcpy(defaultAirplane.MeshName, defaultAirplane.Mesh->GetFileName());
+					}
+				break;
 			case CHARS_BONUS:
 				 break;
 			case CHARS_BRICK:
@@ -837,6 +859,10 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			CharType = (GCHARS_CharacterType) CharacterFactory.String2Tag(rText);
 			switch (CharType)
 			{
+				case CHARS_AIRPLANE:
+				//Reset all the values by default in case the file does not cover every object aspect
+				defaultAirplane.Init();
+				break;
 			case CHARS_BONUS:
 				//Reset all the values by default in case the file does not cover every object aspect
 				defaultBonus.Init();
@@ -920,9 +946,13 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case RADIO:
 		switch (CharType)
 		{
+		case CHARS_AIRPLANE:
+			//defaultAirplane.Radio = atof(rText);
+			break;
 		case CHARS_CIRCLESHIP:
 			defaultCShip.Radio = atof(rText);
 			break;
+		
 		}
 		break;
 	case SCORE:
@@ -934,6 +964,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case SPEEDX:
 		switch (CharType)
 		{
+		case CHARS_AIRPLANE:
+			defaultAirplane.Speed.v[XDIM] = atof (rText);
+			 break;
 		case CHARS_BONUS:
 			defaultBonus.Speed.v[XDIM] = atof (rText);
 			break;
@@ -962,6 +995,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case SPEEDY:
 		switch (CharType)
 		{
+		case CHARS_AIRPLANE:
+			defaultAirplane.Speed.v[YDIM] = atof (rText);
+			 break;
 		case CHARS_BONUS:
 			defaultBonus.Speed.v[YDIM] = atof (rText);
 			break;
@@ -989,6 +1025,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case SPEEDZ:
 		switch (CharType)
 		{
+		case CHARS_AIRPLANE:
+			defaultAirplane.Speed.v[ZDIM] = atof (rText);
+			 break;
 		case CHARS_BONUS:
 			defaultBonus.Speed.v[ZDIM] = atof (rText);
 			break;
@@ -1027,6 +1066,11 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case TEXTURE2D_CHARACTER:
 		switch (CharType)
 			{
+			case CHARS_AIRPLANE:
+				strcpy(msj, rText);
+				TexturesManager.CreateTexture(msj);
+				defaultAirplane.IndTexture2D = TexturesManager.Textures.size()-1;
+				 break;
 			case CHARS_BONUS:
 				 break;
 			case CHARS_BRICK:
@@ -1096,6 +1140,11 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case TEXTURE3D_CHARACTER:
 		switch (CharType)
 			{
+			case CHARS_AIRPLANE:
+				strcpy(msj, rText);
+				TexturesManager.CreateTexture(msj);
+				defaultAirplane.IndTexture3D = TexturesManager.Textures.size()-1;
+				 break;
 			case CHARS_BONUS:
 				 break;
 			case CHARS_BRICK:
@@ -1148,6 +1197,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case TYPE_ANIMA2D_CHAR:
 			switch (CharType)
 			{
+			case CHARS_AIRPLANE:
 			case CHARS_BONUS:
 			case CHARS_BRICK:
 			case CHARS_BUNKER:
@@ -1168,6 +1218,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 		break;
 	case VELOCITY:
 		defaultCShip.Velocity = atof(rText);
+		//defaultAirplane.Velocity = atof(rText);
 		break;
 	case VERSION:	
 			if (strcmp(rText, Game.GetVersion()))

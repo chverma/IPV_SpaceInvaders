@@ -167,6 +167,7 @@ extern CBunker			defaultBunker;
 extern CBrick			defaultBrick;
 extern CPlayer			defaultPlayer;
 extern CShip			defaultShip;
+extern CAirplane		defaultAirplane;
 extern CSupplyShip		defaultSShip;
 
 /**   

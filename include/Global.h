@@ -49,6 +49,7 @@
 #include "Player.h"			/// Header File class Player
 #include "Navy.h"			/// Header File class Navy. Ships and supply ships that fight in the enemy navy
 #include <Camera.h>			/// Header File class Camera
+#include "Airplane.h"
 
 //HW
 #include <SIKeyboard.h>
@@ -138,6 +139,8 @@ extern CPlayer			defaultPlayer;
 extern CShip			defaultShip;
 extern CSupplyShip		defaultSShip;
 extern CCircleShip		defaultCShip;
+extern CAirplane		defaultAirplane;
+
 
 extern CScene			Scene;			//Scene
 extern CCharacter		Background;

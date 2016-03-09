@@ -21,6 +21,7 @@
 */
 typedef enum {
 	CHARS_CHARACTER_UNKNOWN,	///<For management purpouses only
+	CHARS_AIRPLANE,				///<New player called Airplane
 	CHARS_BONUS,				///<For improving player strenght
 	CHARS_BRICK,				///<Pieces that make a bunker
 	CHARS_BUNKER,				///<A collection of bricks together in order to defend the player
