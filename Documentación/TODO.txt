@@ -1,0 +1,3 @@
+1.- Hay que cargar la IA de los objetos que la tengan resuelta por HTML después de que se haya realizado la carga del fichero de incialización cuando ya se conozca la ubicación de  la carpeta de IA y no antes
+
+2.- Unificar máquina de estados Game.AI, AppControl y SIDLG_MainProgramLooping en un único control general

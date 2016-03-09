@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C02445C9-F25D-4263-B4B9-B0A5F05B9AE5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SI_2013</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfAtl>Dynamic</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfAtl>Static</UseOfAtl>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <IncludePath>lib\UGK\include\Graphics\OpenGL;lib\HRT;API\Window;include;API\Language;lib\assimp-3.0.1270\include;lib\UGK\include\Sound;lib\UGK\include;lib\RT-DESK\user;lib\RT-DESK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;lib\UGK\include\IO\Leap;$(WindowsSDK_IncludePath);lib\OpenGL;lib\OpenGL\GL\include\GL;lib\fmod</IncludePath>
+    <ReferencePath>lib\OpenGL\GLEW\glew-1.8.0 win64\lib;lib\OpenGL\Glee;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(ReferencePath)</ReferencePath>
+    <LibraryPath>lib\OpenGL;lib\RT-DESK;lib\OpenGL\GL\lib;lib\UGK\lib;API\RT-DESK;lib\SDL;lib;lib\OpenGL\GLEW\lib;lib\assimp-3.0.1270\lib;lib\OpenGL\Glee;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86);lib\UGK\lib\lib</LibraryPath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath)</LibraryWPath>
+    <SourcePath>.\src;$(SourcePath)</SourcePath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <IncludePath>lib\UGK\include\IO\Leap;lib\UGK\include\Sound;lib\UGK\include\Graphics\OpenGL;lib\UGK\include;lib\OpenGL;lib\RT-DESK\user;lib\OpenGL\GL\include\GL;API\Window;lib\HRT;lib\RT-DESK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath)</IncludePath>
+    <ReferencePath>lib\OpenGL\GLEW\glew-1.8.0 win64\lib;lib\OpenGL\Glee;$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;lib\UGK\lib</ReferencePath>
+    <LibraryPath>lib\UGK\lib;lib\UGK\lib\lib;lib\RT-DESK;lib\SDL;lib\assimp-3.0.1270\lib;lib;lib\OpenGL\GLEW\lib;lib\OpenGL\GL\lib;lib\OpenGL\Glee;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+    <SourcePath>$(SourcePath);$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CONFIG_FMOD_EXTRACT_YES;WIN32;_DEBUG;_WINDOWS;_WIN32_WINDOWS=0x0410;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>.\API\Text2D3D;.\API\CollisionDetect;.\API\Hardware;.\API\Meshes;.\API\Textures;stl; .\API\HRT; .\API; .\API\Parsers; .\API\InOut; .\; .\API\gl;.\lib\sdl;</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BrowseInformation>true</BrowseInformation>
+      <AdditionalOptions>/EHsc /D _CRT_SECURE_NO_WARNINGS</AdditionalOptions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\;lib;lib\OpenGL\GL Files\lib;.\lib\sdl;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>UGKMMO.lib;glaux.lib;RTDeskEngined.lib;SDL_mixer.lib;SDL.lib;fmodvc.lib;delayimp.lib;glpng.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;glee.lib;glew32s.lib;glew32.lib;glew32mx.lib;glew32mxs.lib;wsock32.lib;msacm32.lib;winmm.lib;wininet.lib;comctl32.lib;wiiuse.lib;Nafxcwd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;assimp.lib;UPVGameKerneld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib; LIBC.LIB;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <IgnoreEmbeddedIDL>true</IgnoreEmbeddedIDL>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <SupportUnloadOfDelayLoadedDLL>false</SupportUnloadOfDelayLoadedDLL>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <AdditionalOptions>/FORCE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;FMOD_EXTRACT_YES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_AFXDLL;WIN32;_NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>.\include;.\API\Text2D3D;.\API\CollisionDetect;.\API\Language;.\API\Hardware;.\API\Meshes;.\API\Textures;stl;.\API\HRT;.\API;.\API\Parsers;.\API\InOut;.\;.\API\gl;.\lib\sdl;.\lib\assimp-3.0.1270\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>
+      </MultiProcessorCompilation>
+      <BufferSecurityCheck />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>.\;lib;lib\OpenGL\GL Files\lib;lib\sdl;lib\assimp-3.0.1270\lib\assimp_release-dll_win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>nafxcw.lib;nafxcwd.lib; LIBC.LIB;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>glaux.lib;RTDeskEngine.lib;SDL_mixer.lib;SDL.lib;fmodvc.lib;delayimp.lib;glpng.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;glee.lib;glew32s.lib;glew32.lib;glew32mx.lib;glew32mxs.lib;wsock32.lib;msacm32.lib;winmm.lib;wininet.lib;comctl32.lib;wiiuse.lib;assimp.lib;UPVGameKernel.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <PreventDllBinding>
+      </PreventDllBinding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\AI\AIManager.h" />
+    <ClInclude Include="API\AI\FSM.h" />
+    <ClInclude Include="API\AI\FSMParser.h" />
+    <ClInclude Include="API\AI\State.h" />
+    <ClInclude Include="API\Application.h" />
+    <ClInclude Include="API\Camera.h" />
+    <ClInclude Include="API\Character.h" />
+    <ClInclude Include="API\CollisionDetect\CollisionDetect.h" />
+    <ClInclude Include="API\CollisionDetect\Quadtree.h" />
+    <ClInclude Include="API\CollisionDetect\QuadtreeRoot.h" />
+    <ClInclude Include="API\FontsManager.h" />
+    <ClInclude Include="API\Game.h" />
+    <ClInclude Include="API\Hardware\GraphicsCard.h" />
+    <ClInclude Include="API\Hardware\Hardware.h" />
+    <ClInclude Include="API\Hardware\WebCam.h" />
+    <ClInclude Include="API\InOut\Keyboard.h" />
+    <ClInclude Include="API\InOut\Kinect.h" />
+    <ClInclude Include="API\InOut\signal_catch.h" />
+    <ClInclude Include="API\InOut\WiimoteManager.h" />
+    <ClInclude Include="API\InOut\wiiuse.h" />
+    <ClInclude Include="API\Language\UGKLanguage.h" />
+    <ClInclude Include="API\Language\UGKLanguageParser.h" />
+    <ClInclude Include="API\Meshes\GLTexture.h" />
+    <ClInclude Include="API\Meshes\Mesh3D.h" />
+    <ClInclude Include="API\Meshes\MeshManager.h" />
+    <ClInclude Include="API\Meshes\Model_3DS.h" />
+    <ClInclude Include="API\Network.h" />
+    <ClInclude Include="API\Parsers\DefaultHTMLLabels.h" />
+    <ClInclude Include="API\Parsers\DeviceParser.h" />
+    <ClInclude Include="API\Parsers\HTMLParser.h" />
+    <ClInclude Include="API\Particles\Explosion.h" />
+    <ClInclude Include="API\Particles\Particle.h" />
+    <ClInclude Include="API\Particles\ParticleSystem.h" />
+    <ClInclude Include="API\Physics.h" />
+    <ClInclude Include="API\ScoreManager.h" />
+    <ClInclude Include="API\Shaders\shader.h" />
+    <ClInclude Include="API\Shaders\shaderManager.h" />
+    <ClInclude Include="API\Shaders\Shaders2\shader2.h" />
+    <ClInclude Include="API\Shaders\Shaders2\ShaderManager2.h" />
+    <ClInclude Include="API\Text2D3D\fpsGL.h" />
+    <ClInclude Include="API\Text2D3D\TextoGL.h" />
+    <ClInclude Include="API\Textures\Texture.h" />
+    <ClInclude Include="API\Textures\TextureAnimation.h" />
+    <ClInclude Include="API\Textures\TextureAnimationManager.h" />
+    <ClInclude Include="API\Textures\TexturesManager.h" />
+    <ClInclude Include="API\Window\BasicWindow.h" />
+    <ClInclude Include="API\Window\DXWindow.h" />
+    <ClInclude Include="API\Window\GLWindow.h" />
+    <ClInclude Include="API\Window\MSWindow.h" />
+    <ClInclude Include="API\Window\Window.h" />
+    <ClInclude Include="include\Bonus.h" />
+    <ClInclude Include="include\BonusManager.h" />
+    <ClInclude Include="include\Boometer.h" />
+    <ClInclude Include="include\Brick.h" />
+    <ClInclude Include="include\Bunker.h" />
+    <ClInclude Include="include\BunkersManager.h" />
+    <ClInclude Include="include\Characters.h" />
+    <ClInclude Include="include\CircleShip.h" />
+    <ClInclude Include="include\ExecutionMode.h" />
+    <ClInclude Include="include\GameCharacters.h" />
+    <ClInclude Include="include\GameSounds.h" />
+    <ClInclude Include="include\Global.h" />
+    <ClInclude Include="include\GUI.h" />
+    <ClInclude Include="include\InitializationParser.h" />
+    <ClInclude Include="include\Laser.h" />
+    <ClInclude Include="include\LevelParser.h" />
+    <ClInclude Include="include\Navy.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\Reactor.h" />
+    <ClInclude Include="include\Scene.h" />
+    <ClInclude Include="include\Ship.h" />
+    <ClInclude Include="include\Shoot.h" />
+    <ClInclude Include="include\ShootsManager.h" />
+    <ClInclude Include="include\SIGame.h" />
+    <ClInclude Include="include\SIKeyboard.h" />
+    <ClInclude Include="include\SITexturesResources.h" />
+    <ClInclude Include="include\SI_AI.h" />
+    <ClInclude Include="include\SupplyShip.h" />
+    <ClInclude Include="include\TextResources.h" />
+    <ClInclude Include="lib\OpenGL\glTexFont.h" />
+    <ClInclude Include="Main_SI_2013.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="API\AI\AIManager.cpp" />
+    <ClCompile Include="API\AI\FSM.cpp" />
+    <ClCompile Include="API\AI\FSMParser.cpp" />
+    <ClCompile Include="API\AI\State.cpp" />
+    <ClCompile Include="API\Application.cpp" />
+    <ClCompile Include="API\Camera.cpp" />
+    <ClCompile Include="API\Character.cpp" />
+    <ClCompile Include="API\CollisionDetect\CollisionDetect.cpp" />
+    <ClCompile Include="API\CollisionDetect\Quadtree.cpp" />
+    <ClCompile Include="API\CollisionDetect\QuadtreeRoot.cpp" />
+    <ClCompile Include="API\FontsManager.cpp" />
+    <ClCompile Include="API\Game.cpp" />
+    <ClCompile Include="API\Hardware\GraphicsCard.cpp" />
+    <ClCompile Include="API\Hardware\WebCam.cpp" />
+    <ClCompile Include="API\InOut\Keyboard.cpp" />
+    <ClCompile Include="API\InOut\Kinect.cpp" />
+    <ClCompile Include="API\InOut\WiimoteManager.cpp" />
+    <ClCompile Include="API\Language\UGKLanguage.cpp" />
+    <ClCompile Include="API\Language\UGKLanguageParser.cpp" />
+    <ClCompile Include="API\Meshes\GLTexture.cpp" />
+    <ClCompile Include="API\Meshes\Mesh3D.cpp" />
+    <ClCompile Include="API\Meshes\MeshManager.cpp" />
+    <ClCompile Include="API\Meshes\Model_3DS.cpp" />
+    <ClCompile Include="API\Parsers\DeviceParser.cpp" />
+    <ClCompile Include="API\Parsers\HTMLParser.cpp" />
+    <ClCompile Include="API\Parsers\LiteHTMLAttributes.cpp" />
+    <ClCompile Include="API\Parsers\LiteHTMLEntityResolver.cpp" />
+    <ClCompile Include="API\Parsers\LiteHTMLReader.cpp" />
+    <ClCompile Include="API\Particles\Explosion.cpp" />
+    <ClCompile Include="API\Particles\Particle.cpp" />
+    <ClCompile Include="API\Particles\ParticleSystem.cpp" />
+    <ClCompile Include="API\ScoreManager.cpp" />
+    <ClCompile Include="API\Shaders\shader.cpp" />
+    <ClCompile Include="API\Shaders\shaderManager.cpp" />
+    <ClCompile Include="API\Shaders\Shaders2\shader2.cpp" />
+    <ClCompile Include="API\Shaders\Shaders2\ShaderManager2.cpp" />
+    <ClCompile Include="API\Text2D3D\fpsGL.cpp" />
+    <ClCompile Include="API\Text2D3D\TextoGL.cpp" />
+    <ClCompile Include="API\Textures\Texture.cpp" />
+    <ClCompile Include="API\Textures\TextureAnimation.cpp" />
+    <ClCompile Include="API\Textures\TextureAnimationManager.cpp" />
+    <ClCompile Include="API\Textures\TexturesManager.cpp" />
+    <ClCompile Include="API\Window\GLWindow.cpp" />
+    <ClCompile Include="API\Window\MSWindow.cpp" />
+    <ClCompile Include="lib\HRT\HRTimer.cpp" />
+    <ClCompile Include="lib\HRT\HRTimerManager.cpp" />
+    <ClCompile Include="lib\HRT\HRTimerStat.cpp" />
+    <ClCompile Include="lib\HRT\RTTimer.cpp" />
+    <ClCompile Include="lib\OpenGL\glTexFont.c" />
+    <ClCompile Include="src\Bonus.cpp" />
+    <ClCompile Include="src\BonusManager.cpp" />
+    <ClCompile Include="src\Boometer.cpp" />
+    <ClCompile Include="src\Brick.cpp" />
+    <ClCompile Include="src\Bunker.cpp" />
+    <ClCompile Include="src\BunkersManager.cpp" />
+    <ClCompile Include="src\Characters.cpp" />
+    <ClCompile Include="src\CircleShip.cpp" />
+    <ClCompile Include="src\GameCharacters.cpp" />
+    <ClCompile Include="src\GameSounds.cpp" />
+    <ClCompile Include="src\Global.cpp" />
+    <ClCompile Include="src\GUI.cpp" />
+    <ClCompile Include="src\InitializationParser.cpp" />
+    <ClCompile Include="src\Laser.cpp" />
+    <ClCompile Include="src\LevelParser.cpp" />
+    <ClCompile Include="src\Main_SI_2013.cpp" />
+    <ClCompile Include="src\Navy.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Reactor.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
+    <ClCompile Include="src\Ship.cpp" />
+    <ClCompile Include="src\Shoot.cpp" />
+    <ClCompile Include="src\ShootsManager.cpp" />
+    <ClCompile Include="src\SIGame.cpp" />
+    <ClCompile Include="src\SIKeyboard.cpp" />
+    <ClCompile Include="src\SITexturesResources.cpp" />
+    <ClCompile Include="src\SupplyShip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\icon_app.ico" />
+    <Image Include="SI_2013.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="API\Shaders\shader_ClassDiagram.cd" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SI_2013.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

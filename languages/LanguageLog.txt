@@ -1,0 +1,3897 @@
+LANGUAGE PARSER: BEGIN PARSE.
+This file does not corresponds to this videogame.﻿
+TopTag:  ﻿ 0 0 
+LANGAGE PARSER: START TAG HTML
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 3 3 
+LANGAGE PARSER: START TAG HEAD
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 2 2 
+LANGAGE PARSER: START TAG TITLE
+This file does not corresponds to this videogame.Space Invaders
+TopTag:  Space Invaders 4 4 
+ clossing tag out from the HTML section.TITLE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 2 2 
+LANGAGE PARSER: START TAG VERSION
+This file does not corresponds to this videogame.1.0.0
+TopTag:  1.0.0 7 7 
+ clossing tag out from the HTML section.VERSION
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 2 2 
+LANGAGE PARSER: START TAG TYPE
+This file does not corresponds to this videogame.Language
+TopTag:  Language 5 5 
+ clossing tag out from the HTML section.TYPE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 2 2 
+LANGAGE PARSER: START TAG LANGUAGE
+This file does not corresponds to this videogame.ES
+TopTag:  ES 10 10 
+ clossing tag out from the HTML section.LANGUAGE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 2 2 
+ clossing tag out from the HTML section.HEAD
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 3 3 
+LANGAGE PARSER: START TAG BODY
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.1
+TopTag:  1 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Error de Internet
+TopTag:  Error de Internet 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.2
+TopTag:  2 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Información: conexión a Internet no se pueden utilizar.
+TopTag:  Información: conexión a Internet no se pueden utilizar. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.3
+TopTag:  3 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Advertencia
+TopTag:  Advertencia 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.11
+TopTag:  11 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.haga 1 clic en =
+TopTag:  haga 1 clic en = 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.12
+TopTag:  12 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Tiempo.ms mantenga presionada tecla
+TopTag:  Tiempo.ms mantenga presionada tecla 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.13
+TopTag:  13 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.No se pudo crear el control de edición!
+TopTag:  No se pudo crear el control de edición! 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.14
+TopTag:  14 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Error
+TopTag:  Error 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.21
+TopTag:  21 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Crea distintos tamaños de texturas para mejor calidad visual.\r Necesidades unos megabytes más de memoria.
+TopTag:  Crea distintos tamaños de texturas para mejor calidad visual.\r Necesidades unos megabytes más de memoria. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.22
+TopTag:  22 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.MIPMAP TEXTURES
+TopTag:  MIPMAP TEXTURES 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.23
+TopTag:  23 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Ajusta la velocidad de fotogramas a frecuencia de trama para suavizan los movimientos.\r FPS está limitada por la frecuencia.\r\r
+TopTag:  Ajusta la velocidad de fotogramas a frecuencia de trama para suavizan los movimientos.\r FPS está limitada por la frecuencia.\r\r 8 8 
+LANGAGE PARSER: START TAG V
+This file does not corresponds to this videogame.clave para intercambiar ON/OFF durante juego.
+TopTag:  clave para intercambiar ON/OFF durante juego. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.24
+TopTag:  24 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.SINCRONIZACIÓN VERTICAL
+TopTag:  SINCRONIZACIÓN VERTICAL 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.25
+TopTag:  25 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Habilita flujo de música de Internet música.\r Elija a partir de:\r - Cable/DSL (128 K)\r - (dual) de ISDN (RDSI) (56 K)\r - Configurar el acceso telefónico (de 24 k)\r - Personalizada (introducir una URL.)
+TopTag:  Habilita flujo de música de Internet música.\r Elija a partir de:\r - Cable/DSL (128 K)\r - (dual) de ISDN (RDSI) (56 K)\r - Configurar el acceso telefónico (de 24 k)\r - Personalizada (introducir una URL.) 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.26
+TopTag:  26 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.MUSICA EN STREAMING
+TopTag:  MUSICA EN STREAMING 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.27
+TopTag:  27 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Ajusta la orientación de objetos 2D (como partículas), de modo que se enfrentan la cámara para mejor representación (sólo en el modo 3D).\r Se necesita más CPU.
+TopTag:  Ajusta la orientación de objetos 2D (como partículas), de modo que se enfrentan la cámara para mejor representación (sólo en el modo 3D).\r Se necesita más CPU. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.28
+TopTag:  28 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.BILLBOARDING
+TopTag:  BILLBOARDING 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.29
+TopTag:  29 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Habilita el suavizado, principalmente para objetos 3D para la mejor calidad visual.\r Necesita un compatible tarjeta gráfica y mucho más CPU / tarjetas gráficas de RAM.\r\r 
+TopTag:  Habilita el suavizado, principalmente para objetos 3D para la mejor calidad visual.\r Necesita un compatible tarjeta gráfica y mucho más CPU / tarjetas gráficas de RAM.\r\r  8 8 
+LANGAGE PARSER: START TAG A
+This file does not corresponds to this videogame. clave para intercambiar ON / OFF durante juego.
+TopTag:   clave para intercambiar ON / OFF durante juego. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.30
+TopTag:  30 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.ANTI-ALIASING
+TopTag:  ANTI-ALIASING 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.31
+TopTag:  31 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.La calidad y velocidad depende de manera significativa en el controlador de tarjeta de vídeo.\r\r x2 (2 muestras, 2 grifos) más rápido modo.\r x2 (Qx) (2,5) ~ velocidad de anterior, la calidad de la próxima.\r x4 (4,4) poco más que anteriores pero más lenta.\r x4S (4,9) más que anteriores pero más lento.
+TopTag:  La calidad y velocidad depende de manera significativa en el controlador de tarjeta de vídeo.\r\r x2 (2 muestras, 2 grifos) más rápido modo.\r x2 (Qx) (2,5) ~ velocidad de anterior, la calidad de la próxima.\r x4 (4,4) poco más que anteriores pero más lenta.\r x4S (4,9) más que anteriores pero más lento. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.32
+TopTag:  32 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.ANTI-ALIASING MODE
+TopTag:  ANTI-ALIASING MODE 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.33
+TopTag:  33 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.sio: TrackMouseEvent Error
+TopTag:  sio: TrackMouseEvent Error 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.34
+TopTag:  34 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Error al crear ventana OpenGL
+TopTag:  Error al crear ventana OpenGL 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.35
+TopTag:  35 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.marcar
+TopTag:  marcar 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.36
+TopTag:  36 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.personalizada
+TopTag:  personalizada 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.37
+TopTag:  37 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.sonido Error de inicialización de
+TopTag:  sonido Error de inicialización de 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.51
+TopTag:  51 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.InitCommonControlEx() falló.
+TopTag:  InitCommonControlEx() falló. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.52
+TopTag:  52 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Error al registrar la clase Window.
+TopTag:  Error al registrar la clase Window. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.53
+TopTag:  53 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Error
+TopTag:  Error 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.54
+TopTag:  54 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame. [Inicio]
+TopTag:   [Inicio] 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.55
+TopTag:  55 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Error
+TopTag:  Error 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.101
+TopTag:  101 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.URL de Transmisión está vacío
+TopTag:  URL de Transmisión está vacío 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.102
+TopTag:  102 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Transmisión: NumberOfEntries no encontrado en el archivo pls
+TopTag:  Transmisión: NumberOfEntries no encontrado en el archivo pls 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.103
+TopTag:  103 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Transmisión: valor numérico para NumberOfEntries no encontrado
+TopTag:  Transmisión: valor numérico para NumberOfEntries no encontrado 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.104
+TopTag:  104 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.de transmisión por secuencias: no se puede asignar memoria para pls archivo (lista de reproducción)
+TopTag:  de transmisión por secuencias: no se puede asignar memoria para pls archivo (lista de reproducción) 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.105
+TopTag:  105 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.de transmisión por secuencias: no se puede asignar memoria para pls archivo (playlist- > nombre)
+TopTag:  de transmisión por secuencias: no se puede asignar memoria para pls archivo (playlist- > nombre) 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.106
+TopTag:  106 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.de transmisión por secuencias: no se puede asignar memoria para pls archivo (playlist- > displayname)
+TopTag:  de transmisión por secuencias: no se puede asignar memoria para pls archivo (playlist- > displayname) 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.111
+TopTag:  111 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Mostrar
+TopTag:  Mostrar 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.112
+TopTag:  112 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Pantalla completa rápida (modo activo)
+TopTag:  Pantalla completa rápida (modo activo) 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.113
+TopTag:  113 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Pantalla completa
+TopTag:  Pantalla completa 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.114
+TopTag:  114 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Ventana
+TopTag:  Ventana 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.115
+TopTag:  115 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Misc.
+TopTag:  Misc. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.116
+TopTag:  116 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.VSync
+TopTag:  VSync 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.117
+TopTag:  117 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Tranmisión/CONTENT>
+
+TopTag:  Tranmisión/CONTENT>
+ 8 8 
+ clossing tag out from the HTML section.RESOURCE
+Parser error: RESOURCE clossing tag without correspondent opening tag in a RESOURCE segment.
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 8 8 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  8 8 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.118
+TopTag:  118 8 8 
+ clossing tag out from the HTML section.ID
+Parser error: ID clossing tag without correspondent opening tag in a RESOURCE segment.
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  8 8 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Calidad
+TopTag:  Calidad 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.119
+TopTag:  119 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Antialias
+TopTag:  Antialias 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.121
+TopTag:  121 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Mipmap de las texturas
+TopTag:  Mipmap de las texturas 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.122
+TopTag:  122 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Empezar juego
+TopTag:  Empezar juego 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.123
+TopTag:  123 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Marcado
+TopTag:  Marcado 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.124
+TopTag:  124 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Personalizado
+TopTag:  Personalizado 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.151
+TopTag:  151 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Página Web
+TopTag:  Página Web 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.152
+TopTag:  152 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Foro
+TopTag:  Foro 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.153
+TopTag:  153 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Wikik pantalla teclado virtual
+TopTag:  Wikik pantalla teclado virtual 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.154
+TopTag:  154 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cerrar ventana
+TopTag:  Cerrar ventana 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.155
+TopTag:  155 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.personalizada con la dirección URL
+TopTag:  personalizada con la dirección URL 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.156
+TopTag:  156 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Insertar dirección URL de la lista de reproducción Shoutcast (* .pls),
+TopTag:  Insertar dirección URL de la lista de reproducción Shoutcast (* .pls), 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.157
+TopTag:  157 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.o MP3. Compruebe
+TopTag:  o MP3. Compruebe 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.201
+TopTag:  201 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cargando nivel:
+TopTag:  Cargando nivel: 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.211
+TopTag:  211 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cargando nivel guardado
+TopTag:  Cargando nivel guardado 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.221
+TopTag:  221 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Fecha
+TopTag:  Fecha 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.222
+TopTag:  222 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cargando Sonidos...
+TopTag:  Cargando Sonidos... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.223
+TopTag:  223 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Lectura de archivo de inicialización...
+TopTag:  Lectura de archivo de inicialización... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.224
+TopTag:  224 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Un juego guardado se ha detectado. ¿Desea cargar este?
+TopTag:  Un juego guardado se ha detectado. ¿Desea cargar este? 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.225
+TopTag:  225 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Carga juego
+TopTag:  Carga juego 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.226
+TopTag:  226 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Lectura juego guardado...
+TopTag:  Lectura juego guardado... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.227
+TopTag:  227 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Lectura primer nivel del juego...
+TopTag:  Lectura primer nivel del juego... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.228
+TopTag:  228 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Generando nave predeterminada...
+TopTag:  Generando nave predeterminada... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.229
+TopTag:  229 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Disparos...
+TopTag:  Disparos... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.230
+TopTag:  230 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Variables de entorno...
+TopTag:  Variables de entorno... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.231
+TopTag:  231 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Error en la inicialización del sonido
+TopTag:  Error en la inicialización del sonido 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.241
+TopTag:  241 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cargando texturas...
+TopTag:  Cargando texturas... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.242
+TopTag:  242 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cargando Mallas...
+TopTag:  Cargando Mallas... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.243
+TopTag:  243 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Excepción: Se ha producido un problema durante la carga de los objetos 3D.
+TopTag:  Excepción: Se ha producido un problema durante la carga de los objetos 3D. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.244
+TopTag:  244 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Espacio Invaders OpenGL [End carga]
+TopTag:  Espacio Invaders OpenGL [End carga] 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.301
+TopTag:  301 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cargando nivel:
+TopTag:  Cargando nivel: 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.302
+TopTag:  302 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Error
+TopTag:  Error 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.303
+TopTag:  303 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Entrando modo immortal.
+TopTag:  Entrando modo immortal. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.304
+TopTag:  304 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Entrando modo mortal.
+TopTag:  Entrando modo mortal. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.305
+TopTag:  305 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Pongo algunos archivos mp3 en el directorio del juego .
+TopTag:  Pongo algunos archivos mp3 en el directorio del juego . 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.306
+TopTag:  306 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Elija la opción de suavizado de inicio.
+TopTag:  Elija la opción de suavizado de inicio. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.307
+TopTag:  307 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.El suavizado no se utiliza en Línea 3D modo.
+TopTag:  El suavizado no se utiliza en Línea 3D modo. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.308
+TopTag:  308 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Suavizado: ON
+TopTag:  Suavizado: ON 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.309
+TopTag:  309 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Suavizado: OFF
+TopTag:  Suavizado: OFF 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.310
+TopTag:  310 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Lo sentimos, SwapIntervalExt() no está disponible.
+TopTag:  Lo sentimos, SwapIntervalExt() no está disponible. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.311
+TopTag:  311 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Sincronización vertical: ON
+TopTag:  Sincronización vertical: ON 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.312
+TopTag:  312 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Sincronización vertical: OFF
+TopTag:  Sincronización vertical: OFF 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.321
+TopTag:  321 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.sonido
+TopTag:  sonido 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.322
+TopTag:  322 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.audio
+TopTag:  audio 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.323
+TopTag:  323 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Hora
+TopTag:  Hora 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.324
+TopTag:  324 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.ángulo
+TopTag:  ángulo 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.325
+TopTag:  325 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Camara.zoom
+TopTag:  Camara.zoom 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.326
+TopTag:  326 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Salir ESC
+TopTag:  Salir ESC 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.327
+TopTag:  327 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Rotación del MOUSE
+TopTag:  Rotación del MOUSE 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.328
+TopTag:  328 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.M \r música (en)
+TopTag:  M \r música (en) 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.329
+TopTag:  329 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.M \r música (desactivado)
+TopTag:  M \r música (desactivado) 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.330
+TopTag:  330 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.B \r Fondo
+TopTag:  B \r Fondo 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.331
+TopTag:  331 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.R \r Reemplazar leva
+TopTag:  R \r Reemplazar leva 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.332
+TopTag:  332 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.T \r Ocultar texto
+TopTag:  T \r Ocultar texto 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.333
+TopTag:  333 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.+/- Zoom
+TopTag:  +/- Zoom 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.334
+TopTag:  334 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Altura
+TopTag:  Altura 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.335
+TopTag:  335 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Ancho
+TopTag:  Ancho 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.336
+TopTag:  336 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Presione espacio para cambiar música 
+TopTag:  Presione espacio para cambiar música  8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.351
+TopTag:  351 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.ENTRADO NIVEL
+TopTag:  ENTRADO NIVEL 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.352
+TopTag:  352 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.USTED GANA!
+TopTag:  USTED GANA! 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.353
+TopTag:  353 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.FIN DEL JUEGO!
+TopTag:  FIN DEL JUEGO! 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.354
+TopTag:  354 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.USTED PIERDE!
+TopTag:  USTED PIERDE! 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.361
+TopTag:  361 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.error en el chgt de zik
+TopTag:  error en el chgt de zik 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.401
+TopTag:  401 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.tipo de carácter (
+TopTag:  tipo de carácter ( 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.402
+TopTag:  402 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.) no compatible.
+TopTag:  ) no compatible. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.411
+TopTag:  411 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Inicio interpretación del archivo de inicialización.
+TopTag:  Inicio interpretación del archivo de inicialización. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.461/ID>
+ 
+TopTag:  461/ID>
+  9 9 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Texto: 
+TopTag:  Texto:  9 9 
+ clossing tag out from the HTML section.CONTENT
+Parser error: CONTENT clossing tag without correspondent opening tag in a RESOURCE segment.
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 9 9 
+ clossing tag out from the HTML section.RESOURCE
+Parser error: RESOURCE clossing tag without correspondent opening tag in a RESOURCE segment.
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 9 9 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  9 9 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.462
+TopTag:  462 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Número máximo de vida indicado (
+TopTag:  Número máximo de vida indicado ( 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.463
+TopTag:  463 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame. es menor que el mínimo permitido por el programa (1). Valor truncado al mínimo.
+TopTag:   es menor que el mínimo permitido por el programa (1). Valor truncado al mínimo. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.464
+TopTag:  464 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Número máximo de vida indicado (
+TopTag:  Número máximo de vida indicado ( 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.465
+TopTag:  465 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.) Es mayor que el importe máximo permitido por el programa (1). Truncado que el valor máximo.
+TopTag:  ) Es mayor que el importe máximo permitido por el programa (1). Truncado que el valor máximo. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.466
+TopTag:  466 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.El fichero no corresponde un este videojuego.
+TopTag:  El fichero no corresponde un este videojuego. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.467
+TopTag:  467 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.El fichero es de tipo \"
+TopTag:  El fichero es de tipo \" 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.468
+TopTag:  468 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.\". Se requiere un fichero de tipo \"inicialización\".
+TopTag:  \". Se requiere un fichero de tipo \"inicialización\". 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.469
+TopTag:  469 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Versión del archivo es v
+TopTag:  Versión del archivo es v 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.470
+TopTag:  470 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame., que no se corresponde con esta versión v
+TopTag:  , que no se corresponde con esta versión v 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.481
+TopTag:  481 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Comentarios:
+TopTag:  Comentarios: 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.491
+TopTag:  491 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Interpretación del archivo finalizado.
+TopTag:  Interpretación del archivo finalizado. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.601
+TopTag:  601 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cargando texturas...
+TopTag:  Cargando texturas... 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.602
+TopTag:  602 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cargando texturas...(100%)\n
+TopTag:  Cargando texturas...(100%)\n 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.651
+TopTag:  651 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Error cargando PNG
+TopTag:  Error cargando PNG 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.900
+TopTag:  900 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Mostrar
+TopTag:  Mostrar 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.901
+TopTag:  901 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Pantalla Completa (modo actual)
+TopTag:  Pantalla Completa (modo actual) 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.902
+TopTag:  902 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Pantalla Completa
+TopTag:  Pantalla Completa 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.903
+TopTag:  903 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Ventana
+TopTag:  Ventana 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.904
+TopTag:  904 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Misc.
+TopTag:  Misc. 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.905
+TopTag:  905 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.VSync
+TopTag:  VSync 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.906
+TopTag:  906 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Ancho banda
+TopTag:  Ancho banda 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.907
+TopTag:  907 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Calidad
+TopTag:  Calidad 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.908
+TopTag:  908 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Antialiasing
+TopTag:  Antialiasing 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.910
+TopTag:  910 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Texturas MipMap
+TopTag:  Texturas MipMap 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.911
+TopTag:  911 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Iniciar Juego
+TopTag:  Iniciar Juego 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.912
+TopTag:  912 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Marcado
+TopTag:  Marcado 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.913
+TopTag:  913 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Personalizado
+TopTag:  Personalizado 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.914
+TopTag:  914 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Página Web
+TopTag:  Página Web 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.915
+TopTag:  915 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Foro
+TopTag:  Foro 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.916
+TopTag:  916 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Wikik pantalla Teclado virtual
+TopTag:  Wikik pantalla Teclado virtual 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.917
+TopTag:  917 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Cerrar ventana
+TopTag:  Cerrar ventana 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.918
+TopTag:  918 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Introduzca una URL para una lista de reproducción (*.pls) de una estación,
+TopTag:  Introduzca una URL para una lista de reproducción (*.pls) de una estación, 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.919
+TopTag:  919 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.una emisora, o un MP3. Chequee
+TopTag:  una emisora, o un MP3. Chequee 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.1000
+TopTag:  1000 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Ingles
+TopTag:  Ingles 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.1001
+TopTag:  1001 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Español
+TopTag:  Español 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 1 1 
+LANGAGE PARSER: START TAG RESOURCE
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG ID
+This file does not corresponds to this videogame.1002
+TopTag:  1002 9 9 
+ clossing tag out from the HTML section.ID
+This file does not corresponds to this videogame.
+ 
+TopTag:  
+  11 11 
+LANGAGE PARSER: START TAG CONTENT
+This file does not corresponds to this videogame.Catalan
+TopTag:  Catalan 8 8 
+ clossing tag out from the HTML section.CONTENT
+This file does not corresponds to this videogame.
+
+TopTag:  
+ 11 11 
+ clossing tag out from the HTML section.RESOURCE
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 1 1 
+ clossing tag out from the HTML section.BODY
+This file does not corresponds to this videogame.
+
+
+TopTag:  
+
+ 3 3 
+ clossing tag out from the HTML section.HTML

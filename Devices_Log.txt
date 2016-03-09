@@ -1,0 +1,52 @@
+Begining the initialization file parsing.
+First tag was not an HTML tag.HTML
+First tag was not an HTML tag.HEAD
+First tag was not an HTML tag.TITLE
+Texto: Space Invaders 
+Etiqueta fin: TITLE
+First tag was not an HTML tag.VERSION
+Texto: 1.0.0 
+Etiqueta fin: VERSION
+First tag was not an HTML tag.TYPE
+Texto: Devices 
+Etiqueta fin: TYPE
+Etiqueta fin: HEAD
+First tag was not an HTML tag.BODY
+First tag was not an HTML tag.DEVICE
+First tag was not an HTML tag.NAME
+Texto: Joystick 
+Etiqueta fin: NAME
+First tag was not an HTML tag.BUTTONS
+Texto: 5 
+Etiqueta fin: BUTTONS
+First tag was not an HTML tag.VIBRATION
+Texto: YES 
+Etiqueta fin: VIBRATION
+Etiqueta fin: DEVICE
+First tag was not an HTML tag.DEVICE
+First tag was not an HTML tag.NAME
+Texto: Wiimote 
+Etiqueta fin: NAME
+Etiqueta fin: DEVICE
+First tag was not an HTML tag.DEVICE
+First tag was not an HTML tag.NAME
+Texto: Kinect 
+Etiqueta fin: NAME
+Etiqueta fin: DEVICE
+First tag was not an HTML tag.DEVICE
+First tag was not an HTML tag.NAME
+Texto: Webcam 
+Etiqueta fin: NAME
+Etiqueta fin: DEVICE
+First tag was not an HTML tag.DEVICE
+First tag was not an HTML tag.NAME
+Texto: Guante 
+Etiqueta fin: NAME
+Etiqueta fin: DEVICE
+First tag was not an HTML tag.DEVICE
+First tag was not an HTML tag.NAME
+Texto: Generic 
+Etiqueta fin: NAME
+Etiqueta fin: DEVICE
+Etiqueta fin: BODY
+Etiqueta fin: HTML

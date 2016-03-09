@@ -1,0 +1,18 @@
+		Trabajo alumnos
+
+. Convertir en clase/singleton el fondo de juego y parametrizar valores
+. Incluir sonidos como atributos de las clases y asignarlos a cada evento en la IA
+. Generar clase de gestión de fuentes para escribir mensajes en pantalla. Pasar todas las funciones del módulo si_font.c a formato clase y generar el Singleton correspondiente
+. Emplear BLAS para implementar todas las transformaciones que puede tener un objeto
+. Mejorar la gestión de las mallas, texturas,...
+. Implementar un plugin para 3DStudio, Blender con el que generar los contenidos del videojuego o generar cargador que sea capaz de cargar ficheros de blender, collada,...
+. Generar clase de gestión de errores para emitir mensajes a pantalla, a fichero log,... Completar log.h y log.cpp con atributos LogSystem_index, LogSystemMesh,...
+. Modificación de la clase FSM para sustituir procedimientos void *p(LPSTR *args) por equivalentes empleando métodos propios de la clase Character. Estos comportamientos de personajes se implementarían mediante un vector dinámico de procedimientos dependiente de cada personaje.
+. Todas las funciones del módulo si_main.cpp, si_main.h, si_loading.cpp y  si_loading.h hay que reconvertirlas a métodos de la clase Game.
+. Incluir opción de indicar el login para poder guardar las puntuaciones en el fichero de inicialización
+. Realizar un pool/fábrica de objetos para descargar allí los elementos eliminados en una sesión de juego para poder reutilizarlos en siguientes sesiones de juego sin necesidad de tener que invocar al gestor de memoria dinámica y acelerar los tiempos de cambio entre niveles, dentro del mismo nivel,...
+. Organizar ficheros de código fuente por directorios. Realizar un directorio IA para todas las FSM de todos los personajes. Incluir este directorio dentro del ficheor de incialización y referir a cada objeto a su fichero correspondiente por defecto
+. Crear una clase teclado para la gestión de toda la entrada de comandos por parte del usuario
+
+
+. Generar una clase que asocie characters a periféricos de entrada, incluyendo los de red o genéricos para convertir/traducir los comandos de periférico en órdenes/mensajes a los characters

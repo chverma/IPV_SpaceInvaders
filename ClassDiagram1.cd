@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CConsole" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAABCAAAEAAAAAIBAAAAAAAAAAgAAAACAABIAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UGK::Vector" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAFAgAAAAAAA=</HashCode>
+      <FileName>API\UGK\include\UGKalgebra.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UGK::Matrix" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAACAAAAAAAQAAAAAgAAAAABAgAAAQAAA=</HashCode>
+      <FileName>API\UGK\include\UGKalgebra.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UGK::CLog" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAAAAEEABAAQAAAAAAAAAAACAACMAAAACAAHgAAA=</HashCode>
+      <FileName>API\UGK\include\UGKLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UGK::CMusicsManager" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>api\ugk\include\sound\ugkmusicsmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UGK::CMusic" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>api\ugk\include\sound\ugkmusic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UGK::CSound" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCgAAAAAAAAAIgAAAAAAQCACAAAAAAhIICgAAAAAA=</HashCode>
+      <FileName>api\ugk\include\sound\ugksound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAIManager" Collapsed="true">
+    <Position X="52.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAAAAAAAAACBAAAABAAAAAAAAAAIAAAACAAAAAAA=</HashCode>
+      <FileName>API\AI\AIManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CApplication" Collapsed="true">
+    <Position X="54" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABAAAAAAEAAAAQAAAAIAAAAAAIGCAAAAgA=</HashCode>
+      <FileName>API\Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBBPoint" Collapsed="true">
+    <Position X="55.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgAAAACAA=</HashCode>
+      <FileName>API\Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBonus" Collapsed="true">
+    <Position X="25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQSAAAAAAAAABYIAAAAAAAEACAAgBQAABACAAAAAEg=</HashCode>
+      <FileName>include\Bonus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBonusManager" Collapsed="true">
+    <Position X="29.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADABBAgQAAAAAEAIAAAAgAAAAiIAgACAABQCAAAAAAA=</HashCode>
+      <FileName>include\BonusManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBrick" Collapsed="true">
+    <Position X="40.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAQAAABAIAgAgAAAggAABBACAAAAAAA=</HashCode>
+      <FileName>include\Brick.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBunker" Collapsed="true">
+    <Position X="43" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAABCAAAAQASAAAQBAAAABAAAoAAAABACADAAAAA=</HashCode>
+      <FileName>include\Bunker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCamera" Collapsed="true">
+    <Position X="49.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAIAAMQQAAAAABIAAAAAAAAAAQACIAAAAAI=</HashCode>
+      <FileName>API\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCharacter" Collapsed="true">
+    <Position X="31.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASRACAAUA5pQiAQoAAIAAAgBxCIIgAQgBVAGAHCAACA=</HashCode>
+      <FileName>API\Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCircleShip" Collapsed="true">
+    <Position X="13.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBRQAAAAAAAIAAQJQABBAAgEhCAAgCACABQCAAAMQAA=</HashCode>
+      <FileName>CircleShip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCollisionDetection" Collapsed="true">
+    <Position X="57.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAEAAQAAABQQAAAAABAAAAFAAAAAgEAADAAAAAAA=</HashCode>
+      <FileName>API\CollisionDetect\CollisionDetect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDeviceReader" Collapsed="true">
+    <Position X="12" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABBCEAAACAAAAAAQAAAAAABCAAAAAIYACAAAAAAA=</HashCode>
+      <FileName>API\Parsers\DeviceParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CExplosion" Collapsed="true">
+    <Position X="27.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>API\Particles\Explosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFontsManager" Collapsed="true">
+    <Position X="59.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAIgggAgABCgAAAQgAAAAAACIBAAAIGQEBACAk=</HashCode>
+      <FileName>API\FontsManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cFpsGL" Collapsed="true">
+    <Position X="11.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABRAABAABACAQAABIAACACQAgAAAABIAAQIIAAA=</HashCode>
+      <FileName>API\Text2D3D\fpsGL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGame" Collapsed="true">
+    <Position X="45.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAAIAETAABBEgAYAAAAACAAAAAAAgBAAAAAAAAGEI=</HashCode>
+      <FileName>API\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGLWindow" Collapsed="true">
+    <Position X="10.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAABAAIABBAAAAAIAAAAAAEAAIAKCAAAAAAA=</HashCode>
+      <FileName>API\gl\GLWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGraphicCard" Collapsed="true">
+    <Position X="7.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAEAAAAAAAgAAAAAAAAAAAAAAACAAAAAEI=</HashCode>
+      <FileName>API\Hardware\GraphicsCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGUI" Collapsed="true">
+    <Position X="61" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAQgAABAAQAgAAAAABGAABAAIAAAACFBBCAAAAQBA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHardware" Collapsed="true">
+    <Position X="3.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAgAAAAAAAAAAAAAAAAAAAQAwAAASAAAAAAA=</HashCode>
+      <FileName>API\Hardware\Hardware.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cHRTimer" Collapsed="true">
+    <Position X="7.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgERABSIrAQBJEACAAAAAQAAAgEAEAAAAVQbAQABDA=</HashCode>
+      <FileName>API\RT-DESK\include\HRTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cHRTimerManager" Collapsed="true">
+    <Position X="52.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAASAAAAAAAAABAAAYEgEBIA=</HashCode>
+      <FileName>API\RT-DESK\include\HRTimerManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHTMLParser" Collapsed="true">
+    <Position X="12" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAABAAAAACAFAAAAAABAACAACAAAAAAYCCAAAAEAA=</HashCode>
+      <FileName>API\Parsers\HTMLParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInitializationReader" Collapsed="true">
+    <Position X="14.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAABACEAAACACAAACQAAAAAAAAAAAAAAYACAAACAAA=</HashCode>
+      <FileName>InitializationParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKeyboard" Collapsed="true">
+    <Position X="0.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAAAAAgAgIBAAAAAqAABAAAAAAAAAAAACABBAAAA=</HashCode>
+      <FileName>API\InOut\Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLanguage" Collapsed="true">
+    <Position X="54" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAEAAIBAAAQAAAAEAABECAAMSACABAg=</HashCode>
+      <FileName>API\Language\Language.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLanguageReader" Collapsed="true">
+    <Position X="16.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABBCECAACAAAAAAQSAAAAAAAAEAAAAYACAAAAAAA=</HashCode>
+      <FileName>API\Language\LanguageParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLaser" Collapsed="true">
+    <Position X="16" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYJAgAAAAiEgAAEgAAAEBACAAAABAA=</HashCode>
+      <FileName>Laser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLevelReader" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABBSEAAACAAAAAAQAAAAAAACAAAAAAYACAAAAAAA=</HashCode>
+      <FileName>LevelParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLiteHTMLAttributes" Collapsed="true">
+    <Position X="55.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACACAAAAACIAAAAAABAAAgEAAEAAAAAECAAEQCA=</HashCode>
+      <FileName>API\Parsers\LiteHTMLAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLiteHTMLElemAttr" Collapsed="true">
+    <Position X="57.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAgDIAAQACgEAAAABAAAAAAACIAAAABXBAAFQKw=</HashCode>
+      <FileName>API\Parsers\LiteHTMLAttributes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLiteHTMLEntityResolver" Collapsed="true">
+    <Position X="59.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\Parsers\LiteHTMLEntityResolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLiteHTMLReader" Collapsed="true">
+    <Position X="61" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAA4CIiiAAAAAAkAgAgACIgAERAACAgCgg=</HashCode>
+      <FileName>API\Parsers\LiteHTMLReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLiteHTMLTag" Collapsed="true">
+    <Position X="52.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACCIAAAAAAgAAAEEAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>API\Parsers\LiteHTMLTag.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMesh3d" Collapsed="true">
+    <Position X="54" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAIAEAAAAAAIAAAAAAAAAAAgAAAABAAABIAAA=</HashCode>
+      <FileName>API\Meshes\Mesh3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMeshesManager" Collapsed="true">
+    <Position X="55.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAABAAAEAAAAEAAAAAAQAQAIAAAJAAAAAAAAAAAA=</HashCode>
+      <FileName>API\Meshes\MeshManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMSWindow" Collapsed="true">
+    <Position X="10.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAEAAAAIAAEEgIASAAABAQEAIAwIKBAAAAAA=</HashCode>
+      <FileName>SI_2013\API_aux\Window\MSWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNavy" Collapsed="true">
+    <Position X="20.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IATIBAEAEAAAAkAABCMQAAgGkiCAgUAAEByqEBhAQAQ=</HashCode>
+      <FileName>Navy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CParticle" Collapsed="true">
+    <Position X="22.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAgAQAABACAAAhAAA=</HashCode>
+      <FileName>API\Particles\Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CParticleSystem" Collapsed="true">
+    <Position X="27.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAACAAAAAAAAAAAAAAAgIQAABACAAABAAA=</HashCode>
+      <FileName>API\Particles\ParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayer" Collapsed="true">
+    <Position X="31.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoQQAgABAAIIAAYJAgAAAQgEgDAMhEgGEBQCBAAARCA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CReactor" Collapsed="true">
+    <Position X="36.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAQAgAAAABIQAAAAAAA=</HashCode>
+      <FileName>Reactor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CResourcesManager" Collapsed="true">
+    <Position X="57.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAA=</HashCode>
+      <FileName>ResourcesManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cRTTimer" Collapsed="true">
+    <Position X="7.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABABBAARgAAAAIAAAAAAAAAAAAACAAAAAIAQA=</HashCode>
+      <FileName>API\RT-DESK\include\RTTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScene" Collapsed="true">
+    <Position X="59.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAAAAAAAAAAAAAAAAAIAAAAEACAAAAIAg=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScore" Collapsed="true">
+    <Position X="61" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAgAAAAAAAAAAAAAEAAAEAAAAAAACQAAABAA=</HashCode>
+      <FileName>API\Score.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScoresManager" Collapsed="true">
+    <Position X="52.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAACAAAAAAgAAQAAAAAAAAAAAEAQAACAAAAQAA=</HashCode>
+      <FileName>API\ScoreManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShader" Collapsed="true">
+    <Position X="54" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIAAAAABAAAAAAAAAAAAAAAgAAAAQAABQBAAEA=</HashCode>
+      <FileName>API\Shaders\Shaders2\shader2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShaderManager" Collapsed="true">
+    <Position X="55.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAEAACAAEAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>API\Shaders\Shaders2\ShaderManager2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShip" Collapsed="true">
+    <Position X="34" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQYAAAAAAAABgYYQgAAAAgEgCAAgAAAIBQiAABAQEg=</HashCode>
+      <FileName>Ship.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShoot" Collapsed="true">
+    <Position X="38.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQQAAAAgAAAABYIAAAAAAAAgCQAgAAAIBQCCAAAAAA=</HashCode>
+      <FileName>Shoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShootsManager" Collapsed="true">
+    <Position X="47.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAAAgACARAAAAIAAAAAAAAECAAiABgABQCAAAAQAA=</HashCode>
+      <FileName>ShootsManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSIGame" Collapsed="true">
+    <Position X="45.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IDZ1AJNg4JBkOwKrAQMCl4gGyKAgoI0TJjQKi4QhoFc=</HashCode>
+      <FileName>SIGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSIKeyboard" Collapsed="true">
+    <Position X="0.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SIKeyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSupplyShip" Collapsed="true">
+    <Position X="18.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBQQAAAAAAAIAAQJQAAAAAgEgKAAgCAAABQCgAAAQAA=</HashCode>
+      <FileName>SupplyShip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cTextoGL" Collapsed="true">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAQAAAAEAGAAAACAQAQEAEEsAAA=</HashCode>
+      <FileName>API\Text2D3D\TextoGL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTexture" Collapsed="true">
+    <Position X="57.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAMAEAAAAABAAAAIAAACAAAAAAIAJABABAAAA=</HashCode>
+      <FileName>API\Textures\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTextureAnimation" Collapsed="true">
+    <Position X="59.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgiAAQIACAAAAAAAIAAAAAACIoAEAAAIQAAAAAIQAA=</HashCode>
+      <FileName>API\Textures\TextureAnimation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTextureAnimationManager" Collapsed="true">
+    <Position X="61" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAMAAAAAAAAAAAAQQAAAAgAIAAAAAAAAAAAA=</HashCode>
+      <FileName>API\Textures\TextureAnimationManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTexturesManager" Collapsed="true">
+    <Position X="52.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQAAIAAIABEAAAAABAAgAAAAAJAAAAAAAAAAAA=</HashCode>
+      <FileName>API\Textures\TexturesManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWebCam" Collapsed="true">
+    <Position X="2.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAACAAAAAAA=</HashCode>
+      <FileName>API\Hardware\WebCam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWiimoteManager" Collapsed="true">
+    <Position X="5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAIAABQAAAAEQQCAAAAAAAAAACAAACACCAAAA=</HashCode>
+      <FileName>API\InOut\WiimoteManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWindow" Collapsed="true">
+    <Position X="10.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAaABAAARAQAAAoAQAAAEEAACBAIAQAIBAgCAAAAAAA=</HashCode>
+      <FileName>API\Window\Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSM" Collapsed="true">
+    <Position X="54" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIBEAAAAAABAAIAAAAACAAAAAAAAAAAABTAAAAAgA=</HashCode>
+      <FileName>API\AI\FSM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FSMReader" Collapsed="true">
+    <Position X="9.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABBCEBCBGUAAAQAQAAABAAQCACgAgBaBCAAFAAAA=</HashCode>
+      <FileName>API\AI\FSMParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLTextureV" Collapsed="true">
+    <Position X="55.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAgAAAAAAAAAQATAAIAAAAAAAEYgAAICAAAAAAAAA=</HashCode>
+      <FileName>API\Meshes\GLTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ILiteHTMLReaderEvents" Collapsed="true">
+    <Position X="12" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABACEAAAAAAAAAAUAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>API\Parsers\LiteHTMLReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model_3DS" Collapsed="true">
+    <Position X="57.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEIAgAAAAAAgAgEAAAACAIBiAAgAAAEACAEACAAAYAA=</HashCode>
+      <FileName>API\Meshes\Model_3DS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quadtree" Collapsed="true">
+    <Position X="59.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ATAABAYAAAAACkRAQAAAEAABAQkhQAAAEBBgQDDQAAA=</HashCode>
+      <FileName>API\CollisionDetect\Quadtree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuadtreeRoot" Collapsed="true">
+    <Position X="61" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAQAAAAACAEAAAAAAAAAAQBAgAAAAAAQ=</HashCode>
+      <FileName>API\CollisionDetect\QuadtreeRoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RTDESK_CEngine" Collapsed="true">
+    <Position X="52.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgBCAAAAAAABABQIAABwgAAAJAIIAAAAAAABQAAAAI=</HashCode>
+      <FileName>API\RT-DESK\include\RTDeskEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RTDESK_CEntity" Collapsed="true">
+    <Position X="29.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAIAAgCIAAAAAAAICAAAAAAAAAAAAQEAAA=</HashCode>
+      <FileName>API\RT-DESK\include\RTDeskEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RTDESK_CMsg" Collapsed="true">
+    <Position X="54" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAAAIAwAIAAAAwAAAAASEAEAAMwASAACIAiA=</HashCode>
+      <FileName>API\RT-DESK\include\RTDeskMsg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shader" Collapsed="true">
+    <Position X="55.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAIAAAAAAAAAAgAIAAAABAAAAAIAAAEAFAgA=</HashCode>
+      <FileName>API\Shaders\shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shaderManager" Collapsed="true">
+    <Position X="57.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAEgCAAgAgAAAAICAAAAAAAAkA=</HashCode>
+      <FileName>API\Shaders\shaderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State" Collapsed="true">
+    <Position X="59.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAAAAAAAAAJAAAAAAAAQAAABAQABAIUBGBBAAgAA=</HashCode>
+      <FileName>API\AI\State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="UGK::UGKALG_TRANSFORMATION" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\UGK\include\UGKalgebra.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UGK::UGK::SpaceCoords" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\UGK\include\UGKalgebra.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UGK::ALG_SpaceDims" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\UGK\include\UGKalgebra.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UGK::Vertex" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\UGK\include\UGKalgebra.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UGK::CM_MUSIC_TYPE" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>api\ugk\include\sound\ugkmusic.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLUnurbs" Collapsed="true">
+    <Position X="52.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\gl\GLU.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLUquadric" Collapsed="true">
+    <Position X="54" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\gl\GLU.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLUtesselator" Collapsed="true">
+    <Position X="55.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>API\gl\GLU.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="UGK::__unnamed_enum_0076_1" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>API\UGK\include\UGKalgebra.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UGK::__unnamed_enum_0076_2" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>API\UGK\include\UGKalgebra.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UGK::__unnamed_enum_0076_3" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAABAAA=</HashCode>
+      <FileName>API\UGK\include\UGKalgebra.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UGK::__unnamed_enum_00c9_1" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAIAAAAAAAAQAAABAAAAAAAAA=</HashCode>
+      <FileName>api\ugk\include\sound\ugkmusic.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

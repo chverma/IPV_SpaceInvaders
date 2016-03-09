@@ -1,0 +1,677 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="FF">
+    
+    
+    
+    
+
+    
+    <head>
+        <meta id="CompatabilityMode" http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="http://i1.codeplex.com/css/v20074/i2036743/StyleSheet.ashx" id="MasterCss" rel="stylesheet" type="text/css" />
+        <link rel="SHORTCUT ICON" href="http://www.codeplex.com/favicon.ico" />
+        <title>Multi-Touch Vista - Home</title>
+        
+        <!--
+        Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code,
+        not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.
+        -->
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+        
+        
+    <style type="text/css">.SideBar, .SideBarPadding{display:none;}.MainContent{width:auto;}.SiteContentTable{width:100%;}</style>
+    <style id="ProjectStyles" type="text/css">
+        .SiteHeader, .SiteHeaderLeft {
+            height:45px !important;
+            overflow:hidden;
+        }
+        .SiteContent 
+        {
+            padding: 0 0 1em 0;
+            margin-top:0;
+            min-height:225px;
+            border-right: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+        }
+        .IE table.MinWidthContent
+        {
+	        table-layout: auto !important;	
+        }
+    </style>
+    
+    
+    <style type="text/css">.ProjectContent{padding:0;}</style>
+    <style type="text/css">
+        .WikiHolder
+        {
+            margin: 0 1em 0 0;
+        }
+        #WikiContent
+        {
+            margin-top: 15px;
+        }
+        #WikiBreadCrumbs
+        {
+            margin: 0.25em 0 1em 0;
+        }
+        .SecondarySearchButton 
+        {
+            margin:0 0 0 -0.6em;
+        }
+        .FF .SecondarySearchButton 
+        {
+            margin:-0.1em 0 0 -0.5em;
+            height: 22px;
+        }
+        .IE .SecondarySearchButton
+        {
+            width: 22px;
+            height: 22px;
+        }
+    </style>
+    
+    
+    
+    
+    <meta id="WTProjectName" name="WT.pi" content="MultiTouchVista"/>
+    
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href='http://multitouchvista.codeplex.com/rsd' />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href='/wlwmanifest.xml' />
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="Multi-Touch&#32;Vista" url="http://multitouchvista.codeplex.com/project/feeds/rss"/>
+    
+        
+        <link rel="alternate" type="application/rss+xml" title="Multi-Touch&#32;Vista&#32;-&#32;Discussions" url="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fmultitouchvista"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Multi-Touch&#32;Vista&#32;-&#32;Issue&#32;Tracker" url="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fmultitouchvista"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Multi-Touch&#32;Vista&#32;-&#32;Downloads" url="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fmultitouchvista"/>
+        <link rel="alternate" type="application/rss+xml" title="Multi-Touch&#32;Vista&#32;-&#32;Reviews" url="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fmultitouchvista"/>
+        
+    
+        <link rel="alternate" type="application/rss+xml" title="Multi-Touch&#32;Vista&#32;-&#32;Source&#32;code" url="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fmultitouchvista"/>
+        <link rel="alternate" type="application/rss+xml" title="Multi-Touch&#32;Vista&#32;-&#32;Wiki" url="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fmultitouchvista"/>
+    
+    </head>
+    
+    <body>
+        <script src="http://i1.codeplex.com/scripts/v20074/i7/ScriptLoader.ashx" type="text/javascript"></script>
+        <form id="aspnetForm" autocomplete="off" method="POST" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="coewrPlYvSjAUKGT89cqh-Lv3cavYtI-UyEl1Bf5G0auMmaD9eIgJnTdYwaRDFzyu0Evy6qBOJ_8cZjUWXvKNRpaqO08e6BShXZD4QfI-x65LddnGIIxQ2mP8-34yRcAMrL3Fw2" />
+            
+            <div id="UpdateProgressPanel" class="loading_animation" style="display:none;">
+                <div class="row">
+                    <h2 class="anim_h2">
+                        <span id="UpdateProgressText">Updating...</span>
+                        <span id="animatedLoadingIconContainer">
+                            <img id="animatedLoadingIcon" src="http://i3.codeplex.com/Images/v20074/loading_animation.gif" class="anim_img"/>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            
+            <div style="display:none;">
+                
+                    <script type="text/javascript">
+                        $loadScript("https://siterecruit.comscore.com/sr/codeplex/broker.js");
+                    </script>
+
+                
+                
+                <img id="BlankImage" style="width:0;height:0;" src="http://i3.codeplex.com/Images/v20074/blank.png" onload="self.logoImageLoaded=true;"/>
+
+                <script language="javascript" type="text/javascript">
+                    var date = new Date();
+                    var timezoneOffset = date.getTimezoneOffset() / 60 * -1;
+                    var timezoneOffsetCookie = getCookie("TimezoneOffset");
+                    var firstTimeSetTimezoneCookie = false;
+
+                    if (timezoneOffsetCookie == null || timezoneOffsetCookie != timezoneOffset) {
+                        firstTimeSetTimezoneCookie = true;
+                        document.cookie = "TimezoneOffset=" + timezoneOffset + '; domain=.codeplex.com;expires=sáb, 1 feb 2014 03:53:40 UTC';
+                    }
+                </script>
+                
+                
+                    <noscript>
+                        <a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstonojstemp.112.2O7.net/b/ss/msstonojstemp/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /></a>
+                    </noscript>
+                
+            </div>
+            
+            <div id="header">
+                <div id="header_wrap" class="row">
+                    <p id="logo"><a href="http://www.codeplex.com">Code<span class="semi">Plex</span></a><span id="tagline">Project Hosting for Open Source Software</span></p>
+                    
+
+<ul id="nav">
+
+    <li><a href="/site/register/new" id="registerLink" class="ZoomFix">Register</a></li>
+    <li ><a class="SignInLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fmultitouchvista.codeplex.com%2fWikipage" id="signInLink">Sign In</a></li>
+  
+    <li class="last"><a class="rss_site_icon" href="http://www.codeplex.com/site/feeds/rss" type="application/rss+xml" rel="Alternate" title="CodePlex Site Activity"></a></li>
+</ul>
+                    <input id="searchsite" name="searchsite" maxlength="500" type="text" value="" /><span id="search_mag"><a id="submitSearch" name="submitSearch" class="magnify" title="Search" href="#"></a></span>
+                    <script>
+	$(document).ready(function() {
+    var searchButton = $('#submitSearch'),
+        searchBar = $('#searchsite');
+
+    // Register our own handler for the search event while we wait for the SearchBox script to load.
+    searchButton.bind('click.backupSearchBox', doProjectSearch);
+    searchBar.bind('keypress.backupSearchBox', function(e) { if ($keyCode(e) === 13) { doProjectSearch(); return false; } });
+
+    function cleanupSearchEvents() {
+        // If the SearchBox was loaded, unregister our handlers.
+        if (epx_loaded) {
+            searchButton.unbind('.backupSearchBox');
+            searchBar.unbind('.backupSearchBox');
+        }
+    }
+
+    $loadScript('http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=searchsite&btnId=submitSearch&watermark=Search%20all%20projects&overrideWatermark=true&searchLocation=%2fsite%2fsearch&allowEmptySearch=true&focusOnInit=False&minimumTermLength=3', cleanupSearchEvents);
+})
+function doProjectSearch() {
+    
+    var url = '/site/search';
+
+    //If search term is not same as watermark
+    if($('#searchsite').val() != 'Search all projects')    
+    {        
+        url = url + '?query=' + encodeURIComponent($('#searchsite').val());
+    }
+
+    
+    var callback = '';
+    if (callback.length > 0 && eval('typeof ' + callback) != 'undefined')
+        url += eval(callback + '()');
+
+    window.location.href = url;
+    return false;
+}
+</script>
+                </div>
+            </div>
+            
+            <div id="wrap">
+                
+    <div id="sub_heading" class="row">
+        
+        <div id="ProjectHeader">
+            <div id="project_title_row" class="row">
+                <div id="project_logo">
+                    
+    
+    <div id="project_logo_and_text">
+        <div class="logo_left">
+            <a href="http://multitouchvista.codeplex.com/"><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=multitouchvista&DownloadId=34826&Build=20074" alt="Multi-Touch&#32;Vista" /></a>
+        </div>
+        <h1 class="text_right_bottom"><div><a href="http://multitouchvista.codeplex.com/" id="ProjectTitle3">Multi-Touch Vista</div></a></h1>
+    </div>
+
+                </div>
+                <div id="project_title_links">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="ProjectDetailsDiv">
+            
+        </div>
+		<div class="clear"></div>
+        
+
+<ul id="page_box_links">
+	<li id="homeTabCell" style="width: 63px;"><a id="homeTab" href="http://multitouchvista.codeplex.com/" class="home_active">home</a><div></div></li>
+    
+	<li id="sourceTabCell" style="width:117px;"><a id="sourceTab" href="http://multitouchvista.codeplex.com/SourceControl/BrowseLatest" class="box_source">source code</a><div></div></li>
+    
+	<li id="releasesTabCell" style="width:112px;"><a id="releasesTab" href="http://multitouchvista.codeplex.com/releases/view/28979" class="box_downloads">downloads</a><div></div></li>
+    
+    <li id="documentationTabCell" style="width:143px;"><a id="documentationTab" href="http://multitouchvista.codeplex.com/documentation" class="box_documentation">documentation</a><div></div></li>
+    
+	<li id="discussionTabCell" style="width:112px;"><a id="discussionTab" href="http://multitouchvista.codeplex.com/discussions" class="box_discussions">discussions</a><div></div></li>
+    
+	<li id="workItemsTabCell" style="width:124px;"><a id="workItemsTab" href="http://multitouchvista.codeplex.com/workitem/list/basic" class="box_issue">issue tracker</a><div></div></li>
+    
+	<li id="peopleTabCell" style="width:71px;"><a id="peopleTab" href="http://multitouchvista.codeplex.com/team/view" class="box_people">people</a><div></div></li>
+	<li id="licenseTabCell" style="width:96px; margin-right:15px;"><a id="licenseTab" href="http://multitouchvista.codeplex.com/license" class="box_license">license</a><div></div></li>
+    <span class="stretch"></span>
+</ul>
+		    <div class="clear"></div>
+            
+    <div id="DeleteWikiPagePanel" class="modal" style="display: none;">
+        <div class="row">
+            <h2>Are you Sure? <a href="javascript:return false;" class="close">X</a></h2>
+        </div>
+        <div class="modal_info">
+            By clicking Delete, all history, comments and attachments for this page will be deleted and cannot be restored.
+            <div class="modal_buttons">
+                <input type="button" id="CancelButton" class="cancel" value="Cancel" />
+                <input type="button" id="DeleteButton" class="ok" value="Delete" />
+            </div>
+            <div class="ClearBoth"></div>
+        </div>
+    </div>
+    
+    <div id="homepage_sub_menu">
+		<ul class="page_box_sublinks">
+            
+                <li><a id="pageInfoHyperLink" href="http://multitouchvista.codeplex.com/wiki/PageInfo?title=Home" title="Page information for Home page.">Page Info</a></li>
+            
+            <li class="last"><a id="changesHyperlink" href="http://multitouchvista.codeplex.com/wikipage/history" title="View change history for all pages.">Change History (all pages)</a></li>
+		</ul>
+        
+
+<div>
+    
+    <div id="actionBar" class="action_bar">
+        <ul id="actionBar_ul" class="actionBar_sublinks subtab_right" style="vertical-align: middle;">
+
+            
+
+                <li id="li_actionbar_followproject" data-action-id="actionbar_followproject" data-action-type="None" class="actionBar_sublinks" data-options-id="7f9d6f57-609e-4f10-a11a-e6c5b105baad">
+                
+                    <script class="options" defer="defer" id="7f9d6f57-609e-4f10-a11a-e6c5b105baad" type="application/json">{"projectName":"multitouchvista","loggedInUser":"","returnUrl":"https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fmultitouchvista.codeplex.com%2fWikipage%3fProjectName%3dmultitouchvista"}</script> 
+                    
+                    <div class="actionBar_custom_content"></div>
+
+                    <a href="#" id="actionbar_followproject" title="" class="action_bar_item_link">
+                        <img id="img_actionbar_followproject" class="action_bar_item_image" src="http://i3.codeplex.com/Images/v20074/actionbar_follow.png" style="vertical-align: middle" />
+                        
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_subscribe" data-action-id="actionbar_subscribe" data-action-type="PopUp" class="actionBar_sublinks" data-options-id="8b1759f2-93e2-4f83-b914-fb25663096bd">
+                
+                    <script class="options" defer="defer" id="8b1759f2-93e2-4f83-b914-fb25663096bd" type="application/json">{}</script> 
+                    
+                    <div class="actionBar_custom_content">
+
+<div id="rssHoverDiv" class="HoverPanel LeftHoverWidth" style="display: none">
+        <ul id="3_FeedsPanel" class="RssFeedsPanel">
+            <li>
+                <a id="ProjectRssLink" href="http://multitouchvista.codeplex.com/project/feeds/rss" class="ArrowSmall NoUnderline">All Project Updates</a>
+            </li>
+            
+            <li>
+                <a id="DiscussionRssLink" href="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fmultitouchvista" class="ArrowSmall NoUnderline">Discussions</a>
+            </li>
+            
+            <li>
+                <a id="IssueTrackerRssLink" href="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fmultitouchvista" class="ArrowSmall NoUnderline">Issue Tracker</a>
+            </li>
+            
+            <li>
+                <a id="ReleasesRssLink" href="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fmultitouchvista" class="ArrowSmall NoUnderline">Downloads</a>
+            </li>
+            <li>
+                <a id="ReviewsRssLink" href="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fmultitouchvista" class="ArrowSmall NoUnderline">Reviews</a>
+            </li>
+            
+            <li>
+                <a id="SourceControlRssLink" href="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fmultitouchvista" class="ArrowSmall NoUnderline">Source Code</a>
+            </li>
+            <li>
+                <a id="WikiRssLink" href="http://multitouchvista.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fmultitouchvista" class="ArrowSmall NoUnderline">Wiki &amp; Documentation</a>
+            </li>
+        </ul>
+</div></div>
+
+                    <a href="#" id="actionbar_subscribe" title="Subscribe to project updates in RSS feeds." class="action_bar_item_link">
+                        <img id="img_actionbar_subscribe" class="action_bar_item_image" src="http://i3.codeplex.com/Images/v20074/actionbar_subscribe.png" style="vertical-align: middle" />
+                        Subscribe
+                    </a>
+
+                </li>
+
+            
+        </ul>
+    </div>
+</div>
+        <div class="clear"></div>
+    </div>
+    
+        
+
+    </div>
+    
+    
+    
+<div id="left_column" class="no_border">
+    
+
+    <div class="WikiHolder">
+
+        
+            <div id="WikiContent" class="WikiContent">
+                <div class="wikidoc"><b>Project Description</b><br />Multi-Touch Vista is a user input management layer that handles input from various devices &#40;touchlib, multiple mice, TUIO etc.&#41; and normalises it against the scale and rotation of the target window. Now with multitouch driver for Windows 7.<br /><br /><b>With the release of .NET 4 Framework we recommend to use WPF 4.0 with Windows 7 driver from MultiTouchVista (UniSoftHID).</b><br /><br />If you want to try out recent check-in please read <a href="http://multitouchvista.codeplex.com/wikipage?title=How%20to%20compile&referringTitle=Home">this</a> compile instructions.<br /><br /><a href="http://multitouchvista.codeplex.com/wikipage?title=HelloWorld&referringTitle=Home">Here</a> you will find simple &quot;Hello World&quot; tutorial.<br /><br />Some <a href="http://www.youtube.com/nesherhh">videos</a> made with this project.<br />Here you will find video how to install multitouch driver in Windows 7 <a href="http://www.youtube.com/watch?v=_maaH1gecxw">http://www.youtube.com/watch?v=_maaH1gecxw</a><br />Or you can read step-by-step instruction <a href="http://michaelsync.net/2010/04/06/step-by-step-tutorial-installing-multi-touch-simulator-for-silverlight-phone-7">here</a>. It also shows how to use MultiTouchVista with Windows Phone 7 emulator to develop and test multitouch Apps.<br /><br /><br />UniSoftHID driver is not Open Source and can be used only with MultiTouchVista.<br /><b>If you interested in using UniSoftHID (Windows 7 multitouch driver) in commercial products please contact me.</b><br /><br /><b>Download latest binaries here: <a href="http://multitouchvista.codeplex.com/releases/view/28979">Second release - refresh 2</a></b><br />
+<hr />
+Copyright notes:<br />DWMaxxAddIn uses DWMaxx library from SIWU (<a href="http://siwu.info">Blog</a>, <a href="http://code.google.com/p/dwmaxx/">Source code</a>).<br />TouchLib (<a href="http://nuigroup.com/touchlib/">http://nuigroup.com/touchlib/</a>).<br />TUIO (<a href="http://www.tuio.org">http://www.tuio.org</a>).<br />Physics2D.Net (<a href="http://physics2d.googlepages.com/">http://physics2d.googlepages.com/</a>).<br />Dynamic Reflection Library (<a href="http://www.codeplex.com/Dynamic">http://www.codeplex.com/Dynamic</a>)<br />OpenCV (<a href="http://opencvlibrary.sourceforge.net">http://opencvlibrary.sourceforge.net</a>)<br />AForge.NET framework (<a href="http://code.google.com/p/aforge">http://code.google.com/p/aforge</a>)<br />HIDLibrary from Mike O&#39;Brien (<a href="http://hidlibrary.codeplex.com/">http://hidlibrary.codeplex.com/</a>)<br />ManagedWinApi (<a href="http://mwinapi.sourceforge.net/">http://mwinapi.sourceforge.net/</a>)<br />Prism (<a href="http://compositewpf.codeplex.com/">http://compositewpf.codeplex.com/</a>)<br />MEF (<a href="http://mef.codeplex.com/">http://mef.codeplex.com/</a>)</div><div class="ClearBoth"></div>
+            </div>
+        
+                <p>Last edited <span class="smartDate" title="27/03/2011 12:33:12" LocalTimeTicks="1301254392">Mar 27, 2011 at 12:33 PM</span> by <a id="wikiEditByLink" href="http://www.codeplex.com/site/users/view/nesher">nesher</a>, version 34</p>
+            
+    </div>
+    
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#deleteWikiHyperLink').click(function () {
+                OpenDialog('#DeleteWikiPagePanel', true, '30em');
+            });
+            $('#DeleteButton').click(function () {
+                OpenDialog('#DeleteWikiPagePanel', false);
+                CodePlex.UpdateProgress.show();
+                $.ajax({
+                    type: 'DELETE',
+                    url: 'http://multitouchvista.codeplex.com/',
+                    data: {title: $('#WikiTitle').val()},
+                    success: function (data) {
+                        CodePlex.UpdateProgress.hide();
+                        window.location = data;
+                    },
+                    error: function (data) {
+                        CodePlex.UpdateProgress.hide();
+                    }
+                });
+            });
+            $('#CancelButton').click(function () {
+                OpenDialog('#DeleteWikiPagePanel', false);
+            });
+            
+            
+        });
+    </script>
+</div>
+
+        
+	<div id="right_sidebar">
+        
+
+<input name="" type="text" maxlength="500" id="wiki_search" title="Search Wiki and Documentation"/><a id="SearchButton" class="wiki_magnify" href="#" title="Search Wiki and Documentation"></a>
+
+<script type="text/javascript">
+
+    $(function () {
+
+        $('#wiki_search').keypress(function (e) {
+            if (e.keyCode == 13) {
+                wikiSearch();
+                return false;
+            }
+        });
+
+        $('#SearchButton').click(function () {
+            wikiSearch();
+            return false;
+        });
+
+        $('#wiki_search').promptBox('Search Wiki & Documentation');
+
+    });
+    function setWikiCommentTextBoxFocus() {
+        $('#Comment').focus();
+        return false;
+    }
+
+    function wikiSearch() {
+        var $textbox = $('#wiki_search');
+        if($textbox.attr('dirty') != 'true')
+            return;
+        var searchText = encodeURIComponent(jQuery.trim($textbox.val()));
+        if(searchText != null & searchText.length > 0)
+            window.location.href = 'http://multitouchvista.codeplex.com/wiki/search?tab=Home&SearchText=' + searchText;
+    }
+
+</script><a id="download_button" href="http://multitouchvista.codeplex.com/downloads/get/72207">download</a>
+	<div id="current_rating">
+        <table>
+            <tr>
+    			<th><span class="rating_header">current</span></th>
+    			<td>
+                    Second release - refresh 2
+    			</td>
+            </tr>
+            <tr>
+    			<th><span class="rating_header">date</span></th>
+    			<td><span class="smartDate full" title="18/06/2009 9:00:00" LocalTimeTicks="1245340800">Thu Jun 18, 2009 at 9:00 AM</span></td>
+            </tr>
+            <tr>
+    			<th><span class="rating_header">status</span></th>
+    			<td>Beta</td>
+            </tr>
+            <tr>
+    			<th><span class="rating_header">downloads</span></th>
+    			<td>59.659</td>
+            </tr>
+            <tr>
+    			<th><span class="rating_header">rating</span></th>
+                <td>
+                    <span id="releaseRatingContainer" class="RatingStarContainer" title="4,8 star rating"><span id="releaseRating_Star_0" class="RatingStar FilledRatingStar" d:rating="1" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseRating_Star_1" class="RatingStar FilledRatingStar" d:rating="2" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseRating_Star_2" class="RatingStar FilledRatingStar" d:rating="3" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseRating_Star_3" class="RatingStar FilledRatingStar" d:rating="4" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseRating_Star_4" class="RatingStar HalfRatingStar" d:rating="5" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="releaseratingName"></span><input id="releasecurrentRating" type="hidden" value="4,75" /></span>
+                    <span class="right">
+                        4 ratings
+                    </span>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </div>
+
+	<div id="recent_reviews">
+	    <h2>recent reviews</h2>
+        
+            <p class="review"><span id="RatingContainer" class="RatingStarContainer" title="5 star rating"><span id="Rating_Star_0" class="RatingStar FilledRatingStar" d:rating="1" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="Rating_Star_1" class="RatingStar FilledRatingStar" d:rating="2" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="Rating_Star_2" class="RatingStar FilledRatingStar" d:rating="3" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="Rating_Star_3" class="RatingStar FilledRatingStar" d:rating="4" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="Rating_Star_4" class="RatingStar FilledRatingStar" d:rating="5" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="ratingName"></span><input id="currentRating" type="hidden" value="5" /></span>Works great, easy to implement. Keep up the good work&#33;</p>
+        
+            <p class="review"><span id="RatingContainer" class="RatingStarContainer" title="5 star rating"><span id="Rating_Star_0" class="RatingStar FilledRatingStar" d:rating="1" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="Rating_Star_1" class="RatingStar FilledRatingStar" d:rating="2" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="Rating_Star_2" class="RatingStar FilledRatingStar" d:rating="3" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="Rating_Star_3" class="RatingStar FilledRatingStar" d:rating="4" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="Rating_Star_4" class="RatingStar FilledRatingStar" d:rating="5" onclick="MvcValidation_ClearErrors('Rating');">&nbsp;</span><span id="ratingName"></span><input id="currentRating" type="hidden" value="5" /></span>1.the first truly Multi-Touch Framework for Windows 7 in the World,&#10;2.Easy to implement framework for Personal Touch Device.&#10;3.using... <a href="http://multitouchvista.codeplex.com/releases/view/28979#ReviewsAnchor">(more)</a></p>
+        
+        <a id="view_all_reviews" href="http://multitouchvista.codeplex.com/releases/view/28979#ReviewsAnchor">View all reviews</a>
+        <div class="clear"></div>
+    </div>
+
+
+<div id="LoungeAdsDiv">
+	<div id="Ad1" class="lqm_ad" style="width: 300px; height: 250px; margin: 0px auto;" lqm_site="C-multitouchvista" 
+        lqm_format="300x250"  lqm_tags="Multitouch%2cTouch%2cmulti-touch%2cInput%2cSurface%2cUX%2cwcf%2cWPF" >
+	</div>
+    <p id="adzerk_by" class="LoungeAdsBottomLinks">
+        <a href="http://developermedia.com/" target="_blank">Ads by Developer Media</a>
+        
+    </p>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.getScript('http://cdn.lakequincy.com/m.min.js', function () {
+            $.LqmAds();
+        });
+    });
+</script>
+
+<div id="join_us">
+    <h2>join us</h2>
+    
+
+<p><div class="wikidoc">Looking for Documentation writers.</div><div class="ClearBoth"></div></p>
+
+    <div id="joinContainer">
+    
+    <p><a href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fmultitouchvista.codeplex.com%2fwikipage%3frequestToJoin%3dtrue">Sign in</a> to join this project.</p>
+    
+    </div>
+<div id="requestAccessContainer" class="modal" style="display:none;">
+    <div class="row">
+        <h2>Request To Join Project <a href="javascript:return false;" class="close">X</a></h2>
+    </div>
+    <div class="modal_info">
+        <div class="SubText" style="padding-bottom:1em;">
+            Complete this form to send a request to become a member of this project. Enter any comments that 
+            you wish for the project coordinators to see when approving your request, for example 
+            what role you would like to have in the project.
+        </div>
+        <div>
+            <div class="CharCounter"><span id="charCounter">250</span> characters left</div>
+            <textarea id="requestAccessComment" rows="5"></textarea>
+            <div id="requestAccessError" class="ErrorMessage StandardPaddingTop StandardPaddingBottom" style="display:none;"></div>
+        </div>
+        <div class="modal_buttons" style="float:right">
+            <input type="button" id="requestAccessCancel" class="cancel" onclick="cancelRequestAccess()" value="Cancel" />
+            <input type="button" id="requestAccessSave" class="ok" onclick="requestAccess(event)" value="Send Request" />
+        </div> 
+        <div class="ClearBoth"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function displayRequestAccess() {
+        OpenDialog('#requestAccessContainer', true, '36em');
+        return false;
+    }
+
+    function requestAccess(e) {
+        var error = $('#requestAccessError').hide();
+        var comment = $('#requestAccessComment').val();
+        if ($normalizeText(comment).length === 0) {
+            error.text('* Please provide your comments for the project coordinators.').show();
+            e.stopImmediatePropagation();
+            return false;
+        }
+
+        CodePlex.UpdateProgress.show();
+        $.post('http://multitouchvista.codeplex.com/team/requestAccess',
+               { comment: $('#requestAccessComment').val() },
+               function(data) {
+                   CodePlex.UpdateProgress.show(false);
+                   if (data.RedirectUrl && data.RedirectUrl.length) location.href = data.RedirectUrl;
+                   else if (data.IsError) {
+                       $('#requestAccessError').text(data.Message).show();
+                   } else {
+                       $('#joinContainer').empty()
+                                            .addClass('SuccessMessage')
+                                            .html(data.Message)
+                                            .show().fadeOut(5000, function() {
+                                                $(this).empty()
+                                                       .removeClass('SuccessMessage')
+                                                       .text('Request to join project is pending')
+                                                       .show();
+                                            });
+                       OpenDialog('#requestAccessContainer', false);
+                   }
+               }, 'json');
+    }
+
+    function cancelRequestAccess() {
+        OpenDialog('#requestAccessContainer', false);
+        $('#requestAccessError').hide();
+        $('#requestAccessComment').val('');
+        $('#charCounter').text('250');
+    }
+
+    $(document).ready(function() {
+        $('#requestAccessComment').enhancedTextBox({ limit: 250, showCounter: true });
+    
+    });
+</script>
+
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#PageActivity .Link').click(function () {
+                var val = $(this).attr('d:value');
+                $.post('http://multitouchvista.codeplex.com/stats/getActivity',
+                    { period: val },
+                    function (data) {
+                        $('#PageActivity span').hide();
+                        $('#PageActivity .Link').show();
+                        $('#Page' + val + 'Label').show();
+                        $('#Page' + val + 'Link').hide();
+                        $('#pageViews').text(data.PageViews);
+                        $('#visits').text(data.Visits);
+                        $('#downloads').text(data.Downloads);
+                    }, 'json');
+                return false;
+            });
+        });
+</script>
+<div id="activity">
+	<h2>activity</h2>
+
+	<div class="clear"></div>
+
+    <table>
+	    <tr>
+            <th class="t_heading">page views</th>
+            <th class="t_heading">visits</th>
+            <th class="t_heading">downloads</th>
+	    </tr>
+		<tr>
+			<td><span id="pageViews">2240</span></td>
+			<td><span id="visits">805</span></td>
+			<td><span id="downloads">413</span></td>
+		</tr>
+    </table>
+
+	<ul id="PageActivity"> 
+		<li>Days: </li>
+		<li>
+		    <span id="Page7Label">7</span>
+            <a id="Page7Link" href="#" class="Link" style="display:none;" d:value="7">7</a>
+		</li>
+		<li>
+		    <span id="Page30Label" style="display:none;">30</span>
+            <a id="Page30Link" href="#" class="Link" d:value="30">30</a>
+		</li>
+		<li>
+		    <span id="Page-1Label" style="display:none;">All</span>
+            <a id="Page-1Link" href="#" class="Link" d:value="-1">All</a>
+		</li>
+        <li id="activity_details"><a href="http://multitouchvista.codeplex.com/stats">Details</a></li>
+	</ul>
+
+</div>
+
+	<div id="related_projects">
+		<h2>related projects</h2>
+
+        
+            <p><a href="http://touchless.codeplex.com/">Touchless SDK</a></p>
+        
+	</div>
+
+    </div>
+
+        
+                
+                <div class="clear"></div>
+                
+                <div id="footer">
+                    <div class="row">
+                        <hr />
+                        <ul>
+                            <li>© 2006-2013 Microsoft</li>
+                            <li><a href="http://www.codeplex.com/site/help">Get Help</a></li>
+                            <li><a href="/site/legal/privacy">Privacy Statement</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/terms">Terms of Use</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/conduct">Code of Conduct</a></li>
+                            <li><a href="http://www.lakequincy.com" target="_blank">Advertise With Us</a></li>
+                            <li>Version 1.29.2013.20074</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

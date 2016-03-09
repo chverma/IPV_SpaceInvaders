@@ -1,0 +1,503 @@
+Start tag: 
+First tag was not an HTML tag.HTML
+This file does not corresponds to this videogame.
+    
+First tag was not an HTML tag.HEAD
+This file does not corresponds to this videogame.
+	    
+First tag was not an HTML tag.TITLE
+This file does not corresponds to this videogame.Space Invaders
+Ending Label: TITLE
+This file does not corresponds to this videogame.
+	    
+First tag was not an HTML tag.VERSION
+This file does not corresponds to this videogame.1.0.0
+Ending Label: VERSION
+This file does not corresponds to this videogame.
+	    
+First tag was not an HTML tag.TYPE
+This file does not corresponds to this videogame.FSM
+Ending Label: TYPE
+This file does not corresponds to this videogame.
+    
+Ending Label: HEAD
+This file does not corresponds to this videogame.
+    
+First tag was not an HTML tag.BODY
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.STATE_CONT
+This file does not corresponds to this videogame.5
+Ending Label: STATE_CONT
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.STATE_INIT
+This file does not corresponds to this videogame.0
+Ending Label: STATE_INIT
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.VEC_STATE
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.STATE_NAME
+This file does not corresponds to this videogame.DEFAULT
+Ending Label: STATE_NAME
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.STATE_NAME
+This file does not corresponds to this videogame.BORN
+Ending Label: STATE_NAME
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.STATE_NAME
+This file does not corresponds to this videogame.LIVING
+Ending Label: STATE_NAME
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.STATE_NAME
+This file does not corresponds to this videogame.DYING
+Ending Label: STATE_NAME
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.STATE_NAME
+This file does not corresponds to this videogame.DEAD
+Ending Label: STATE_NAME
+This file does not corresponds to this videogame.
+		
+Ending Label: VEC_STATE
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.VEC_TRANSITION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.TRANSITION
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_NAME
+This file does not corresponds to this videogame.BORNING
+Ending Label: T_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_ORIGIN
+This file does not corresponds to this videogame.0
+Ending Label: T_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_DESTINATION
+This file does not corresponds to this videogame.1
+Ending Label: T_DESTINATION
+This file does not corresponds to this videogame.
+			
+Ending Label: TRANSITION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.TRANSITION
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_NAME
+This file does not corresponds to this videogame.GETTING_ALIVE
+Ending Label: T_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_ORIGIN
+This file does not corresponds to this videogame.1
+Ending Label: T_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_DESTINATION
+This file does not corresponds to this videogame.2
+Ending Label: T_DESTINATION
+This file does not corresponds to this videogame.
+			
+Ending Label: TRANSITION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.TRANSITION
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_NAME
+This file does not corresponds to this videogame.MOVING
+Ending Label: T_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_ORIGIN
+This file does not corresponds to this videogame.2
+Ending Label: T_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_DESTINATION
+This file does not corresponds to this videogame.2
+Ending Label: T_DESTINATION
+This file does not corresponds to this videogame.
+			
+Ending Label: TRANSITION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.TRANSITION
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_NAME
+This file does not corresponds to this videogame.DISPLAYING
+Ending Label: T_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_ORIGIN
+This file does not corresponds to this videogame.2
+Ending Label: T_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_DESTINATION
+This file does not corresponds to this videogame.2
+Ending Label: T_DESTINATION
+This file does not corresponds to this videogame.
+			
+Ending Label: TRANSITION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.TRANSITION
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_NAME
+This file does not corresponds to this videogame.HEALTHING
+Ending Label: T_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_ORIGIN
+This file does not corresponds to this videogame.2
+Ending Label: T_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_DESTINATION
+This file does not corresponds to this videogame.2
+Ending Label: T_DESTINATION
+This file does not corresponds to this videogame.
+			
+Ending Label: TRANSITION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.TRANSITION
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_NAME
+This file does not corresponds to this videogame.BURST
+Ending Label: T_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_ORIGIN
+This file does not corresponds to this videogame.2
+Ending Label: T_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_DESTINATION
+This file does not corresponds to this videogame.3
+Ending Label: T_DESTINATION
+This file does not corresponds to this videogame.
+			
+Ending Label: TRANSITION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.TRANSITION
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_NAME
+This file does not corresponds to this videogame.FINISHED
+Ending Label: T_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_ORIGIN
+This file does not corresponds to this videogame.2
+Ending Label: T_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_DESTINATION
+This file does not corresponds to this videogame.4
+Ending Label: T_DESTINATION
+This file does not corresponds to this videogame.
+			
+Ending Label: TRANSITION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.TRANSITION
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_NAME
+This file does not corresponds to this videogame.DIE
+Ending Label: T_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_ORIGIN
+This file does not corresponds to this videogame.3
+Ending Label: T_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_DESTINATION
+This file does not corresponds to this videogame.4
+Ending Label: T_DESTINATION
+This file does not corresponds to this videogame.
+			
+Ending Label: TRANSITION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.TRANSITION
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_NAME
+This file does not corresponds to this videogame.RESURRECTING
+Ending Label: T_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_ORIGIN
+This file does not corresponds to this videogame.4
+Ending Label: T_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.T_DESTINATION
+This file does not corresponds to this videogame.0
+Ending Label: T_DESTINATION
+This file does not corresponds to this videogame.
+			
+Ending Label: TRANSITION
+This file does not corresponds to this videogame.
+		
+Ending Label: VEC_TRANSITION
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.VEC_ACTION
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.ON_EXIT
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EXIT_TYPE
+This file does not corresponds to this videogame.0
+Ending Label: EXIT_TYPE
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EXIT_NAME
+This file does not corresponds to this videogame.Action: Unborn circleship
+Ending Label: EXIT_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EXIT_FUNC
+This file does not corresponds to this videogame.NULL
+Ending Label: EXIT_FUNC
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EXIT_ORIGIN
+This file does not corresponds to this videogame.0
+Ending Label: EXIT_ORIGIN
+This file does not corresponds to this videogame.
+			
+Ending Label: ON_EXIT
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.ON_ENTRY
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_TYPE
+This file does not corresponds to this videogame.0
+Ending Label: ENTRY_TYPE
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_NAME
+This file does not corresponds to this videogame.Action: Initializing circleships
+Ending Label: ENTRY_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_FUNC
+This file does not corresponds to this videogame.NULL
+Ending Label: ENTRY_FUNC
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_ORIGIN
+This file does not corresponds to this videogame.1
+Ending Label: ENTRY_ORIGIN
+This file does not corresponds to this videogame.
+			
+Ending Label: ON_ENTRY
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.ON_EVENT
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_TYPE
+This file does not corresponds to this videogame.0
+Ending Label: EVENT_TYPE
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_NAME
+This file does not corresponds to this videogame.Action: Moving-Shooting circleships
+Ending Label: EVENT_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_FUNC
+This file does not corresponds to this videogame.CCS_FSM_Move
+Ending Label: EVENT_FUNC
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_ORIGIN
+This file does not corresponds to this videogame.2
+Ending Label: EVENT_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_TRANSITION
+This file does not corresponds to this videogame.MOVING
+Ending Label: EVENT_TRANSITION
+This file does not corresponds to this videogame.
+			
+Ending Label: ON_EVENT
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.ON_EVENT
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_TYPE
+This file does not corresponds to this videogame.0
+Ending Label: EVENT_TYPE
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_NAME
+This file does not corresponds to this videogame.Action: Displaying circleships
+Ending Label: EVENT_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_FUNC
+This file does not corresponds to this videogame.CCS_display
+Ending Label: EVENT_FUNC
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_ORIGIN
+This file does not corresponds to this videogame.2
+Ending Label: EVENT_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_TRANSITION
+This file does not corresponds to this videogame.DISPLAYING
+Ending Label: EVENT_TRANSITION
+This file does not corresponds to this videogame.
+			
+Ending Label: ON_EVENT
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.ON_EVENT
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_TYPE
+This file does not corresponds to this videogame.0
+Ending Label: EVENT_TYPE
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_NAME
+This file does not corresponds to this videogame.Action: Healthing circleships
+Ending Label: EVENT_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_FUNC
+This file does not corresponds to this videogame.CCS_FSM_Healthing
+Ending Label: EVENT_FUNC
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_ORIGIN
+This file does not corresponds to this videogame.2
+Ending Label: EVENT_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_TRANSITION
+This file does not corresponds to this videogame.HEALTHING
+Ending Label: EVENT_TRANSITION
+This file does not corresponds to this videogame.
+			
+Ending Label: ON_EVENT
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.ON_EVENT
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_TYPE
+This file does not corresponds to this videogame.0
+Ending Label: EVENT_TYPE
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_NAME
+This file does not corresponds to this videogame.Action: Bursting
+Ending Label: EVENT_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_FUNC
+This file does not corresponds to this videogame.NULL
+Ending Label: EVENT_FUNC
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_ORIGIN
+This file does not corresponds to this videogame.2
+Ending Label: EVENT_ORIGIN
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.EVENT_TRANSITION
+This file does not corresponds to this videogame.BURST
+Ending Label: EVENT_TRANSITION
+This file does not corresponds to this videogame.
+			
+Ending Label: ON_EVENT
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.ON_ENTRY
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_TYPE
+This file does not corresponds to this videogame.0
+Ending Label: ENTRY_TYPE
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_NAME
+This file does not corresponds to this videogame.Action: Dying circleships
+Ending Label: ENTRY_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_FUNC
+This file does not corresponds to this videogame.CCS_FSM_Dye
+Ending Label: ENTRY_FUNC
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_ORIGIN
+This file does not corresponds to this videogame.3
+Ending Label: ENTRY_ORIGIN
+This file does not corresponds to this videogame.
+			
+Ending Label: ON_ENTRY
+This file does not corresponds to this videogame.
+			
+First tag was not an HTML tag.ON_ENTRY
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_TYPE
+This file does not corresponds to this videogame.0
+Ending Label: ENTRY_TYPE
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_NAME
+This file does not corresponds to this videogame.Action: circleship is definetely dead
+Ending Label: ENTRY_NAME
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_FUNC
+This file does not corresponds to this videogame.CCS_FSM_Death
+Ending Label: ENTRY_FUNC
+This file does not corresponds to this videogame.
+				
+First tag was not an HTML tag.ENTRY_ORIGIN
+This file does not corresponds to this videogame.4
+Ending Label: ENTRY_ORIGIN
+This file does not corresponds to this videogame.
+			
+Ending Label: ON_ENTRY
+This file does not corresponds to this videogame.
+
+		
+Ending Label: VEC_ACTION
+This file does not corresponds to this videogame.		
+    
+Ending Label: BODY
+This file does not corresponds to this videogame.
+
+Ending Label: HTML

@@ -1,0 +1,6 @@
+Relación de bibliotecas que hay que mover a c:\windows\system en sistemas windows de 32 bits o bien al directorio c:\windows\sysWOW64 para máquinas de 64 bits:
+
+assimp.dll
+UPVGameKernel.dll
+SDL.dll
+SDL_mixer.dll

@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\API">
+      <UniqueIdentifier>{6ce4d50c-fa84-42a9-ba6d-123c7040ec3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Space Invaders">
+      <UniqueIdentifier>{e6030fe4-1df3-413d-a8bc-100dd62e3882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{926b35b9-b0ec-4d51-aeb0-f3466d29e0b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Space Invaders">
+      <UniqueIdentifier>{a0884368-59cf-4a3f-844e-fee67cbe538e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\AI">
+      <UniqueIdentifier>{501e70ea-e00b-400b-b4ce-33976d696746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\CollisionDetect">
+      <UniqueIdentifier>{8d30c82b-f533-47fd-a273-92a3e0bb13e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\Hardware">
+      <UniqueIdentifier>{a3506040-7ed5-4947-96ce-8157be631162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\I/O">
+      <UniqueIdentifier>{40a45a2d-2b16-4d56-92e9-d9d0ff94674a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\Language">
+      <UniqueIdentifier>{b419e653-35e9-4fe1-8eae-52e9ae30fc71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\Meshes">
+      <UniqueIdentifier>{985e9b9c-834e-4dde-91b1-ddcf5edb1df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\Parser">
+      <UniqueIdentifier>{c2b390d6-5ab5-4a28-8e81-6a2e2cbd8b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\Particles">
+      <UniqueIdentifier>{30b092f6-da59-4d5f-b304-0253a2f73eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\Shaders">
+      <UniqueIdentifier>{078a79cc-78eb-4b64-8cd0-ea7d2d7f98dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\Txt2D3D">
+      <UniqueIdentifier>{cbfa4963-9a26-4248-87d0-1409f63c56d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\Textures">
+      <UniqueIdentifier>{02481b86-7ae2-4c8a-acae-34036dbdc03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\Window">
+      <UniqueIdentifier>{7233179f-0616-4e00-a078-f85fca8673fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\AI">
+      <UniqueIdentifier>{a2da8480-8e77-46af-8edc-631b5de67a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\CollisionDetect">
+      <UniqueIdentifier>{026096d4-d5f2-4d0c-95e7-073c94b78d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Hardware">
+      <UniqueIdentifier>{4a450136-02d4-423c-b1b4-1d0d3e831985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\I/O">
+      <UniqueIdentifier>{1c6ee719-e387-4e21-8382-105588437fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\I/O\Kinect">
+      <UniqueIdentifier>{73eba66a-2e09-47cb-8fec-aec4398bf472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\I/O\Wii">
+      <UniqueIdentifier>{a055f780-e69a-489e-a18a-2a884c05afd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Language">
+      <UniqueIdentifier>{0090c722-148a-45cb-a081-73dbd3c9772b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Meshes">
+      <UniqueIdentifier>{cb7ba8cc-2404-4964-ae2a-cb816c36fab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Parser">
+      <UniqueIdentifier>{e7057975-7d2d-445f-91cf-1fcae7cff7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Particles">
+      <UniqueIdentifier>{222275a4-f432-4adf-96a7-ebd26fb666cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Shaders">
+      <UniqueIdentifier>{ee6c0772-e596-4e57-ab52-5a4e008c0d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Txt2D3D">
+      <UniqueIdentifier>{4689feef-062d-4913-816e-fbecf31b4c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Textures">
+      <UniqueIdentifier>{7bb7e321-6b9d-4d56-b4dd-233574c1070e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Window">
+      <UniqueIdentifier>{cc275df2-7682-47b0-bd33-09ada1105596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\gl">
+      <UniqueIdentifier>{e7b7fed9-0bf7-49ae-8d38-5d4b5a05086b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API\gl">
+      <UniqueIdentifier>{d721e3c6-3870-448c-bc45-6dafb0622c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{d7aad6e7-3cfe-41ca-8790-4e90144a0352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External\HRT">
+      <UniqueIdentifier>{caf0618c-26a4-49e9-9e3d-eef3419bfae0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\AI\AIManager.h">
+      <Filter>Header Files\API\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\AI\FSM.h">
+      <Filter>Header Files\API\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\AI\State.h">
+      <Filter>Header Files\API\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\CollisionDetect\CollisionDetect.h">
+      <Filter>Header Files\API\CollisionDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="API\CollisionDetect\Quadtree.h">
+      <Filter>Header Files\API\CollisionDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="API\CollisionDetect\QuadtreeRoot.h">
+      <Filter>Header Files\API\CollisionDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Hardware\GraphicsCard.h">
+      <Filter>Header Files\API\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Hardware\Hardware.h">
+      <Filter>Header Files\API\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="API\InOut\wiiuse.h">
+      <Filter>Header Files\API\I/O\Wii</Filter>
+    </ClInclude>
+    <ClInclude Include="API\InOut\Kinect.h">
+      <Filter>Header Files\API\I/O\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="API\InOut\signal_catch.h">
+      <Filter>Header Files\API\I/O\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="API\InOut\Keyboard.h">
+      <Filter>Header Files\API\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Meshes\GLTexture.h">
+      <Filter>Header Files\API\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Meshes\Mesh3D.h">
+      <Filter>Header Files\API\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Meshes\MeshManager.h">
+      <Filter>Header Files\API\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Meshes\Model_3DS.h">
+      <Filter>Header Files\API\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="API\AI\FSMParser.h">
+      <Filter>Header Files\API\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Parsers\DeviceParser.h">
+      <Filter>Header Files\API\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Parsers\HTMLParser.h">
+      <Filter>Header Files\API\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Particles\Explosion.h">
+      <Filter>Header Files\API\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Particles\Particle.h">
+      <Filter>Header Files\API\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Particles\ParticleSystem.h">
+      <Filter>Header Files\API\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Shaders\shader.h">
+      <Filter>Header Files\API\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Shaders\shaderManager.h">
+      <Filter>Header Files\API\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Shaders\Shaders2\shader2.h">
+      <Filter>Header Files\API\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Shaders\Shaders2\ShaderManager2.h">
+      <Filter>Header Files\API\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Text2D3D\fpsGL.h">
+      <Filter>Header Files\API\Txt2D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Text2D3D\TextoGL.h">
+      <Filter>Header Files\API\Txt2D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Textures\Texture.h">
+      <Filter>Header Files\API\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Textures\TextureAnimation.h">
+      <Filter>Header Files\API\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Textures\TextureAnimationManager.h">
+      <Filter>Header Files\API\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Textures\TexturesManager.h">
+      <Filter>Header Files\API\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Application.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Camera.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Character.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\FontsManager.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Game.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Physics.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\ScoreManager.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\InOut\WiimoteManager.h">
+      <Filter>Header Files\API\I/O\Wii</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Hardware\WebCam.h">
+      <Filter>Header Files\API\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bonus.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BonusManager.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Boometer.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Brick.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bunker.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BunkersManager.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Characters.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CircleShip.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ExecutionMode.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameCharacters.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameSounds.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Global.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InitializationParser.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Laser.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LevelParser.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Navy.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Reactor.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ship.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shoot.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShootsManager.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SI_AI.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SIGame.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SIKeyboard.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SITexturesResources.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SupplyShip.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextResources.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_SI_2013.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Window\DXWindow.h">
+      <Filter>Header Files\API\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Window\GLWindow.h">
+      <Filter>Header Files\API\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\OpenGL\glTexFont.h">
+      <Filter>Header Files\API\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Parsers\DefaultHTMLLabels.h">
+      <Filter>Header Files\API\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Window\MSWindow.h">
+      <Filter>Header Files\API\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Window\Window.h">
+      <Filter>Header Files\API\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Window\BasicWindow.h">
+      <Filter>Header Files\API\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Language\UGKLanguage.h">
+      <Filter>Header Files\API\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Language\UGKLanguageParser.h">
+      <Filter>Header Files\API\Language</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="API\AI\AIManager.cpp">
+      <Filter>Source Files\API\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AI\FSM.cpp">
+      <Filter>Source Files\API\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AI\State.cpp">
+      <Filter>Source Files\API\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CollisionDetect\CollisionDetect.cpp">
+      <Filter>Source Files\API\CollisionDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CollisionDetect\Quadtree.cpp">
+      <Filter>Source Files\API\CollisionDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="API\CollisionDetect\QuadtreeRoot.cpp">
+      <Filter>Source Files\API\CollisionDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Hardware\GraphicsCard.cpp">
+      <Filter>Source Files\API\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InOut\Keyboard.cpp">
+      <Filter>Source Files\API\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InOut\Kinect.cpp">
+      <Filter>Source Files\API\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Meshes\GLTexture.cpp">
+      <Filter>Source Files\API\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Meshes\Mesh3D.cpp">
+      <Filter>Source Files\API\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Meshes\MeshManager.cpp">
+      <Filter>Source Files\API\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Meshes\Model_3DS.cpp">
+      <Filter>Source Files\API\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Parsers\DeviceParser.cpp">
+      <Filter>Source Files\API\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Parsers\HTMLParser.cpp">
+      <Filter>Source Files\API\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Parsers\LiteHTMLAttributes.cpp">
+      <Filter>Source Files\API\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Parsers\LiteHTMLEntityResolver.cpp">
+      <Filter>Source Files\API\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Parsers\LiteHTMLReader.cpp">
+      <Filter>Source Files\API\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AI\FSMParser.cpp">
+      <Filter>Source Files\API\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Particles\Explosion.cpp">
+      <Filter>Source Files\API\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Particles\Particle.cpp">
+      <Filter>Source Files\API\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Particles\ParticleSystem.cpp">
+      <Filter>Source Files\API\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Shaders\shader.cpp">
+      <Filter>Source Files\API\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Shaders\shaderManager.cpp">
+      <Filter>Source Files\API\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Shaders\Shaders2\shader2.cpp">
+      <Filter>Source Files\API\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Shaders\Shaders2\ShaderManager2.cpp">
+      <Filter>Source Files\API\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Text2D3D\fpsGL.cpp">
+      <Filter>Source Files\API\Txt2D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Text2D3D\TextoGL.cpp">
+      <Filter>Source Files\API\Txt2D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Textures\Texture.cpp">
+      <Filter>Source Files\API\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Textures\TextureAnimation.cpp">
+      <Filter>Source Files\API\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Textures\TextureAnimationManager.cpp">
+      <Filter>Source Files\API\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Textures\TexturesManager.cpp">
+      <Filter>Source Files\API\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Window\GLWindow.cpp">
+      <Filter>Source Files\API\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Application.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Camera.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Character.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\FontsManager.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Game.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\ScoreManager.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="API\InOut\WiimoteManager.cpp">
+      <Filter>Source Files\API\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Hardware\WebCam.cpp">
+      <Filter>Source Files\API\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bonus.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BonusManager.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brick.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bunker.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BunkersManager.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Characters.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boometer.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CircleShip.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameCharacters.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSounds.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Global.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InitializationParser.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Laser.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LevelParser.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main_SI_2013.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Navy.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Reactor.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ship.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shoot.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShootsManager.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SIGame.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SIKeyboard.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SITexturesResources.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SupplyShip.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\OpenGL\glTexFont.c">
+      <Filter>Source Files\API\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\HRT\RTTimer.cpp">
+      <Filter>Source Files\External\HRT</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\HRT\HRTimer.cpp">
+      <Filter>Source Files\External\HRT</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\HRT\HRTimerManager.cpp">
+      <Filter>Source Files\External\HRT</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\HRT\HRTimerStat.cpp">
+      <Filter>Source Files\External\HRT</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Window\MSWindow.cpp">
+      <Filter>Source Files\API\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Language\UGKLanguage.cpp">
+      <Filter>Source Files\API\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="API\Language\UGKLanguageParser.cpp">
+      <Filter>Source Files\API\Language</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SI_2013.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon_app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="API\Shaders\shader_ClassDiagram.cd">
+      <Filter>Header Files\API\Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SI_2013.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

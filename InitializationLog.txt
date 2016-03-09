@@ -1,0 +1,538 @@
+Starting the interpretation of the file. . Initialization.
+First tag was not an HTML tag.HTML
+This file does not corresponds to this videogame.
+
+First tag was not an HTML tag.HEAD
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.TITLE
+This file does not corresponds to this videogame.Space Invaders
+ clossing tag out from the HTML section.TITLE
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.VERSION
+This file does not corresponds to this videogame.1.0.0
+ clossing tag out from the HTML section.VERSION
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.TYPE
+This file does not corresponds to this videogame.Initialization
+ clossing tag out from the HTML section.TYPE
+This file does not corresponds to this videogame.
+
+ clossing tag out from the HTML section.HEAD
+This file does not corresponds to this videogame.
+
+
+First tag was not an HTML tag.BODY
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.DIR
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.AI
+This file does not corresponds to this videogame.AI
+ clossing tag out from the HTML section.AI
+This file does not corresponds to this videogame.                    
+Comments:  Path where resides the Artificial Intelligence of the system
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.MUSIC
+This file does not corresponds to this videogame.sounds
+ clossing tag out from the HTML section.MUSIC
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.SOUNDS
+This file does not corresponds to this videogame.sounds
+ clossing tag out from the HTML section.SOUNDS
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.TEXTURE
+This file does not corresponds to this videogame.images
+ clossing tag out from the HTML section.TEXTURE
+This file does not corresponds to this videogame.      
+Comments:  Path from application directory. Please, use "\\" insted of "\". 
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.GEOMETRY
+This file does not corresponds to this videogame.models
+ clossing tag out from the HTML section.GEOMETRY
+This file does not corresponds to this videogame.    
+Comments:  Path from application directory. Please, use "\\" insted of "\". 
+This file does not corresponds to this videogame.
+	
+First tag was not an HTML tag.LANGUAGE
+This file does not corresponds to this videogame.Languages
+ clossing tag out from the HTML section.LANGUAGE
+This file does not corresponds to this videogame.
+	
+ clossing tag out from the HTML section.DIR
+This file does not corresponds to this videogame.
+
+	
+First tag was not an HTML tag.CHARACTER
+This file does not corresponds to this videogame.                         
+Comments:  Now is used the same character to all players 
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.PLAYER
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.EXPLOSION
+This file does not corresponds to this videogame.500
+ clossing tag out from the HTML section.EXPLOSION
+This file does not corresponds to this videogame.	    
+Comments:  Miliseconds this explosion lasts 
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.HEALTH
+This file does not corresponds to this videogame.20
+ clossing tag out from the HTML section.HEALTH
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.LIVES
+This file does not corresponds to this videogame.3
+ clossing tag out from the HTML section.LIVES
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.MESH
+This file does not corresponds to this videogame.player.3ds
+ clossing tag out from the HTML section.MESH
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.player.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.ACCELERATION
+This file does not corresponds to this videogame.0.0001
+ clossing tag out from the HTML section.ACCELERATION
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.SPEED
+This file does not corresponds to this videogame. 
+		    
+First tag was not an HTML tag.X
+This file does not corresponds to this videogame.0.01
+ clossing tag out from the HTML section.X
+This file does not corresponds to this videogame.	
+Comments: in units per milisecond
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Y
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Y
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Z
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Z
+This file does not corresponds to this videogame.
+	    
+ clossing tag out from the HTML section.SPEED
+This file does not corresponds to this videogame.
+	
+ clossing tag out from the HTML section.CHARACTER
+This file does not corresponds to this videogame.
+
+    
+First tag was not an HTML tag.CHARACTER
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.LASER
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.              
+Comments:  Now is used the same character to all lasers 
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.EXPLOSION
+This file does not corresponds to this videogame.500
+ clossing tag out from the HTML section.EXPLOSION
+This file does not corresponds to this videogame.	    
+Comments:  Miliseconds this explosion lasts 
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.HEALTH
+This file does not corresponds to this videogame.20
+ clossing tag out from the HTML section.HEALTH
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.MESH
+This file does not corresponds to this videogame.fighter_laser.3ds
+ clossing tag out from the HTML section.MESH
+This file does not corresponds to this videogame.
+	
+ clossing tag out from the HTML section.CHARACTER
+This file does not corresponds to this videogame.
+
+    
+First tag was not an HTML tag.CHARACTER
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.SPHERE_OGIVE
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.       
+Comments:  Its used to represent the sky (Backgraund) 
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.MESH
+This file does not corresponds to this videogame.sphere_ogive.3ds
+ clossing tag out from the HTML section.MESH
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.TEXTURE3D
+This file does not corresponds to this videogame.sphere_o.bmp
+ clossing tag out from the HTML section.TEXTURE3D
+This file does not corresponds to this videogame.
+	
+ clossing tag out from the HTML section.CHARACTER
+This file does not corresponds to this videogame.
+
+	
+First tag was not an HTML tag.CHARACTER
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.SUPPLYSHIP
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.EXPLOSION
+This file does not corresponds to this videogame.500
+ clossing tag out from the HTML section.EXPLOSION
+This file does not corresponds to this videogame.	    
+Comments:  Miliseconds this explosion lasts 
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.HEALTH
+This file does not corresponds to this videogame.500
+ clossing tag out from the HTML section.HEALTH
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.MESH
+This file does not corresponds to this videogame.supplyship.3ds
+ clossing tag out from the HTML section.MESH
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.TEXTURE3D
+This file does not corresponds to this videogame.f02_512.bmp
+ clossing tag out from the HTML section.TEXTURE3D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.supplyship.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.SPEED
+This file does not corresponds to this videogame. 
+		    
+First tag was not an HTML tag.X
+This file does not corresponds to this videogame.0.002
+ clossing tag out from the HTML section.X
+This file does not corresponds to this videogame.	
+Comments: in units per milisecond
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Y
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Y
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Z
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Z
+This file does not corresponds to this videogame.
+	
+ clossing tag out from the HTML section.SPEED
+This file does not corresponds to this videogame.
+	
+ clossing tag out from the HTML section.CHARACTER
+This file does not corresponds to this videogame.
+
+    	
+First tag was not an HTML tag.CHARACTER
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.CIRCLESHIP
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.MESH
+This file does not corresponds to this videogame.supplyship.3ds
+ clossing tag out from the HTML section.MESH
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.TEXTURE3D
+This file does not corresponds to this videogame.circleship.bmp
+ clossing tag out from the HTML section.TEXTURE3D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.circleship.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.VELOCITY
+This file does not corresponds to this videogame.0.001
+ clossing tag out from the HTML section.VELOCITY
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.RADIO
+This file does not corresponds to this videogame.1
+ clossing tag out from the HTML section.RADIO
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.CENTER
+Initialization parser error:  allowed in a CENTER group.CHARACTERBegining the file parsing.
+This file does not corresponds to this videogame. 
+		    
+First tag was not an HTML tag.X
+Initialization parser error:  allowed in a X group.CHARACTERBegining the file parsing.
+This file does not corresponds to this videogame.0.002
+ clossing tag out from the HTML section.X
+Initialization parser error: X segment.BODY segment.
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Y
+Initialization parser error:  allowed in a Y group.CHARACTERBegining the file parsing.
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Y
+Initialization parser error: Y segment.BODY segment.
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Z
+Initialization parser error:  allowed in a Z group.CHARACTERBegining the file parsing.
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Z
+Initialization parser error: Z segment.BODY segment.
+This file does not corresponds to this videogame.
+	    
+ clossing tag out from the HTML section.CENTER
+Initialization parser error: CENTER segment.BODY segment.
+This file does not corresponds to this videogame.
+    
+ clossing tag out from the HTML section.CHARACTER
+This file does not corresponds to this videogame.
+
+	
+First tag was not an HTML tag.CHARACTER
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.SHIP
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.EXPLOSION
+This file does not corresponds to this videogame.1000
+ clossing tag out from the HTML section.EXPLOSION
+This file does not corresponds to this videogame.	    
+Comments:  Miliseconds this explosion lasts 
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.HEALTH
+This file does not corresponds to this videogame.25
+ clossing tag out from the HTML section.HEALTH
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.MESH
+This file does not corresponds to this videogame.ship.3ds
+ clossing tag out from the HTML section.MESH
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.TEXTURE3D
+This file does not corresponds to this videogame.s02_5121.bmp
+ clossing tag out from the HTML section.TEXTURE3D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.ANIMATION2D
+This file does not corresponds to this videogame. 
+Comments:  Animation (0) corresponds to CTM_ANI2SHIP_HIGH of CTM_Animations 
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.ANI2SHIP_HIGH
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.TYPE
+This file does not corresponds to this videogame.ANITYPE_CICLIC
+ clossing tag out from the HTML section.TYPE
+This file does not corresponds to this videogame.             
+Comments:  ANITYPE_CICLIC, ANITYPE_PINGPONG, ANITYPE_SERIAL 
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.PERIODE
+This file does not corresponds to this videogame.1000
+ clossing tag out from the HTML section.PERIODE
+This file does not corresponds to this videogame.                 
+Comments:  Miliseconds 
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.ship1.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.ship1_b.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+        
+ clossing tag out from the HTML section.ANIMATION2D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.ANIMATION2D
+This file does not corresponds to this videogame. 
+Comments:  Animation (1) corresponds to CTM_ANI2SHIP_MIDDLE of CTM_Animations 
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.ANI2SHIP_MIDDLE
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.TYPE
+This file does not corresponds to this videogame.ANITYPE_CICLIC
+ clossing tag out from the HTML section.TYPE
+This file does not corresponds to this videogame.             
+Comments:  ANITYPE_CICLIC, ANITYPE_PINGPONG, ANITYPE_SERIAL 
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.PERIODE
+This file does not corresponds to this videogame.100
+ clossing tag out from the HTML section.PERIODE
+This file does not corresponds to this videogame.                 
+Comments:  Miliseconds 
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.ship2.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.ship2_b.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+        
+ clossing tag out from the HTML section.ANIMATION2D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.ANIMATION2D
+This file does not corresponds to this videogame. 
+Comments:  Animation (2) corresponds to CTM_ANI2SHIP_LOW of CTM_Animations 
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.ANI2SHIP_LOW
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.TYPE
+This file does not corresponds to this videogame.ANITYPE_CICLIC
+ clossing tag out from the HTML section.TYPE
+This file does not corresponds to this videogame.             
+Comments:  ANITYPE_CICLIC, ANITYPE_PINGPONG, ANITYPE_SERIAL 
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.PERIODE
+This file does not corresponds to this videogame.500
+ clossing tag out from the HTML section.PERIODE
+This file does not corresponds to this videogame.                 
+Comments:  Miliseconds 
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.ship3.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+            
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.ship3_b.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+        
+ clossing tag out from the HTML section.ANIMATION2D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.SPEED
+This file does not corresponds to this videogame. 
+		    
+First tag was not an HTML tag.X
+This file does not corresponds to this videogame.0.001
+ clossing tag out from the HTML section.X
+This file does not corresponds to this videogame.	
+Comments: in units per milisecond
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Y
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Y
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Z
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Z
+This file does not corresponds to this videogame.
+	    
+ clossing tag out from the HTML section.SPEED
+This file does not corresponds to this videogame.
+	
+ clossing tag out from the HTML section.CHARACTER
+This file does not corresponds to this videogame.
+
+	
+First tag was not an HTML tag.SCORES
+This file does not corresponds to this videogame.
+		 
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.PEPE
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+		 
+First tag was not an HTML tag.SCORE
+This file does not corresponds to this videogame.15236
+ clossing tag out from the HTML section.SCORE
+This file does not corresponds to this videogame.
+		 
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.LUIS
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+		 
+First tag was not an HTML tag.SCORE
+This file does not corresponds to this videogame.10256
+ clossing tag out from the HTML section.SCORE
+This file does not corresponds to this videogame.
+		 
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.ANDRES
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+		 
+First tag was not an HTML tag.SCORE
+This file does not corresponds to this videogame.9874
+ clossing tag out from the HTML section.SCORE
+This file does not corresponds to this videogame.
+	
+ clossing tag out from the HTML section.SCORES
+This file does not corresponds to this videogame.
+
+	
+Comments:  Other characters in the game does not need to be initialized by default 
+This file does not corresponds to this videogame.
+
+
+ clossing tag out from the HTML section.BODY
+This file does not corresponds to this videogame.
+
+
+ clossing tag out from the HTML section.HTML
