@@ -137,6 +137,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Airplane.h" />
     <ClInclude Include="API\AI\AIManager.h" />
     <ClInclude Include="API\AI\FSM.h" />
     <ClInclude Include="API\AI\FSMParser.h" />
@@ -222,6 +223,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Airplane.cpp" />
     <ClCompile Include="API\AI\AIManager.cpp" />
     <ClCompile Include="API\AI\FSM.cpp" />
     <ClCompile Include="API\AI\FSMParser.cpp" />
