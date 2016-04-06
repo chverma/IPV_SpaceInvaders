@@ -369,6 +369,9 @@
     <ClInclude Include="API\Language\UGKLanguageParser.h">
       <Filter>Header Files\API\Language</Filter>
     </ClInclude>
+    <ClInclude Include="include\Player2.h">
+      <Filter>Header Files\Space Invaders</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API\AI\AIManager.cpp">
@@ -598,6 +601,9 @@
     </ClCompile>
     <ClCompile Include="API\Language\UGKLanguageParser.cpp">
       <Filter>Source Files\API\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player2.cpp">
+      <Filter>Source Files\Space Invaders</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

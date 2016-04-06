@@ -38,6 +38,7 @@
 #define CSIG_PG_SHIPS_CEILING	10.0f
 
 #define CSIG_PLAYER_Y_POSITION			-6.5f
+#define CSIG_PLAYER2_Y_POSITION			-6.0f
 #define CSIG_NAVY_INITIAL_Y_POSITION	 2.0f
 
 #define CSIG_INTERMISSION_TEXT_BLINKS 3
@@ -146,6 +147,7 @@ class CSIGame: public CGame
 	RTDESK_TIME elapTimeSShipsUpd;
 	RTDESK_TIME elapTimeCShipsUpd;
 	RTDESK_TIME elapTimePlayerUpd;
+	RTDESK_TIME elapTimePlayer2Upd;
 
 	RTDESK_TIME lastTimeRnd;
 	RTDESK_TIME lastTimeUpd;
@@ -153,6 +155,7 @@ class CSIGame: public CGame
 	RTDESK_TIME lastTimeSShipsUpd;
 	RTDESK_TIME lastTimeCShipsUpd;
 	RTDESK_TIME lastTimePlayerUpd;
+	RTDESK_TIME lastTimePlayer2Upd;
 
 	void InitGraphics();
 

@@ -227,6 +227,7 @@ void CSIGame::Init(void)
 	ShipTemp		=	41.0;
 	NavyShipsTemp	=	41.0;
 	PlayerTemp		=	41.0;
+	Player2Temp		=	41.0;
 	ShootsTemp		=	41.0;
 	RenderTemp		=	41.0;
 	UpdateTemp		=	41.0;
@@ -252,6 +253,7 @@ void CSIGame::Init(void)
 	lastTimeSShipsUpd	= RTDESKT_NOTIME;
 	lastTimeCShipsUpd	= RTDESKT_NOTIME;
 	lastTimePlayerUpd	= RTDESKT_NOTIME;
+	lastTimePlayer2Upd	= RTDESKT_NOTIME;
 }
 
 /**
@@ -514,6 +516,7 @@ void CSIGame::Render(void)
 
 	unsigned int i;
 	static float position_player[] =		{-10.0, 20.0, 1.0, 0.0}; // for Player
+	static float position_player2[] =		{-10.0, 20.0, 1.0, 0.0}; // for Player2
 	static float position_ships[]  =		{-10.0, 10.0, 5.0, 0.0}; // for ships
 	static float position_ships2[] =		{ 10.0, 0.0, -20.0, 0.0};// for ships
 
@@ -554,8 +557,9 @@ void CSIGame::Render(void)
 
 		// LUMIERES -> POSITION
 		glLightfv(GL_LIGHT0, GL_POSITION, position_player);
-		glLightfv(GL_LIGHT1, GL_POSITION, position_ships);
-		glLightfv(GL_LIGHT2, GL_POSITION, position_ships2);
+		glLightfv(GL_LIGHT1, GL_POSITION, position_player2);
+		glLightfv(GL_LIGHT2, GL_POSITION, position_ships);
+		glLightfv(GL_LIGHT3, GL_POSITION, position_ships2);
 
 		
 		// Background	
@@ -690,6 +694,11 @@ void CSIGame::Render(void)
 		for(i=0;i<CP_MAX_PLAYERS;i++)
 			if(Player[i].Alive)
 				Player[i].Render();	
+
+		//Players.
+		//for(i=0;i<CP_MAX_PLAYERS;i++)
+			if(Player2[0].Alive)
+				Player2[0].Render();	
 
 		// LUMIERE DES SHIPS (DEBUT) ET PLAYER (FIN)
 		if (CHAR_2D != Game.RenderMode)
@@ -1381,6 +1390,11 @@ void CSIGame::InitCharFactory()
 	Character.Id	= CHARS_PLAYER;			///<The player
 	Character.Name	= CHARS_Tags[CHARS_PLAYER];
 	Character.Size	= sizeof(CPlayer);
+	CharacterFactory.SetCharacter(Character);
+	
+	Character.Id	= CHARS_PLAYER2;			///<The player2
+	Character.Name	= CHARS_Tags[CHARS_PLAYER2];
+	Character.Size	= sizeof(CPlayer2);
 	CharacterFactory.SetCharacter(Character);
 
 	Character.Id	= CHARS_PLAYER_SHOOT;		///<Player shoots

@@ -205,6 +205,7 @@
     <ClInclude Include="include\LevelParser.h" />
     <ClInclude Include="include\Navy.h" />
     <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\Player2.h" />
     <ClInclude Include="include\Reactor.h" />
     <ClInclude Include="include\Scene.h" />
     <ClInclude Include="include\Ship.h" />
@@ -289,6 +290,7 @@
     <ClCompile Include="src\Main_SI_2013.cpp" />
     <ClCompile Include="src\Navy.cpp" />
     <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Player2.cpp" />
     <ClCompile Include="src\Reactor.cpp" />
     <ClCompile Include="src\Scene.cpp" />
     <ClCompile Include="src\Ship.cpp" />

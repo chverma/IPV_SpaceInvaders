@@ -1342,7 +1342,7 @@ void CGUI::display_text_frames()
     * Also being showing the life disminusicion
 */
 void CGUI::display_Health()
-{
+{ //Afegir vida player 2 
 	boometer->Render(Player[CurrentPlayer].Health/Player[CurrentPlayer].MaxHealth);
 }
 

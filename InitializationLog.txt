@@ -488,6 +488,75 @@ This file does not corresponds to this videogame.
 	
  clossing tag out from the HTML section.CHARACTER
 This file does not corresponds to this videogame.
+	
+	
+First tag was not an HTML tag.CHARACTER
+This file does not corresponds to this videogame.                         
+Comments:  Now is used the same character to all players 
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.PLAYER2
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.EXPLOSION
+This file does not corresponds to this videogame.500
+ clossing tag out from the HTML section.EXPLOSION
+This file does not corresponds to this videogame.	    
+Comments:  Miliseconds this explosion lasts 
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.HEALTH
+This file does not corresponds to this videogame.20
+ clossing tag out from the HTML section.HEALTH
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.LIVES
+This file does not corresponds to this videogame.3
+ clossing tag out from the HTML section.LIVES
+This file does not corresponds to this videogame.
+		
+First tag was not an HTML tag.MESH
+This file does not corresponds to this videogame.player2.3ds
+ clossing tag out from the HTML section.MESH
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.TEXTURE2D
+This file does not corresponds to this videogame.player2.tga
+ clossing tag out from the HTML section.TEXTURE2D
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.ACCELERATION
+This file does not corresponds to this videogame.0.0001
+ clossing tag out from the HTML section.ACCELERATION
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.SPEED
+This file does not corresponds to this videogame. 
+		    
+First tag was not an HTML tag.X
+This file does not corresponds to this videogame.0.01
+ clossing tag out from the HTML section.X
+This file does not corresponds to this videogame.	
+Comments: in units per milisecond
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Y
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Y
+This file does not corresponds to this videogame.
+		    
+First tag was not an HTML tag.Z
+This file does not corresponds to this videogame.0.0
+ clossing tag out from the HTML section.Z
+This file does not corresponds to this videogame.
+	    
+ clossing tag out from the HTML section.SPEED
+This file does not corresponds to this videogame.
+	
+ clossing tag out from the HTML section.CHARACTER
+This file does not corresponds to this videogame.
 
 	
 First tag was not an HTML tag.SCORES
@@ -530,6 +599,7 @@ This file does not corresponds to this videogame.
 Comments:  Other characters in the game does not need to be initialized by default 
 This file does not corresponds to this videogame.
 
+	
 
  clossing tag out from the HTML section.BODY
 This file does not corresponds to this videogame.

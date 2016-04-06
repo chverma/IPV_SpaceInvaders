@@ -14,48 +14,48 @@
 #include <HRTimer.h>
 #include <ExecutionMode.h>
 
-#define CP_MAX_HEALTH			 20	///<Maximun amount of health of the player by default
-#define CP_MAX_MAX_HIT_DUR		500	///<Maximun amount of time when the player is hit
-#define CP_INFINITE_LIVES		 -1 ///<Constant value for ethernal life
-#define CP_DEFAULT_LIVES		  3 ///<If not specified, by default, ther are three lives
-#define CP_MAX_PLAYERS			  1 ///<By default, if not specified, there may play at the same time only 4 players
-#define CP_NO_PLAYER			 -1	//
-#define CP_DEFAULT_PLAYER		  0	//
-#define CP_MAX_SPEED			0.01f	//Maximun X speed in units/ms
-#define CP_MAX_ACCEL			0.01f	//Maximun X acceleration in units/ms
-#define CP_2D_SIZE_X				0.6f	//Maximun X acceleration in units/ms
-#define CP_2D_SIZE_Y				0.4f	//Maximun X acceleration in units/ms
-#define CP_3D_SIZE_X				0.8f	//Maximun X acceleration in units/ms
-#define CP_3D_SIZE_Y				1.0f	//Maximun X acceleration in units/ms
+#define CP_MAX_HEALTH2			 20	///<Maximun amount of health of the player by default
+#define CP_MAX_MAX_HIT_DUR2		500	///<Maximun amount of time when the player is hit
+#define CP_INFINITE_LIVES2		 -1 ///<Constant value for ethernal life
+#define CP_DEFAULT_LIVES2		  3 ///<If not specified, by default, ther are three lives
+#define CP_MAX_PLAYERS2			  1 ///<By default, if not specified, there may play at the same time only 4 players
+#define CP_NO_PLAYER2		 -1	//
+#define CP_DEFAULT_PLAYER2		  0	//
+#define CP_MAX_SPEED2			0.01f	//Maximun X speed in units/ms
+#define CP_MAX_ACCEL2			0.01f	//Maximun X acceleration in units/ms
+#define CP_2D_SIZE_X2				0.6f	//Maximun X acceleration in units/ms
+#define CP_2D_SIZE_Y2				0.4f	//Maximun X acceleration in units/ms
+#define CP_3D_SIZE_X2				0.8f	//Maximun X acceleration in units/ms
+#define CP_3D_SIZE_Y2				1.0f	//Maximun X acceleration in units/ms
 
-#define CP_LASER_REL_POS		0.05f	///<Left or right laser relative position respect to the palyer on the X axis
+#define CP_LASER_REL_POS2		0.05f	///<Left or right laser relative position respect to the palyer on the X axis
 
 //Shooting
-#define CP_SHOOT2D_SPEED		0.008f
-#define CP_SHOOT3D_SPEED		0.017f
+#define CP_SHOOT2D_SPEED2		0.008f
+#define CP_SHOOT3D_SPEED2		0.017f
 
 typedef enum {
-	CP_LEFT_LASER,					///<Code for left laser
-	CP_RIGHT_LASER,					///<Code for right laser
-	CP_MAX_LASERS					///<Amount of extra lasers the player has
-} CP_PLAYER_LASER;
+	CP_LEFT_LASER2,					///<Code for left laser
+	CP_RIGHT_LASER2,					///<Code for right laser
+	CP_MAX_LASERS2					///<Amount of extra lasers the player has
+} CP_PLAYER_LASER2;
 
 typedef enum {
-	CP_UNBORN=0,	///<For management purpouses only
-	CP_BORN,		///<The character is just born but it is not still operative (living)
-	CP_LIVING,		///<Everything this character may do while it is alive 
-	CP_DYING,		///<The character has been touched so many times that its life has gone negative. So it has to burst before being died. Starts an explosion and dies
-	CP_DEAD,		///<The character is no operative. Reached after dying
-	CP_MAXSTATE		///<For management purpouses only
-} CP_PLAYER_STATE;
+	CP_UNBORN2=0,	///<For management purpouses only
+	CP_BORN2,		///<The character is just born but it is not still operative (living)
+	CP_LIVING2,		///<Everything this character may do while it is alive 
+	CP_DYING2,		///<The character has been touched so many times that its life has gone negative. So it has to burst before being died. Starts an explosion and dies
+	CP_DEAD2,		///<The character is no operative. Reached after dying
+	CP_MAXSTATE2		///<For management purpouses only
+} CP_PLAYER_STATE2;
 
 
 typedef enum {
-	CP_MOVE_LEFT,			///<The player wants to move to the left
-	CP_MOVE_RIGHT,			///<The player wants to move to the right
-	CP_SHOOT,				///<The player wants to fire a shoot
-	CP_MAX_PLAYER_EVENTS	// Only for management purpouses
-} CP_PLAYER_EVENTS;
+	CP_MOVE_LEFT2,			///<The player wants to move to the left
+	CP_MOVE_RIGHT2,			///<The player wants to move to the right
+	CP_SHOOT2,				///<The player wants to fire a shoot
+	CP_MAX_PLAYER_EVENTS2	// Only for management purpouses
+} CP_PLAYER_EVENTS2;
 
 class CPlayer2: public CCharacter
 {
