@@ -32,6 +32,7 @@ CCollisionDetection CollisionDetector;
 
 ///Amount of players simultaneously available when playing
 CPlayer		 Player[CP_MAX_PLAYERS];	// PLAYERS AVAILABLE
+CPlayer2	 Player2[CP_MAX_PLAYERS];	// PLAYERS AVAILABLE
 int CurrentPlayer	= CP_NO_PLAYER;		///<Initially, the player by default is the one before the first one
 
 

@@ -107,6 +107,7 @@ CBonus			defaultBonus;
 CBunker			defaultBunker;
 CBrick			defaultBrick;
 CPlayer			defaultPlayer;
+CPlayer2		defaultPlayer2;
 CShip			defaultShip;
 CSupplyShip		defaultSShip;
 CCircleShip		defaultCShip;
@@ -528,6 +529,9 @@ void CInitializationReader::EndTag(CLiteHTMLTag *pTag, DWORD dwAppData, bool &bA
 				case CHARS_PLAYER:
 					defaultPlayer.IndAnimation2D = AnimationsManager.Animations.size()-1;
 						break;
+				case CHARS_PLAYER2:
+					defaultPlayer2.IndAnimation2D = AnimationsManager.Animations.size()-1;
+						break;
 				case CHARS_SHIP:
 					defaultShip.IndAnimation2D = AnimationsManager.Animations.size()-1;
 						break;
@@ -538,8 +542,10 @@ void CInitializationReader::EndTag(CLiteHTMLTag *pTag, DWORD dwAppData, bool &bA
 					defaultCShip.IndAnimation2D = AnimationsManager.Animations.size()-1;
 					break;
 				case CHARS_LASER:
-					for(int i=0;i<CP_MAX_LASERS;i++)
+					for(int i=0;i<CP_MAX_LASERS;i++){
 						defaultPlayer.Laser[i].IndAnimation2D = AnimationsManager.Animations.size()-1;
+						defaultPlayer2.Laser[i].IndAnimation2D = AnimationsManager.Animations.size()-1;
+					}
 						break;
 				case CHARS_SPHERE_OGIVE:
 					Background.IndAnimation2D = AnimationsManager.Animations.size()-1;
@@ -634,6 +640,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 		case CHARS_PLAYER:
 			defaultPlayer.Acceleration.v[XDIM] = atof (rText);
 			break;
+		case CHARS_PLAYER2:
+			defaultPlayer2.Acceleration.v[XDIM] = atof (rText);
+			break;
 		case CHARS_SHIP:
 			defaultShip.Acceleration.v[XDIM] = atof (rText);
 			break;
@@ -665,10 +674,19 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 				defaultPlayer.Laser[CP_LEFT_LASER].Explosion.SubType = CE_LASER_EXPLOSION;
 				defaultPlayer.Laser[CP_RIGHT_LASER].Hit_duration	= atof (rText);
 				defaultPlayer.Laser[CP_RIGHT_LASER].Explosion.SubType = CE_LASER_EXPLOSION;
+
+				defaultPlayer2.Laser[CP_LEFT_LASER].Hit_duration	= atof (rText);
+				defaultPlayer2.Laser[CP_LEFT_LASER].Explosion.SubType = CE_LASER_EXPLOSION;
+				defaultPlayer2.Laser[CP_RIGHT_LASER].Hit_duration	= atof (rText);
+				defaultPlayer2.Laser[CP_RIGHT_LASER].Explosion.SubType = CE_LASER_EXPLOSION;
 				 break;
 			 case CHARS_PLAYER:
 				 defaultPlayer.Hit_duration	= atof (rText);
 				 defaultPlayer.Explosion.SubType = CE_PLAYER_EXPLOSION;
+				 break;
+			case CHARS_PLAYER2:
+				 defaultPlayer2.Hit_duration	= atof (rText);
+				 defaultPlayer2.Explosion.SubType = CE_PLAYER_EXPLOSION;
 				 break;
 			case CHARS_SHIP:
 				 defaultShip.Hit_duration	= atof (rText);
@@ -707,9 +725,14 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			case CHARS_LASER:
 				defaultPlayer.Laser[CP_LEFT_LASER].Health	= atof (rText);
 				defaultPlayer.Laser[CP_RIGHT_LASER].Health	= atof (rText);
+				defaultPlayer2.Laser[CP_LEFT_LASER].Health	= atof (rText);
+				defaultPlayer2.Laser[CP_RIGHT_LASER].Health	= atof (rText);
 				 break;
 			 case CHARS_PLAYER:
 				 defaultPlayer.Health	= atof (rText);
+				 break;
+			 case CHARS_PLAYER2:
+				 defaultPlayer2.Health	= atof (rText);
 				 break;
 			case CHARS_SHIP:
 				 defaultShip.Health	= atof (rText);
@@ -723,8 +746,10 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 					strcpy(Application.LanguageFolder, rText);
 		break;
 	case LIVES:		//Amount of ships the Player has still before finishing the game
-			if(CP_INFINITE_LIVES == atoi(rText))
+			if(CP_INFINITE_LIVES == atoi(rText)){
 				defaultPlayer.Lives = CP_INFINITE_LIVES;
+				defaultPlayer2.Lives = CP_INFINITE_LIVES;
+			}
 			else if (0 > atoi(rText))
 				{
 					strcpy(msj, CIP_ParserMsgs[CIP_MIN_LIVES_NOT_DEF]);
@@ -735,9 +760,12 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 					strcat(msj, CIP_ParserMsgs[CIP_MINIMUM]);
 					ErrorParser (msj);
 					defaultPlayer.Lives = 1;
+					defaultPlayer2.Lives = 1;
 				}
-				else if (SHRT_MAX > atoi(rText)) defaultPlayer.Lives = atoi(rText);
-					 else	
+				else if (SHRT_MAX > atoi(rText)){
+					defaultPlayer.Lives = atoi(rText);
+					defaultPlayer2.Lives = atoi(rText);
+				} else	
 					 {
 						strcpy(msj, CIP_ParserMsgs[CIP_MAX_LIVES_NOT_DEF]);
 						strcat(msj, rText);
@@ -747,6 +775,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 						strcat(msj, CIP_ParserMsgs[CIP_MAXIMUM]);
 						ErrorParser (msj);
 						defaultPlayer.Lives = SHRT_MAX;
+						defaultPlayer2.Lives = SHRT_MAX;
 					}
 		break;
 	case MESH_CHARACTER:
@@ -767,6 +796,17 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 					defaultPlayer.IndMesh = MeshesManager.Meshes.size()-1;
 					defaultPlayer.Mesh = MeshesManager.Meshes[defaultPlayer.IndMesh];
 					strcpy(defaultPlayer.MeshName, defaultPlayer.Mesh->GetFileName());
+				}
+				 break;
+			case CHARS_PLAYER2:
+				if (MeshSemaphore[CHARS_PLAYER2])
+				{
+					MeshSemaphore[CHARS_PLAYER2] = false;
+					strcpy(msj, rText);
+					MeshesManager.AddModel(msj);
+					defaultPlayer2.IndMesh = MeshesManager.Meshes.size()-1;
+					defaultPlayer2.Mesh = MeshesManager.Meshes[defaultPlayer.IndMesh];
+					strcpy(defaultPlayer2.MeshName, defaultPlayer2.Mesh->GetFileName());
 				}
 				 break;
 			case CHARS_SHIP:
@@ -813,6 +853,10 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 						defaultPlayer.Laser[i].IndMesh = MeshesManager.Meshes.size()-1;
 						defaultPlayer.Laser[i].Mesh = MeshesManager.Meshes[defaultPlayer.Laser[i].IndMesh];
 						strcpy(defaultPlayer.Laser[i].MeshName, defaultPlayer.Laser[i].Mesh->GetFileName());
+
+						defaultPlayer2.Laser[i].IndMesh = MeshesManager.Meshes.size()-1;
+						defaultPlayer2.Laser[i].Mesh = MeshesManager.Meshes[defaultPlayer2.Laser[i].IndMesh];
+						strcpy(defaultPlayer2.Laser[i].MeshName, defaultPlayer2.Laser[i].Mesh->GetFileName());
 					}
 				}
 				 break;
@@ -853,6 +897,10 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 				//Reset all the values by default in case the file does not cover every object aspect
 				defaultPlayer.Init();
 				break;
+			case CHARS_PLAYER2:
+				//Reset all the values by default in case the file does not cover every object aspect
+				defaultPlayer2.Init();
+				break;
 			case CHARS_SHIP:
 				//Reset all the values by default in case the file does not cover every object aspect
 				defaultShip.Init();
@@ -865,6 +913,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 				//Reset all the values by default in case the file does not cover every object aspect
 				for(i=0;i<CP_MAX_LASERS;i++){
 					defaultPlayer.Laser[i].Init();
+					defaultPlayer2.Laser[i].Init();
 				}
 				break;
 			case CHARS_CIRCLESHIP:
@@ -890,6 +939,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			case CHARS_BRICK:
 			case CHARS_BUNKER:
 			case CHARS_PLAYER:
+			case CHARS_PLAYER2:
 			case CHARS_SHIP:
 			case CHARS_SUPPLYSHIP:
 			case CHARS_CIRCLESHIP:
@@ -907,6 +957,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			case CHARS_BRICK:
 			case CHARS_BUNKER:
 			case CHARS_PLAYER:
+			case CHARS_PLAYER2:
 			case CHARS_SHIP:
 			case CHARS_SUPPLYSHIP:
 			case CHARS_CIRCLESHIP:
@@ -946,6 +997,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 		case CHARS_PLAYER:
 			defaultPlayer.Speed.v[XDIM] = atof (rText);
 			break;
+		case CHARS_PLAYER2:
+			defaultPlayer2.Speed.v[XDIM] = atof (rText);
+			break;
 		case CHARS_SHIP:
 			defaultShip.Speed.v[XDIM] = atof (rText);
 			break;
@@ -974,6 +1028,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 		case CHARS_PLAYER:
 			defaultPlayer.Speed.v[YDIM] = atof (rText);
 			break;
+		case CHARS_PLAYER2:
+			defaultPlayer2.Speed.v[YDIM] = atof (rText);
+			break;
 		case CHARS_SHIP:
 			defaultShip.Speed.v[YDIM] = atof (rText);
 			break;
@@ -1000,6 +1057,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			break;
 		case CHARS_PLAYER:
 			defaultPlayer.Speed.v[ZDIM] = atof (rText);
+			break;
+		case CHARS_PLAYER2:
+			defaultPlayer2.Speed.v[ZDIM] = atof (rText);
 			break;
 		case CHARS_SHIP:
 			defaultShip.Speed.v[ZDIM] = atof (rText);
@@ -1040,6 +1100,13 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 					defaultPlayer.IndTexture2D = TexturesManager.Textures.size()-1;
 				}
 				 break;
+			case CHARS_PLAYER2:
+				strcpy(msj, rText);
+				for(i=0;i<CP_MAX_PLAYERS;i++){
+					TexturesManager.CreateTexture(msj);
+					defaultPlayer2.IndTexture2D = TexturesManager.Textures.size()-1;
+				}
+				 break;
 			case CHARS_SHIP:
 				strcpy(msj, rText);
 				TexturesManager.CreateTexture(msj);
@@ -1070,6 +1137,11 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			case CHARS_BUNKER:
 				 break;
 			case CHARS_PLAYER:
+				strcpy(msj, rText);
+				TexturesManager.CreateTexture(msj);
+				AnimationsManager.Animations.back()->AddPhotogram(TexturesManager.Textures.back());
+				 break;
+			case CHARS_PLAYER2:
 				strcpy(msj, rText);
 				TexturesManager.CreateTexture(msj);
 				AnimationsManager.Animations.back()->AddPhotogram(TexturesManager.Textures.back());
@@ -1106,6 +1178,11 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 				strcpy(msj, rText);
 				TexturesManager.CreateTexture(msj);
 				defaultPlayer.IndTexture3D = TexturesManager.Textures.size()-1;
+				 break;
+			case CHARS_PLAYER2:
+				strcpy(msj, rText);
+				TexturesManager.CreateTexture(msj);
+				defaultPlayer2.IndTexture3D = TexturesManager.Textures.size()-1;
 				 break;
 			case CHARS_SHIP:
 				strcpy(msj, rText);
@@ -1152,6 +1229,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			case CHARS_BRICK:
 			case CHARS_BUNKER:
 			case CHARS_PLAYER:
+			case CHARS_PLAYER2:
 			case CHARS_SHIP:
 			case CHARS_SUPPLYSHIP:
 			case CHARS_CIRCLESHIP:

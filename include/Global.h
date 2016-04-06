@@ -40,6 +40,7 @@
 #include "QuadtreeRoot.h"
 #include <Application.h>
 #include "Player.h"
+#include "Player2.h"
 #include "TextoGL.h"
 #include "fpsGL.h"
 #include <SIMessage.h>
@@ -135,6 +136,7 @@ extern CBonus			defaultBonus;
 extern CBrick			defaultBrick;
 extern CBunker			defaultBunker;
 extern CPlayer			defaultPlayer;
+extern CPlayer2			defaultPlayer2;
 extern CShip			defaultShip;
 extern CSupplyShip		defaultSShip;
 extern CCircleShip		defaultCShip;
@@ -145,6 +147,7 @@ extern CLog				Log;				///<For logging performance, tracing,...
 
 ///Amount of players simultaneously available when playing
 extern CPlayer			Player[CP_MAX_PLAYERS];	// PLAYERS AVAILABLE
+extern CPlayer2			Player2[CP_MAX_PLAYERS];	// PLAYERS AVAILABLE
 extern int				CurrentPlayer;
 
 extern float			UGKALG_NullMatrix[16];

@@ -225,6 +225,7 @@ public:
 	double ShipTemp;
 	double NavyShipsTemp;
 	double PlayerTemp;
+	double Player2Temp;
 	double ShootsTemp;
 	double RenderTemp;
 	double UpdateTemp;

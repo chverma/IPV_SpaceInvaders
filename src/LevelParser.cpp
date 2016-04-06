@@ -95,6 +95,7 @@ char CLeP_Tags[MAXTAGS_L][CLeP_TAG_MAX_LONG] =
 	"TEXTURE3D_CHARACTER",
 	"TIMECIRCLESHIP",
 	"TIMEPLAYER",
+	"TIMEPLAYER2",
 	"TIMERENDER",
 	"TIMESHIP",
 	"TIMESHOOTS",
@@ -166,6 +167,7 @@ extern CBonus			defaultBonus;
 extern CBunker			defaultBunker;
 extern CBrick			defaultBrick;
 extern CPlayer			defaultPlayer;
+extern CPlayer2			defaultPlayer2;
 extern CShip			defaultShip;
 extern CSupplyShip		defaultSShip;
 
@@ -321,18 +323,20 @@ switch (Name[0])
 							if (strcmp(Name, CLeP_Tags[TYPE_L]))
 								if (strcmp(Name, CLeP_Tags[TIMECIRCLESHIP_L]))
 									if (strcmp(Name, CLeP_Tags[TIMEPLAYER_L]))
-										if (strcmp(Name, CLeP_Tags[TIMERENDER_L]))
-											if (strcmp(Name, CLeP_Tags[TIMESHIP_L]))
-												if (strcmp(Name, CLeP_Tags[TIMESHOOTS_L]))
-													if (strcmp(Name, CLeP_Tags[TIMESUPPLYSHIP_L]))
-														if (strcmp(Name, CLeP_Tags[TIMEBONUS_L]))
-															if (strcmp(Name, CLeP_Tags[TIMEUPDATE_L])) return UNKNOWN_L;
-															else	return TIMEBONUS_L;
-														else	return TIMEUPDATE_L;
-													else		return TIMESUPPLYSHIP_L;
-												else			return TIMESHOOTS_L;
-											else				return TIMESHIP_L;
-										else					return TIMERENDER_L;
+										if (strcmp(Name, CLeP_Tags[TIMEPLAYER2_L]))
+											if (strcmp(Name, CLeP_Tags[TIMERENDER_L]))
+												if (strcmp(Name, CLeP_Tags[TIMESHIP_L]))
+													if (strcmp(Name, CLeP_Tags[TIMESHOOTS_L]))
+														if (strcmp(Name, CLeP_Tags[TIMESUPPLYSHIP_L]))
+															if (strcmp(Name, CLeP_Tags[TIMEBONUS_L]))
+																if (strcmp(Name, CLeP_Tags[TIMEUPDATE_L])) return UNKNOWN_L;
+																else	return TIMEBONUS_L;
+															else	return TIMEUPDATE_L;
+														else		return TIMESUPPLYSHIP_L;
+													else			return TIMESHOOTS_L;
+												else				return TIMESHIP_L;
+											else					return TIMERENDER_L;
+										else						return TIMEPLAYER2_L;
 									else						return TIMEPLAYER_L;
 								else							return TIMECIRCLESHIP_L;
 							else								return TYPE_L;
@@ -554,6 +558,7 @@ void CLevelReader::StartTag(CLiteHTMLTag *pTag, DWORD dwAppData, bool &bAbort)
 					case TIMEBONUS_L:
 					case TIMESUPPLYSHIP_L:
 					case TIMEPLAYER_L:
+					case TIMEPLAYER2_L:
 					case TIMERENDER_L:
 					case TIMEUPDATE_L:
 					case SHIPSAMOUNT_L:
@@ -809,6 +814,7 @@ void CLevelReader::EndTag(CLiteHTMLTag *pTag, DWORD dwAppData, bool &bAbort)
 	case TIMEBONUS_L:
 	case TIMESUPPLYSHIP_L:
 	case TIMEPLAYER_L:
+	case TIMEPLAYER2_L:
 	case TIMERENDER_L:
 	case TIMEUPDATE_L:
 	 case TITLE_L:		
@@ -836,6 +842,12 @@ void CLevelReader::EndTag(CLiteHTMLTag *pTag, DWORD dwAppData, bool &bAbort)
 						else
 							Player[CurrentPlayer].IndAnimation2D = AnimationsManager.SearchIndOfName(msjAux);
 							break;
+					case CHARS_PLAYER2:
+						if(!AnimationExist)
+							Player2[CurrentPlayer].IndAnimation2D = AnimationsManager.Animations.size()-1;
+						else
+							Player2[CurrentPlayer].IndAnimation2D = AnimationsManager.SearchIndOfName(msjAux);
+							break;
 					case CHARS_SHIP:
 						//ACHTUNG: PENDIENTE DE CREAR SHIPS DESDE MATRIZ DE LEVEL
 						/*if(!AnimationExist)
@@ -858,11 +870,15 @@ void CLevelReader::EndTag(CLiteHTMLTag *pTag, DWORD dwAppData, bool &bAbort)
 						break;
 					case CHARS_LASER:
 						if(!AnimationExist)
-							for(int i=0;i<CP_MAX_LASERS;i++)
+							for(int i=0;i<CP_MAX_LASERS;i++){
 								Player[CurrentPlayer].Laser[i].IndAnimation2D = AnimationsManager.Animations.size()-1;
+								Player2[CurrentPlayer].Laser[i].IndAnimation2D = AnimationsManager.Animations.size()-1;
+							}
 						else
-							for(int i=0;i<CP_MAX_LASERS;i++)
+							for(int i=0;i<CP_MAX_LASERS;i++){
 								Player[CurrentPlayer].Laser[i].IndAnimation2D = AnimationsManager.SearchIndOfName(msjAux);
+								Player2[CurrentPlayer].Laser[i].IndAnimation2D = AnimationsManager.SearchIndOfName(msjAux);
+							}
 							break;
 					case CHARS_SPHERE_OGIVE:
 						if(!AnimationExist)
@@ -982,6 +998,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	{
 	case ACCELERATION_L:
 		Player[CurrentPlayer].Acceleration.v[XDIM] = atof (rText);
+		Player2[CurrentPlayer].Acceleration.v[XDIM] = atof (rText);
 		break;
 	case BOUNCE_L:
 		if (atoi(rText))
@@ -1006,6 +1023,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 						break;
 					 case CHARS_PLAYER:
 						 Player[CurrentPlayer].Hit_duration = f;
+						 break;
+					 case CHARS_PLAYER2:
+						 Player2[CurrentPlayer].Hit_duration = f;
 						 break;
 					 case CHARS_SHIP:						
 						Navy.Ship[Navy.CurrentShip]->Hit_duration = f;
@@ -1042,6 +1062,12 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 								Player[CurrentPlayer].Health = Player[CurrentPlayer].MaxHealth = intAux;
 						 else	if (intAux == CP_INFINITE_LIVES)
 								Player[CurrentPlayer].Health = Player[CurrentPlayer].MaxHealth = CP_INFINITE_LIVES;
+						 break;
+					case CHARS_PLAYER2:
+						 if(intAux>0)
+								Player2[CurrentPlayer].Health = Player2[CurrentPlayer].MaxHealth = intAux;
+						 else	if (intAux == CP_INFINITE_LIVES)
+								Player2[CurrentPlayer].Health = Player2[CurrentPlayer].MaxHealth = CP_INFINITE_LIVES;
 						 break;
 					 case CHARS_SHIP:
 						 if(intAux > 0)
@@ -1182,6 +1208,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 		break;
 	case LIVES_L:		//Amount of ships the Player has still before finishing the game
 			Player[CurrentPlayer].Lives = atoi(rText);
+			Player2[CurrentPlayer].Lives = atoi(rText);
 		break;
 	case MESH_CHARACTER_L:
 			switch (CLeP_CharType)
@@ -1239,6 +1266,21 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 						strcpy(Player[CurrentPlayer].MeshName, defaultPlayer.MeshName);
 					}			
 					break;
+				case CHARS_PLAYER2:
+					strcpy(msj, rText);
+					if(strcmp(msj, defaultPlayer2.MeshName)){		//return 0 if strings are equal
+						MeshesManager.AddModel(msj);
+						Player2[CurrentPlayer].IndMesh	= MeshesManager.Meshes.size()-1;
+						Player2[CurrentPlayer].Mesh		= MeshesManager.Meshes[Player2[CurrentPlayer].IndMesh];
+						strcpy(Player2[CurrentPlayer].MeshName, Player2[CurrentPlayer].Mesh->GetFileName());
+					}
+					else
+					{
+						Player2[CurrentPlayer].IndMesh	= defaultPlayer2.IndMesh;
+						Player2[CurrentPlayer].Mesh		= defaultPlayer2.Mesh;
+						strcpy(Player2[CurrentPlayer].MeshName, defaultPlayer2.MeshName);
+					}			
+					break;
 				case CHARS_LASER:
 					strcpy(msj, rText);
 					if(strcmp(msj, defaultPlayer.Laser[CP_LEFT_LASER].MeshName))
@@ -1262,6 +1304,29 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 						Player[CurrentPlayer].Laser[CP_RIGHT_LASER].IndMesh = defaultPlayer.Laser[CP_LEFT_LASER].IndMesh;
 						Player[CurrentPlayer].Laser[CP_RIGHT_LASER].Mesh	= defaultPlayer.Laser[CP_LEFT_LASER].Mesh;
 						strcpy(Player[CurrentPlayer].Laser[CP_RIGHT_LASER].MeshName, defaultPlayer.Laser[CP_LEFT_LASER].Mesh->GetFileName());
+					}
+
+					if(strcmp(msj, defaultPlayer2.Laser[CP_LEFT_LASER].MeshName))
+					{		//return 0 if strings are equal
+						MeshesManager.AddModel(msj);		
+						Player2[CurrentPlayer].Laser[CP_LEFT_LASER].IndMesh	= MeshesManager.Meshes.size()-1;
+						Player2[CurrentPlayer].Laser[CP_LEFT_LASER].Mesh		= MeshesManager.Meshes[Player2[CurrentPlayer].Laser[CP_LEFT_LASER].IndMesh];
+						strcpy(Player2[CurrentPlayer].Laser[CP_LEFT_LASER].MeshName, Player2[CurrentPlayer].Laser[CP_LEFT_LASER].Mesh->GetFileName());
+				
+						Player2[CurrentPlayer].Laser[CP_RIGHT_LASER].IndMesh = MeshesManager.Meshes.size()-1;
+						Player2[CurrentPlayer].Laser[CP_RIGHT_LASER].Mesh	= MeshesManager.Meshes[Player2[CurrentPlayer].Laser[CP_RIGHT_LASER].IndMesh];
+						strcpy(Player2[CurrentPlayer].Laser[CP_RIGHT_LASER].MeshName, Player2[CurrentPlayer].Laser[CP_RIGHT_LASER].Mesh->GetFileName());
+					}
+					else
+					{		//return 0 if strings are equal
+						MeshesManager.AddModel(msj);		
+						Player2[CurrentPlayer].Laser[CP_LEFT_LASER].IndMesh	= defaultPlayer2.Laser[CP_LEFT_LASER].IndMesh;
+						Player2[CurrentPlayer].Laser[CP_LEFT_LASER].Mesh		= defaultPlayer2.Laser[CP_LEFT_LASER].Mesh;
+						strcpy(Player2[CurrentPlayer].Laser[CP_LEFT_LASER].MeshName, defaultPlayer2.Laser[CP_LEFT_LASER].Mesh->GetFileName());
+				
+						Player2[CurrentPlayer].Laser[CP_RIGHT_LASER].IndMesh = defaultPlayer2.Laser[CP_LEFT_LASER].IndMesh;
+						Player2[CurrentPlayer].Laser[CP_RIGHT_LASER].Mesh	= defaultPlayer2.Laser[CP_LEFT_LASER].Mesh;
+						strcpy(Player2[CurrentPlayer].Laser[CP_RIGHT_LASER].MeshName, defaultPlayer2.Laser[CP_LEFT_LASER].Mesh->GetFileName());
 					}
 				
 					break;
@@ -1335,6 +1400,15 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 				CurrentPlayer			= CP_DEFAULT_PLAYER;
 				Player[CurrentPlayer]	= defaultPlayer;
 				break;
+			case CHARS_PLAYER2:
+				//The Players are be defined in Global definitions. If it is not defined, a new player has to be created here.
+			/*	CurrentPlayer++;	//The first time CurrentPlayer passes from CP_NO_PLAYER (-1) to player 0
+				if (CP_MAX_PLAYERS < CurrentPlayer) 
+					CurrentPlayer = CP_MAX_PLAYERS-1;	///There is a limit for the amount of simultaneous players 
+			*/
+				CurrentPlayer			= CP_DEFAULT_PLAYER;
+				Player2[CurrentPlayer]	= defaultPlayer2;
+				break;
 			case CHARS_SHIP:
 				//Ship = new CShip;
 				//*Ship = defaultShip;
@@ -1381,6 +1455,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			case CHARS_BRICK:
 			case CHARS_BUNKER:
 			case CHARS_PLAYER:
+			case CHARS_PLAYER2:
 			case CHARS_SHIP:
 			case CHARS_SUPPLYSHIP:
 			case CHARS_CIRCLESHIP:
@@ -1424,6 +1499,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			case CHARS_BRICK:
 			case CHARS_BUNKER:
 			case CHARS_PLAYER:
+			case CHARS_PLAYER2:
 			case CHARS_SHIP:
 			case CHARS_SUPPLYSHIP:
 			case CHARS_CIRCLESHIP:
@@ -1518,6 +1594,13 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 					Player[CurrentPlayer].IndTexture2D = TexturesManager.Textures.size()-1;
 				}
 				 break;
+			case CHARS_PLAYER2:
+				strcpy(msj, rText);
+				if(strcmp(msj, TexturesManager.Textures[defaultPlayer2.IndTexture2D]->GetFileName())){
+					TexturesManager.CreateTexture(msj);
+					Player2[CurrentPlayer].IndTexture2D = TexturesManager.Textures.size()-1;
+				}
+				 break;
 			case CHARS_SHIP:
 				strcpy(msj, rText);
 				if(strcmp(msj, TexturesManager.Textures[defaultShip.IndTexture2D]->GetFileName())){
@@ -1553,6 +1636,13 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			case CHARS_BUNKER:
 				 break;
 			case CHARS_PLAYER:
+				strcpy(msj, rText);		
+				if(!AnimationExist){
+					TexturesManager.CreateTexture(msj);
+					AnimationsManager.Animations.back()->AddPhotogram(TexturesManager.Textures.back());
+				}
+				 break;
+			case CHARS_PLAYER2:
 				strcpy(msj, rText);		
 				if(!AnimationExist){
 					TexturesManager.CreateTexture(msj);
@@ -1598,6 +1688,13 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 				if(strcmp(msj, TexturesManager.Textures[defaultPlayer.IndTexture3D]->GetFileName())){
 					TexturesManager.CreateTexture(msj);
 					Player[CurrentPlayer].IndTexture3D = TexturesManager.Textures.size()-1;
+				}
+				 break;
+			case CHARS_PLAYER2:
+				strcpy(msj, rText);
+				if(strcmp(msj, TexturesManager.Textures[defaultPlayer2.IndTexture3D]->GetFileName())){
+					TexturesManager.CreateTexture(msj);
+					Player2[CurrentPlayer].IndTexture3D = TexturesManager.Textures.size()-1;
 				}
 				 break;
 			case CHARS_SHIP:
@@ -1649,6 +1746,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case TIMEPLAYER_L:
 		Game.PlayerTemp=atoi(rText);
 		break;
+	case TIMEPLAYER2_L:
+		Game.Player2Temp=atoi(rText);
+		break;
 	case TIMERENDER_L:
 		Game.RenderTemp=atof(rText);
 		break;
@@ -1697,6 +1797,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 			case CHARS_BRICK:
 			case CHARS_BUNKER:
 			case CHARS_PLAYER:
+			case CHARS_PLAYER2:
 			case CHARS_SHIP:
 			case CHARS_SUPPLYSHIP:
 			case CHARS_CIRCLESHIP:
@@ -1753,6 +1854,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 				 case CHARS_PLAYER:
 					 Player[CurrentPlayer].MoveTo(f, Player[CurrentPlayer].Position.v[YDIM], Player[CurrentPlayer].Position.v[ZDIM]);
 					 break;
+				 case CHARS_PLAYER2:
+					 Player2[CurrentPlayer].MoveTo(f, Player2[CurrentPlayer].Position.v[YDIM], Player2[CurrentPlayer].Position.v[ZDIM]);
+					 break;
 				 case CHARS_SUPPLYSHIP:
 					 Navy.SupplyShip[Navy.CurrentSupplyShip]->MoveTo(f, Navy.SupplyShip[Navy.CurrentSupplyShip]->Position.v[YDIM], Navy.SupplyShip[Navy.CurrentSupplyShip]->Position.v[ZDIM]);
 					 break;
@@ -1778,6 +1882,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 					 break;
 				 case CHARS_PLAYER:
 					 Player[CurrentPlayer].Speed.v[XDIM] = f;
+					 break;
+				 case CHARS_PLAYER2:
+					 Player2[CurrentPlayer].Speed.v[XDIM] = f;
 					 break;
 				 case CHARS_SUPPLYSHIP:
 					 Navy.SupplyShip[Navy.CurrentSupplyShip]->Speed.v[XDIM] = f;
@@ -1824,6 +1931,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 				 case CHARS_PLAYER:
 					 Player[CurrentPlayer].MoveTo(Player[CurrentPlayer].Position.v[XDIM], f, Player[CurrentPlayer].Position.v[ZDIM]);
 					 break;
+				 case CHARS_PLAYER2:
+					 Player2[CurrentPlayer].MoveTo(Player2[CurrentPlayer].Position.v[XDIM], f, Player2[CurrentPlayer].Position.v[ZDIM]);
+					 break;
 				 case CHARS_SUPPLYSHIP:
 					 Navy.SupplyShip[Navy.CurrentSupplyShip]->MoveTo(Navy.SupplyShip[Navy.CurrentSupplyShip]->Position.v[XDIM], f, Navy.SupplyShip[Navy.CurrentSupplyShip]->Position.v[ZDIM]);
 					 break;
@@ -1849,6 +1959,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 					 break;
 				 case CHARS_PLAYER:
 					 Player[CurrentPlayer].Speed.v[YDIM] = f;
+					 break;
+				 case CHARS_PLAYER2:
+					 Player2[CurrentPlayer].Speed.v[YDIM] = f;
 					 break;
 				 case CHARS_SUPPLYSHIP: 
 					 Navy.SupplyShip[Navy.CurrentSupplyShip]->Speed.v[YDIM] = f;
@@ -1895,6 +2008,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 				 case CHARS_PLAYER:
 					 Player[CurrentPlayer].MoveTo(Player[CurrentPlayer].Position.v[XDIM], Player[CurrentPlayer].Position.v[YDIM], f);
 					 break;
+				 case CHARS_PLAYER2:
+					 Player2[CurrentPlayer].MoveTo(Player2[CurrentPlayer].Position.v[XDIM], Player2[CurrentPlayer].Position.v[YDIM], f);
+					 break;
 				 case CHARS_SUPPLYSHIP:
 					 Navy.SupplyShip[Navy.CurrentSupplyShip]->MoveTo(Navy.SupplyShip[Navy.CurrentSupplyShip]->Position.v[XDIM], Navy.SupplyShip[Navy.CurrentSupplyShip]->Position.v[YDIM], f);
 					 break;
@@ -1920,6 +2036,9 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 					 break;
 				 case CHARS_PLAYER:
 					 Player[CurrentPlayer].Speed.v[ZDIM] = f;
+					 break;
+				 case CHARS_PLAYER2:
+					 Player2[CurrentPlayer].Speed.v[ZDIM] = f;
 					 break;
 				 case CHARS_SUPPLYSHIP:
 					 Navy.SupplyShip[Navy.CurrentSupplyShip]->Speed.v[ZDIM] = f;
