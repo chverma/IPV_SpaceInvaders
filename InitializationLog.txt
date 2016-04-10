@@ -288,35 +288,6 @@ First tag was not an HTML tag.RADIO
 This file does not corresponds to this videogame.1
  clossing tag out from the HTML section.RADIO
 This file does not corresponds to this videogame.
-		
-First tag was not an HTML tag.CENTER
-Initialization parser error:  allowed in a CENTER group.CHARACTERBegining the file parsing.
-This file does not corresponds to this videogame. 
-		    
-First tag was not an HTML tag.X
-Initialization parser error:  allowed in a X group.CHARACTERBegining the file parsing.
-This file does not corresponds to this videogame.0.002
- clossing tag out from the HTML section.X
-Initialization parser error: X segment.BODY segment.
-This file does not corresponds to this videogame.
-		    
-First tag was not an HTML tag.Y
-Initialization parser error:  allowed in a Y group.CHARACTERBegining the file parsing.
-This file does not corresponds to this videogame.0.0
- clossing tag out from the HTML section.Y
-Initialization parser error: Y segment.BODY segment.
-This file does not corresponds to this videogame.
-		    
-First tag was not an HTML tag.Z
-Initialization parser error:  allowed in a Z group.CHARACTERBegining the file parsing.
-This file does not corresponds to this videogame.0.0
- clossing tag out from the HTML section.Z
-Initialization parser error: Z segment.BODY segment.
-This file does not corresponds to this videogame.
-	    
- clossing tag out from the HTML section.CENTER
-Initialization parser error: CENTER segment.BODY segment.
-This file does not corresponds to this videogame.
     
  clossing tag out from the HTML section.CHARACTER
 This file does not corresponds to this videogame.
@@ -557,6 +528,7 @@ This file does not corresponds to this videogame.
 	
  clossing tag out from the HTML section.CHARACTER
 This file does not corresponds to this videogame.
+
 
 	
 First tag was not an HTML tag.SCORES

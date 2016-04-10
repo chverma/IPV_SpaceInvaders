@@ -53,7 +53,7 @@
 #define CSIG_INITIALIZATION_LOG_FILE	".\\InitializationLog.txt"
 //ANA
 #define CSIG_LANGUAGE_LOG_FILE	".\\LANInitializationLog.txt"
-#define CSIG_GAME_ULEVEL_FILE			".\\Levels\\UserLevels\\"
+#define CSIG_GAME_ULEVEL_FILE			".\\Levels\\"
 
 #define CSIG_MIN_UPDATETIME_OBJECTS	40	//ms. None of the objects should update over this period of time.
 

@@ -170,6 +170,7 @@ void CHTMLParser::Init(char *FileName)
 	{
 		Version	= NULL;
 		Title	= NULL;
+
 	}
 	else
 		exit(0);	//Cannot open file. Finish program

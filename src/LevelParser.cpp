@@ -190,6 +190,8 @@ void CLevelReader::TagError(char *Text)
 
 CLevelReader::CLevelReader()
 {
+	Version	= NULL;
+	Title	= NULL;
 	strcpy(Type,"Level");	//Type of parser
 	ResetState();
 	StateStack.push(NIL_L);

@@ -104,6 +104,38 @@ This file does not corresponds to this videogame.
  clossing tag out from the HTML section.CHARACTER
 This file does not corresponds to this videogame.
 
+	
+First tag was not an HTML tag.CHARACTER
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.NAME
+This file does not corresponds to this videogame.PLAYER2
+ clossing tag out from the HTML section.NAME
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.HEALTH
+This file does not corresponds to this videogame.20
+ clossing tag out from the HTML section.HEALTH
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.EXPLOSION
+This file does not corresponds to this videogame.500
+ clossing tag out from the HTML section.EXPLOSION
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.LIVES
+This file does not corresponds to this videogame.3
+ clossing tag out from the HTML section.LIVES
+This file does not corresponds to this videogame.
+        
+First tag was not an HTML tag.MESH
+This file does not corresponds to this videogame.player2.3ds
+ clossing tag out from the HTML section.MESH
+This file does not corresponds to this videogame.
+    
+ clossing tag out from the HTML section.CHARACTER
+This file does not corresponds to this videogame.
+
     
 First tag was not an HTML tag.CHARACTER
 This file does not corresponds to this videogame.
@@ -127,7 +159,7 @@ First tag was not an HTML tag.CENTER
 This file does not corresponds to this videogame. 
 		    
 First tag was not an HTML tag.X
-This file does not corresponds to this videogame.3.0
+This file does not corresponds to this videogame.1.0
  clossing tag out from the HTML section.X
 This file does not corresponds to this videogame.
 	    
