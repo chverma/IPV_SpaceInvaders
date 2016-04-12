@@ -1840,6 +1840,8 @@ void CSIGame::RunMainLoop(){
 				//Player Update
 				Player[CurrentPlayer].Update();
 
+				//Player2 Update
+				Player2[CurrentPlayer].Update();
 				#ifdef DEF_IDL_TIME
 				TimerManager.Timers[TmrIdl].InitCounting();
 				#endif
