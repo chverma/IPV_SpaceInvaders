@@ -814,6 +814,9 @@ void CSIGame::ChangeRenderMode(CHAR_RENDER_MODE Mode)
 	//Players
 	for(i=0;i<CP_MAX_PLAYERS;i++)	Player[i].ChangeRenderMode(RenderMode);
 
+	//Players
+	for(i=0;i<CP_MAX_PLAYERS;i++)	Player2[i].ChangeRenderMode(RenderMode);
+
 	//Bonus
 	BonusManager.ChangeRenderMode(RenderMode);
 	DiscreteBonusManager.ChangeRenderMode(RenderMode);
@@ -1218,6 +1221,8 @@ bool CSIGame::Initialize (void)
 	for(i=0;i<CP_MAX_PLAYERS;i++)
 		Player[i] = defaultPlayer;
 
+	for(i=0;i<CP_MAX_PLAYERS;i++)
+		Player2[i] = defaultPlayer2;
 	StartAnimations();
 
 	//Creates a thread in order to speed up the loading of the sounds

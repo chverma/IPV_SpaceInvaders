@@ -77,6 +77,9 @@ typedef enum {
 	CSIK_PLAYER_PAUSE,
 	CSIK_HELP,
 
+	CSIK_PLAYER2_MOVE_RIGHT,	///<Player2 ship is move rightwards
+	CSIK_PLAYER2_MOVE_LEFT,	///<Player2 ship is move leftwards
+	CSIK_PLAYER2_SHOOT,		///<Laser fire
 	CSIK_MAX_KBD_ACTION			///<For accounting purpouses only
 } CSIK_KEYBOARD_ACTION;
 

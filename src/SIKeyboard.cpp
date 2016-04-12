@@ -46,7 +46,11 @@ float	CSIK_ActionsDelay	[CSIK_MAX_KBD_ACTION] = {
 	200,	//CSIK_TEXT2D
 
 	1000,	//CSIK_PLAYER_PAUSE
-	200		//CSIK_HELP
+	200,		//CSIK_HELP
+
+	0,		//CSIK_PLAYER2_MOVE_RIGHT	Player2 ship is move rightwards
+	0,		//CSIK_PLAYER2_MOVE_LEFT		Player2 ship is move leftwards
+	200,	//CSIK_PLAYER2_SHOOT			Laser fire. 10 shoots per second
 };
 
 /*______________________________________________________________________________________
@@ -59,7 +63,7 @@ float	CSIK_ActionsDelay	[CSIK_MAX_KBD_ACTION] = {
 	 [ESC]                 -> Game Quit
 	 [+], [-]              -> Zoom in/out respectively TODO
 	 [SPACE]               -> Change music
- 	 [F1]                  -> Change game from 2D to 3D and viceversa
+ 	 [F1]                  -> Change gaame from 2D to 3D and viceversa
 	 [A]                   -> Anti-aliasing on/off
 	 [B]                   -> Change background
 	 [L]                   -> Change Level of playing
@@ -108,7 +112,10 @@ unsigned char	CSIK_ActionKeys	[CSIK_MAX_KBD_ACTION] = {
 	'T',		//CSIK_TEXT2D
 
 	'P',		//CSIK_PLAYER_PAUSE
-	'H'			//CSIK_HELP
+	'H',			//CSIK_HELP
+	'I',		//Plyaer 2 right
+	'Y',		//player2 left
+	'7'			//player2 shoot
 };
 
 /**
@@ -141,6 +148,28 @@ void CSIKeyboard::Update ()	///<Release a new key from the active list of key pr
 				Player[CurrentPlayer].ManageEvent(CP_MOVE_RIGHT);
 			}
 			break;
+		case CSIK_PLAYER2_SHOOT:
+			if (HRTimerManager.Timers[CSIK_PLAYER2_SHOOT].IsSounding())
+			{
+				HRTimerManager.Timers[CSIK_PLAYER2_SHOOT].ResetAlarm();
+				Player2[CurrentPlayer].ManageEvent(CP_SHOOT);
+			}
+			break;
+		case CSIK_PLAYER2_MOVE_LEFT:
+			if (HRTimerManager.Timers[CSIK_PLAYER2_MOVE_LEFT].IsSounding())
+			{
+				HRTimerManager.Timers[CSIK_PLAYER2_MOVE_LEFT].ResetAlarm();
+				Player2[CurrentPlayer].ManageEvent(CP_MOVE_LEFT);
+			}
+			break;
+		case CSIK_PLAYER2_MOVE_RIGHT:
+			if (HRTimerManager.Timers[CSIK_PLAYER2_MOVE_RIGHT].IsSounding())
+			{
+				HRTimerManager.Timers[CSIK_PLAYER2_MOVE_RIGHT].ResetAlarm();
+				Player2[CurrentPlayer].ManageEvent(CP_MOVE_RIGHT);
+			}
+			break;
+
 		case CSIK_GAME_END:
 			Game.GameEvent(CSIG_FADING2END);		//v Controlado 4->12
 			break;

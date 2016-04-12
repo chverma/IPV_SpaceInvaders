@@ -23,7 +23,7 @@ bool CPlayer2::Init ()	//Used when all the values are initialized by default
 						//when reading the global initialization game file. 
 						//Returns true if the initialization of the attirbute has been correctly done
 {
-	Type			=	CHARS_PLAYER;
+	Type			=	CHARS_PLAYER2;
 	Lives			=	CP_DEFAULT_LIVES;
 	Health			=	MaxHealth = CP_MAX_HEALTH;
 	Hit_duration	=	CP_MAX_MAX_HIT_DUR;

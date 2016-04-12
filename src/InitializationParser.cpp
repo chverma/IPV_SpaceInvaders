@@ -805,7 +805,7 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 					strcpy(msj, rText);
 					MeshesManager.AddModel(msj);
 					defaultPlayer2.IndMesh = MeshesManager.Meshes.size()-1;
-					defaultPlayer2.Mesh = MeshesManager.Meshes[defaultPlayer.IndMesh];
+					defaultPlayer2.Mesh = MeshesManager.Meshes[defaultPlayer2.IndMesh];
 					strcpy(defaultPlayer2.MeshName, defaultPlayer2.Mesh->GetFileName());
 				}
 				 break;
