@@ -22,7 +22,7 @@
 //#define UGKSND_SDL 4
 
 #ifdef UGKSND_FMOD375
-	#include <fmod.h>
+	#include <obsoletos/fmod.h>
 	#define FMOD_ERR_UNKNOWN	FMOD_ERR_CDDEVICE + 1
 	#define FMOD_ERR_MAX		FMOD_ERR_UNKNOWN + 1
 #elif defined(UGKSND_FMODEx)

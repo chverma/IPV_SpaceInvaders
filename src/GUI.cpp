@@ -568,41 +568,43 @@ void CGUI::display_score_hiscore_lives()
 void CGUI::display_below_lives()
 {
 	//glEnable(GL_BLEND);
-	
-	glColor4f (1.0f, 1.0f, 1.0f, 1.0f);
-	// la figura 0, 1, 2 ou 3 
-	TexturesManager.Textures[CTM_NUMBER0 + Player[CurrentPlayer].Lives]->SetTexture();
-	glBegin (GL_QUADS);
-		glTexCoord2f (0,1);	glVertex2f (CSIG_PG_LEFT  - .4f, -6.9f +.25f);
-		glTexCoord2f (0,0);	glVertex2f (CSIG_PG_LEFT  - .4f, -6.9f -.25f);
-		glTexCoord2f (1,0);	glVertex2f (CSIG_PG_LEFT  + .4f, -6.9f -.25f);
-		glTexCoord2f (1,1);	glVertex2f (CSIG_PG_LEFT  + .4f, -6.9f +.25f);
-	glEnd ();
-
-	// ALPHA TEST + BLEND
-	glAlphaFunc(GL_GREATER, 0.3f);								// for TGA alpha test
-	glEnable(GL_ALPHA_TEST);									// for TGA alpha test
-	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);			// for anti-aliasing
-
-	// los buques en el verde abajo a la derecha
-	for (int k=1; k <= Player[CurrentPlayer].Lives; k++)
-	{
+	//<This check must be removed when Player[CurrentPlayer].Lives doesn't reach 65555.
+	if(Player[CurrentPlayer].Lives>0 && Player[CurrentPlayer].Lives<4){
 		glColor4f (1.0f, 1.0f, 1.0f, 1.0f);
-		if (CHAR_2D == Game.RenderMode)
-			TexturesManager.Textures[Player[CurrentPlayer].IndTexture2D]->SetTexture();
-		else
-			TexturesManager.Textures[CTM_PLAYER3D]->SetTexture();
-
+		// la figura 0, 1, 2 ou 3 
+		TexturesManager.Textures[CTM_NUMBER0 + Player[CurrentPlayer].Lives]->SetTexture();
 		glBegin (GL_QUADS);
-			glTexCoord2f (0,1);	glVertex2f (CSIG_PG_LEFT + k/1.3f - .3f, -6.9f +.25f);
-			glTexCoord2f (0,0);	glVertex2f (CSIG_PG_LEFT + k/1.3f - .3f, -6.9f -.25f);
-			glTexCoord2f (1,0);	glVertex2f (CSIG_PG_LEFT + k/1.3f + .3f, -6.9f -.25f);
-			glTexCoord2f (1,1);	glVertex2f (CSIG_PG_LEFT + k/1.3f + .3f, -6.9f +.25f);
-		glEnd ();		
+			glTexCoord2f (0,1);	glVertex2f (CSIG_PG_LEFT  - .4f, -6.9f +.25f);
+			glTexCoord2f (0,0);	glVertex2f (CSIG_PG_LEFT  - .4f, -6.9f -.25f);
+			glTexCoord2f (1,0);	glVertex2f (CSIG_PG_LEFT  + .4f, -6.9f -.25f);
+			glTexCoord2f (1,1);	glVertex2f (CSIG_PG_LEFT  + .4f, -6.9f +.25f);
+		glEnd ();
+
+		// ALPHA TEST + BLEND
+		glAlphaFunc(GL_GREATER, 0.3f);								// for TGA alpha test
+		glEnable(GL_ALPHA_TEST);									// for TGA alpha test
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);			// for anti-aliasing
+
+		// los buques en el verde abajo a la derecha
+		for (int k=1; k <= Player[CurrentPlayer].Lives; k++)
+		{
+			glColor4f (1.0f, 1.0f, 1.0f, 1.0f);
+			if (CHAR_2D == Game.RenderMode)
+				TexturesManager.Textures[Player[CurrentPlayer].IndTexture2D]->SetTexture();
+			else
+				TexturesManager.Textures[CTM_PLAYER3D]->SetTexture();
+
+			glBegin (GL_QUADS);
+				glTexCoord2f (0,1);	glVertex2f (CSIG_PG_LEFT + k/1.3f - .3f, -6.9f +.25f);
+				glTexCoord2f (0,0);	glVertex2f (CSIG_PG_LEFT + k/1.3f - .3f, -6.9f -.25f);
+				glTexCoord2f (1,0);	glVertex2f (CSIG_PG_LEFT + k/1.3f + .3f, -6.9f -.25f);
+				glTexCoord2f (1,1);	glVertex2f (CSIG_PG_LEFT + k/1.3f + .3f, -6.9f +.25f);
+			glEnd ();		
+		}
+		// BACK TO NON ALPHA TEST + PREVIOUS BLEND
+		glDisable(GL_ALPHA_TEST);
+		//glDisable(GL_BLEND);
 	}
-	// BACK TO NON ALPHA TEST + PREVIOUS BLEND
-	glDisable(GL_ALPHA_TEST);
-	//glDisable(GL_BLEND);
 }
 
 /**   

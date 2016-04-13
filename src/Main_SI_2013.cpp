@@ -64,23 +64,23 @@ DWORD  SetUpHCI ()
 	HMENU hLoad		= CreateMenu();
 	HMENU hHelp		= CreateMenu();
 	HMENU idioma	= CreateMenu();
+	HMENU maxMinWin = CreateMenu();
 
-	AppendMenu(hMenubar, MF_POPUP, (UINT_PTR)hGame, LPCSTR(SIGLB_GetText(TR_MENU_WINDOW_SI))); //"Space Invaders"
+	AppendMenu(hMenubar, MF_POPUP, (UINT_PTR)hGame, LPCSTR("Game")); //"Space Invaders"
 	
 	AppendMenu(hMenubar, MF_POPUP, (UINT_PTR)hLoad, LPCSTR("Load Level"));
-	AppendMenu(hMenubar, MF_POPUP, (UINT_PTR)hHelp, LPCSTR(SIGLB_GetText(TR_MENU_WINDOW_HELP)));	//"Help"
+	
+	AppendMenu(hMenubar, MF_POPUP, (UINT_PTR)hHelp, LPCSTR("Help"));	//"Help"
 
 	AppendMenu(hMenubar, MF_POPUP, (UINT_PTR)idioma, LPCSTR("Language"));
-	AppendMenu(hGame, MF_STRING, ID_Start, LPCSTR(SIGLB_GetText(TR_FUNCTIONS_START_GAME)));	//"Start Game"
+	AppendMenu(hGame, MF_STRING, ID_Start, LPCSTR("Start game"));	//"Start Game"
+	AppendMenu(hGame, MF_STRING, ID_FULLSCREEN, LPCSTR("Max/Min Window"));
 	AppendMenu(hGame, MF_STRING, ID_Exit, LPCSTR("Exit"));
 
-	AppendMenu(idioma, MF_STRING, ID_LANGUAGE_FR, LPCSTR(SIGLB_GetText(TR_TAG_FRENCH)));	//French
-	
-	AppendMenu(idioma, MF_STRING, ID_LANGUAGE_ES, LPCSTR(SIGLB_GetText(TR_TAG_SPANISH)));	//Spanish
-	
-	AppendMenu(idioma, MF_STRING, ID_LANGUAGE_EN, LPCSTR(SIGLB_GetText(TR_TAG_ENGLISH)));	//English
-	
-	AppendMenu(idioma, MF_STRING, ID_LANGUAGE_CA, LPCSTR(SIGLB_GetText(TR_TAG_CATALAN)));	//Catalonian
+	AppendMenu(idioma, MF_STRING, ID_LANGUAGE_FR, LPCSTR("French"));	//French
+	AppendMenu(idioma, MF_STRING, ID_LANGUAGE_ES, LPCSTR("Spanish"));	//Spanish
+	AppendMenu(idioma, MF_STRING, ID_LANGUAGE_EN, LPCSTR("English"));	//English
+	AppendMenu(idioma, MF_STRING, ID_LANGUAGE_CA, LPCSTR("Catalan"));	//Catalonian
 
 	//Reading possible levels in .\Levels\UserLevels
 	TCHAR szDir[MAX_PATH];
@@ -405,6 +405,16 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 				GenerateFullLangName(DefaultLang, CA_DEFAULT_LANGUAGE_FILE);
 				CopyFile(SourceLang.c_str(),DefaultLang.c_str(),FALSE);				  
 				break;
+			case ID_FULLSCREEN:									// Toggle FullScreen Mode On/Off
+				Application.Window.Visible = TRUE;									// Set Visible To True
+				Application.Window.Width	= GraphicsCard.DeskTop.Width;
+				Application.Window.Height	= GraphicsCard.DeskTop.Height;
+				Game.ReshapeGL();				
+				break;
+			case ID_MINIMIZE:									// Toggle FullScreen Mode On/Off
+				Application.Window.Visible = FALSE;									// Set Visible To True
+				Game.ReshapeGL();				
+				break;		
 			}
 		}
 	case WM_PAINT:
