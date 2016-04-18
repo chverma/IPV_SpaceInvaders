@@ -54,6 +54,8 @@ char CHARS_Tags[CHARS_MAX_CHARTYPE][GCHAR_TAG_MAX_LONG ] =
 	"LASER",
 	"MISSIL",
 	"NAVY",
+	"NAVY_SHOOT",
+	"OGIVE",
 	"PLAYER",
 	"PLAYER2",
 	"PLAYER_SHOOT",
@@ -85,21 +87,26 @@ char CHARS_Transitions[CHARS_MAXTRANSITION][GCHAR_TAG_MAX_LONG ] =
 ///Every time a new character is included, this table has to be updated
 bool CHARS_COLLISION_TABLE[CHARS_MAX_CHARTYPE][CHARS_MAX_CHARTYPE] = 
 {
-//				UNKNOWN	BONUS	BRICK	BUNKER	LASER	MISSIL	NAVY	N_SHOOT	PLAYER	P_SHOOT	SHIP	OGIVE	SUPPLYSHIP	CIRCLESHIP	WEAPON	GAME
-/*UNKNOWN*/		{false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,		false,		false,	false},
-/*BONUS*/		{false,	false,	false,	false,	true,	false,	false,	false,	true,	false,	false,	false,	false,		false,		false,	false},
-/*BRICK*/		{false,	false,	false,	false,	true,	true,	true,	true,	true,	true,	true,	false,	true,		true,		false,	false},
-/*BUNKER*/		{false,	false,	false,	false,	true,	true,	true,	true,	true,	true,	true,	false,	true,		true,		false,	false},
-/*LASER*/		{false,	true,	true,	true,	false,	true,	true,	true,	false,	false,	true,	false,	true,		true,		false,	false},
-/*MISSIL*/		{false,	false,	true,	true,	true,	false,	true,	false,	true,	false,	true,	false,	true,		true,		false,	false},
-/*NAVY*/		{false,	false,	true,	true,	true,	true,	false,	false,	true,	true,	false,	false,	false,		false,		true,	false},
-/*N_SHOOT*/		{false,	false,	true,	true,	true,	false,	false,	false,	true,	false,	false,	false,	false,		false,		false,	false},
-/*PLAYER*/		{false,	true,	true,	true,	false,	true,	true,	true,	false,	false,	true,	false,	true,		true,		false,	false},
-/*P_SHOOT*/		{false,	false,	true,	true,	false,	false,	true,	false,	false,	false,	true,	false,	true,		true,		false,	false},
-/*SHIP*/		{false,	false,	true,	true,	true,	true,	false,	false,	true,	true,	false,	false,	false,		false,		true,	false},
-/*OGIVE*/		{false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,		false,		false,	false},
-/*SUPPLYSHIP*/	{false,	false,	true,	true,	true,	true,	false,	false,	true,	true,	false,	false,	false,		false,		true,	false},
-/*CIRCLESHIP*/	{false,	false,	true,	true,	true,	true,	false,	false,	true,	true,	false,	false,	false,		false,		true,	false},
-/*WEAPON*/		{false,	false,	false,	false,	false,	false,	true,	false,	false,	false,	true,	false,	true,		true,		false,	false},
-/*GAME*/		{false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,		false,		false,	false}
+//				UNKNOWN	BONUS	BRICK	BUNKER	BUNKER_M	CIRCLESHIP	GAME	LASER	MISSIL	NAVY	N_SHOOT	OGIVE	PLAYER	PLAYER2	P_SHOOT	REACTOR SHIP	S_SHOOT	SPH_OGIVE	SUPPLYSHIP	WEAPON	
+/*UNKNOWN*/		{false,	false,	false,	false,	false,		false,		false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,		false,		false},
+/*BONUS*/		{false,	false,	false,	false,	false,		false,		false,	true,	false,	false,	false,	false,	true,	true,	false,	true,	false,	true,	false,		false,		false},
+/*BRICK*/		{false,	false,	false,	false,	false,		true,		false,	true,	true,	true,	true,	false,	true,	true,	true,	true,	true,	true,	false,		true,		false},
+/*BUNKER*/		{false,	false,	false,	false,	false,		true,		false,	true,	true,	true,	true,	false,	true,	true,	true,	true,	false,	true,	false,		true,		false},
+/*BUNKER_M*/	{false,	false,	false,	false,	false,		false,		false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,		false,		false},
+/*CIRCLESHIP*/	{false, false,	true,	true,	false,		false,		false,	true,	true,	false,	false,	false,	true,	true,	true,	true,	false,	false,	false,		false,		true },
+/*GAME*/		{false,	false,	false,	false,	false,		false,		false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,		false,		false},
+/*LASER*/		{false,	true,	true,	true,	false,		true,		false,	false,	true,	true,	true,	false,	false,	false,	false,	false,	true,	true,	false,		true,		false},
+/*MISSIL*/		{false,	false,	true,	true,	false,		true,		false,	true,	false,	true,	false,	false,	true,	true,	false,	true,	true,	true,	false,		true,		false},
+/*NAVY*/		{false,	false,	true,	true,	false,		false,		false,	true,	true,	false,	false,	false,	true,	true,	true,	true,	false,	false,	false,		false,		true },
+/*N_SHOOT*/		{false,	false,	true,	true,	false,		false,		false,	true,	false,	false,	false,	false,	true,	true,	false,	true,	false,	false,	false,		false,		false},
+/*OGIVE*/		{false,	false,	false,	false,	false,		false,		false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,	false,		false,		false},
+/*PLAYER*/		{false,	true,	true,	true,	false,		true,		false,	false,	true,	true,	true,	false,	false,	false,	false,	false,	false,	true,	false,		true,		false},
+/*PLAYER2*/		{false,	true,	true,	true,	false,		true,		false,	false,	true,	true,	true,	false,	false,	false,	false,	false,	false,	true,	false,		true,		false},
+/*P_SHOOT*/		{false,	false,	true,	true,	false,		true,		false,	false,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,		true,		false},
+/*SHIP*/		{false,	false,	true,	true,	false,		false,		false,	true,	true,	false,	false,	false,	true,	true,	true,	true,	false,	false,	false,		false,		true },
+/*SHIP_SHOOT*/	{false,	false,	true,	true,	false,		false,		false,	true,	true,	false,	false,	false,	true,	true,	true,	true,	false,	false,	false,		false,		true },
+/*SPHERE_OGIVE*/{false,	false,	true,	true,	false,		false,		false,	true,	true,	false,	false,	false,	true,	true,	true,	true,	false,	false,	false,		false,		true },
+/*S_SHIP*/		{false,	false,	true,	true,	false,		false,		false,	true,	true,	false,	false,	false,	true,	true,	true,	true,	false,	false,	false,		false,		true },
+/*SUPPLYSHIP*/	{false,	false,	true,	true,	false,		false,		false,	true,	true,	false,	false,	false,	true,	true,	true,	true,	false,	false,	false,		false,		true },
+/*WEAPON*/		{false,	false,	false,	false,	false,		true,		false,	false,	false,	true,	false,	false,	false,	false,	false,	false,	false,	false,	false,		true,		false}
 };

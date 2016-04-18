@@ -30,8 +30,10 @@ typedef enum {
 	CHARS_LASER,				///<Additional shooting left or right device for the player
 	CHARS_MISSIL,				///<A common shooting from any ship, supplyship or player
 	CHARS_NAVY,					///<Holds all the supplyships and all types of ships
+	CHARS_NAVYSHOOT,
+	CHARS_OGIVE,				///<Not available by the moment
 	CHARS_PLAYER,				///<The player
-	CHARS_PLAYER2,				///<The player2
+	CHARS_PLAYER2,
 	CHARS_PLAYER_SHOOT,			///<Player shoots
 	CHARS_REACTOR,				///<Extra power engines and shooters for the player. Obtained after the corresponding bonus has been won
 	CHARS_SHIP,					///<Alien normal space ships
