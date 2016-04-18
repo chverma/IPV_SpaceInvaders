@@ -24,11 +24,12 @@ class CReactor: public CCharacter
 public:
 	//Methods
 	CReactor();		//Constructor
-
+	void setAsignedPlayer(CCharacter aPlayer){asignedPlayer=aPlayer;};
 	///Shows the reactor on the screen
 	void Render				(void);
 	///Change the way the reactor is going to be rendered on the screen
 	void ChangeRenderMode	(CHAR_RENDER_MODE);
+	CCharacter asignedPlayer;
 };
 
 #endif

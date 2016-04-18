@@ -25,6 +25,7 @@ CReactor::CReactor()
 	Size.v[XDIM] = 0.3;
 	Size.v[YDIM] = 0.3;
 	Size.v[ZDIM] = 0.0;
+
 }
 
 void CReactor::Render (void)
@@ -69,7 +70,7 @@ void CReactor::Render (void)
 
 		// On player position...
 		glTranslatef(Position.v[XDIM], Position.v[YDIM], Position.v[ZDIM]);
-		unsigned int indAux = Player[CurrentPlayer].Mesh->IndexInList;
+		unsigned int indAux = asignedPlayer.Mesh->IndexInList;
 		glRotatef(MeshesManager.Meshes[indAux]->modelo.rot.x, 1.0f, 0.0f, 0.0f);
 		glRotatef(MeshesManager.Meshes[indAux]->modelo.rot.y, 0.0f, 1.0f, 0.0f);
 		glRotatef(MeshesManager.Meshes[indAux]->modelo.rot.z, 0.0f, 0.0f, 1.0f);

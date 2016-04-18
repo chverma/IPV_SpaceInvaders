@@ -95,6 +95,7 @@ void CPlayer2::AI_Explode (void)
 
 void CPlayer2::ActivateReactor()
 {
+	Reactor.setAsignedPlayer((CCharacter)*this);
 	Reactor.Alive = Reactor.Active = true;
 	Reactor.Position = Position;
 }
