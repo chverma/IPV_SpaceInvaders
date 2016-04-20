@@ -102,6 +102,7 @@ void CPlayer::ActivateReactor()
 
 void CPlayer::ActivateLaser(CP_PLAYER_LASER LaserActivated)
 {
+	Laser[LaserActivated].setAsignedPlayer((CCharacter)*this);
 	Laser[LaserActivated].Alive = Laser[LaserActivated].Active = true;
 	Laser[LaserActivated].Explosion.Alive = false;
 	

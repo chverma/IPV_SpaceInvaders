@@ -80,6 +80,7 @@ typedef enum
 	CSIG_PAUSED,			///<The game stays on hold
 	CSIG_WAIT_KEY,			///<The game waits till the player presses any key.
 	CSIG_END,				///<Releasing the videogame until new game session
+	CSIG_LOST_LIFE2,
 	CSIG_MAXSTATE			///<Amount of different states in the game
 } CSIG_GAME_STATE;
 
@@ -106,7 +107,9 @@ typedef enum {
 	CSIG_PAUSE,				///The player asks the game to pause
 	CSIG_CONTINUE,			///The player asks the game to continue
 	CGS_KEYPRESSED,			///The player pressed a key to start a new game or level.
-	CSIG_2END,				//v
+	CSIG_2END,
+	CSIG_LIFE_LOST2,
+	//v
 	CSIG_MAXTRANSITION		///For management purpouses only
 } CSIG_GAME_TRANSITIONS;	///Generic character possible states that can be any character by default
 

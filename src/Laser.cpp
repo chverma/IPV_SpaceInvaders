@@ -138,7 +138,7 @@ void CLaser::Render (void)
 			Mesh->modelo.pos.y = Position.v[YDIM];
 			Mesh->modelo.pos.z = Position.v[ZDIM];
 			Mesh->modelo.rot.x =  -270.0f;
-			Mesh->modelo.rot.z =  Player[CurrentPlayer].Mesh->modelo.rot.z;
+			Mesh->modelo.rot.z =  asignedPlayer.Mesh->modelo.rot.z;
 			//Mesh->modelo.scale = 0.15f;
 			
 			Mesh->modelo.Draw();

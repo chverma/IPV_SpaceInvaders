@@ -102,6 +102,7 @@ void CPlayer2::ActivateReactor()
 
 void CPlayer2::ActivateLaser(CP_PLAYER_LASER LaserActivated)
 {
+	Laser[LaserActivated].setAsignedPlayer((CCharacter)*this);
 	Laser[LaserActivated].Alive = Laser[LaserActivated].Active = true;
 	Laser[LaserActivated].Explosion.Alive = false;
 	
@@ -153,7 +154,7 @@ void CPlayer2::Collided (CCharacter *CollidedChar)
 				AI_Dye();
 
 				//Player loses its life...
-				Game.GameEvent(CSIG_LIFE_LOST);	//v Controlado 4->7
+				Game.GameEvent(CSIG_LIFE_LOST2);	//v Controlado 4->7
 			}
 			#endif
 		}

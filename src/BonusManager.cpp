@@ -74,7 +74,7 @@ void CBonusManager::GenerateRandomBonus()
 					if(DiscreteSimulation) DiscreteGenerateBonus(CBN_BONUS_3D);
 					else GenerateBonus(CBN_BONUS_3D);
 				
-		}
+		 }
 		//Bonus to regenerate new lasers
 		else if (!Player[CurrentPlayer].Laser[CP_LEFT_LASER].Alive || !Player[CurrentPlayer].Laser[CP_RIGHT_LASER].Alive)
 		{
@@ -121,6 +121,31 @@ void CBonusManager::Maintenance()
 				case CBN_BONUS_WEAPON:
 					if (Player[CurrentPlayer].ShootType==CSH_PLAYER3D){
 						Player[CurrentPlayer].ShootType = CSH_PLAYER3D_CHEVRON;
+						Bonus[i].AI_Dye();
+					}
+					break;
+				}
+			}else if (CollisionDetector.Collided(&Bonus[i], &Player2[CurrentPlayer]))
+			{
+				Bonus[i].PlayerCollided();
+				switch (Bonus[i].SubType)
+				{
+				case CBN_BONUS_3D:
+					Scene.AngleStart.v[XDIM] = fmod(Scene.Angle.v[XDIM], 360);				
+					Scene.AngleStart.v[YDIM] = fmod(Scene.Angle.v[YDIM], 360);
+					Bonus[i].AI_Dye();
+					Game.GameEvent(CSIG_CHANGING_2_3D);							//v 4->6
+					break;
+				case CBN_BONUS_LASER:
+					if (!Player2[CurrentPlayer].Laser[CP_LEFT_LASER].Alive || !Player2[CurrentPlayer].Laser[CP_RIGHT_LASER].Alive){
+						Player2[CurrentPlayer].ActivateLaser(CP_LEFT_LASER);
+						Player2[CurrentPlayer].ActivateLaser(CP_RIGHT_LASER);
+						Bonus[i].AI_Dye();
+					}
+					break;
+				case CBN_BONUS_WEAPON:
+					if (Player2[CurrentPlayer].ShootType==CSH_PLAYER3D){
+						Player2[CurrentPlayer].ShootType = CSH_PLAYER3D_CHEVRON;
 						Bonus[i].AI_Dye();
 					}
 					break;

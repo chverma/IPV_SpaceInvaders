@@ -33,7 +33,7 @@ public:
 	float		zi;				// el flotamiento de la nave coordenada z para el modo 3D
 	float		zi_speed;		// la velocidad de la nave coordenada z para el modo 3D
 	CExplosion	Explosion;		///Cuando los barcos pierde su vida estalla. Este es el sistema de partículas para realizar la explosión
-
+	CCharacter asignedPlayer;
 	//Methods
 	bool Init ();	//Used when all the values are initialized by default
 					//when reading the global initialization game file
@@ -55,6 +55,8 @@ public:
 	///Change the way the player's laser is going to be rendered on the screen
 	void ChangeRenderMode	(CHAR_RENDER_MODE);
 	void RenderExplosion	(void);
+
+	void setAsignedPlayer(CCharacter aPlayer){asignedPlayer=aPlayer;};
 };
 
 #endif

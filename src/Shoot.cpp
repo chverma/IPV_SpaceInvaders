@@ -293,6 +293,9 @@ void CShoot::Collided (CCharacter *CollidedChar)
 		case CHARS_PLAYER:
 			Burnup = CSH_SHIP == SubType|| CSH_SUPPLY_SHIP == SubType || CSH_CIRCLE_SHIP == SubType;
 			break;
+		case CHARS_PLAYER2:
+			Burnup = CSH_SHIP == SubType|| CSH_SUPPLY_SHIP == SubType || CSH_CIRCLE_SHIP == SubType;
+			break;
 		case CHARS_BRICK:
 		//case CHARS_BUNKER:
 			Burnup = true;

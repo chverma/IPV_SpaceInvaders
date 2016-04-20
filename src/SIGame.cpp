@@ -57,7 +57,8 @@ char CSIG_NameState[CSIG_MAXSTATE][GCHAR_TAG_MAX_LONG ] =
 	"FADING OUT LOST",	///The game is Fading to black while releasing all data internal structures
 	"PAUSED",			///The game stays on hold.
 	"WAITING FOR KEY",	///The game waits till the player presses any key.
-	"END"				///The game is Fading to black while releasing all data internal structures
+	"END",
+	"LOST LIFE"///The game is Fading to black while releasing all data internal structures
 
 };
 
@@ -85,7 +86,8 @@ char CSIG_NameTransition[CSIG_MAXTRANSITION][GCHAR_TAG_MAX_LONG ] =
 	"PAUSE",			///The player asks the game to pause
 	"CONTINUE",			///The player asks the game to continue
 	"KEY_PRESSED",		///The player pressed a key to start a new game or level.
-	"2END"		///v
+	"2END",
+	"LIFE LOST2"///v
 
 };
 ///Timers names
@@ -1952,6 +1954,16 @@ void CSIGame::RunMainLoop(){
 			break;
 		case CSIG_LOST_LIFE:
 			if (--Player[CurrentPlayer].Lives <= 0) {
+				GameEvent(CSIG_FADING2LOST); //v Controlado 8->13
+			}
+			else
+			{
+				//ACHTUNG: Do something here before restarting to play
+				GameEvent(CSIG_PLAY);  //v Controlado 8->4
+			}
+			break;
+		case CSIG_LOST_LIFE2:
+			if (--Player2[CurrentPlayer].Lives <= 0) {
 				GameEvent(CSIG_FADING2LOST); //v Controlado 8->13
 			}
 			else
