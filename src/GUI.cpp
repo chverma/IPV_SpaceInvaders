@@ -567,8 +567,7 @@ void CGUI::display_score_hiscore_lives()
 */
 void CGUI::display_below_lives()
 {
-	//glEnable(GL_BLEND);
-	//<This check must be removed when Player[CurrentPlayer].Lives doesn't reach 65555.
+	//< Display number of lives for all players
 	if(Player[CurrentPlayer].Lives>0 && Player[CurrentPlayer].Lives<4){
 		glColor4f (1.0f, 1.0f, 1.0f, 1.0f);
 		// la figura 0, 1, 2 ou 3 
@@ -579,6 +578,22 @@ void CGUI::display_below_lives()
 			glTexCoord2f (1,0);	glVertex2f (CSIG_PG_LEFT  + .4f, -6.9f -.25f);
 			glTexCoord2f (1,1);	glVertex2f (CSIG_PG_LEFT  + .4f, -6.9f +.25f);
 		glEnd ();
+	}
+
+	if(Player2[CurrentPlayer].Lives>0 && Player2[CurrentPlayer].Lives<4){
+		glColor4f (1.0f, 1.0f, 1.0f, 1.0f);
+		//< Marca en cantidad, las vidas restantes del player 2
+		TexturesManager.Textures[CTM_NUMBER0 + Player2[CurrentPlayer].Lives]->SetTexture();
+		glBegin (GL_QUADS);
+			glTexCoord2f (0,1);	glVertex2f (CSIG_PG_LEFT  - .4f, -7.5f +.25f);
+			glTexCoord2f (0,0);	glVertex2f (CSIG_PG_LEFT  - .4f, -7.5f -.25f);
+			glTexCoord2f (1,0);	glVertex2f (CSIG_PG_LEFT  + .4f, -7.5f -.25f);
+			glTexCoord2f (1,1);	glVertex2f (CSIG_PG_LEFT  + .4f, -7.5f +.25f);
+		glEnd ();
+	}
+
+	//<This check must be removed when Player[CurrentPlayer].Lives doesn't reach 65555.
+	if(Player[CurrentPlayer].Lives>0 && Player[CurrentPlayer].Lives<4){
 
 		// ALPHA TEST + BLEND
 		glAlphaFunc(GL_GREATER, 0.3f);								// for TGA alpha test
@@ -604,6 +619,33 @@ void CGUI::display_below_lives()
 		// BACK TO NON ALPHA TEST + PREVIOUS BLEND
 		glDisable(GL_ALPHA_TEST);
 		//glDisable(GL_BLEND);
+	}
+
+	//<This check must be removed when Player[CurrentPlayer].Lives doesn't reach 65555.
+	if(Player2[CurrentPlayer].Lives>0 && Player2[CurrentPlayer].Lives<4){
+		// ALPHA TEST + BLEND
+		glAlphaFunc(GL_GREATER, 0.3f);								// for TGA alpha test
+		glEnable(GL_ALPHA_TEST);									// for TGA alpha test
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);			// for anti-aliasing
+
+		//< Marca en numero de iconos, la cantidad de vidas restantes del player 2
+		for (int k=1; k <= Player2[CurrentPlayer].Lives; k++)
+		{
+			glColor4f (1.0f, 1.0f, 1.0f, 1.0f);
+			if (CHAR_2D == Game.RenderMode)
+				TexturesManager.Textures[Player2[CurrentPlayer].IndTexture2D]->SetTexture();
+			else
+				TexturesManager.Textures[CTM_PLAYER3D]->SetTexture();
+
+			glBegin (GL_QUADS);
+				glTexCoord2f (0,1);	glVertex2f (CSIG_PG_LEFT + k/1.3f - .3f, -7.5f +.25f);
+				glTexCoord2f (0,0);	glVertex2f (CSIG_PG_LEFT + k/1.3f - .3f, -7.5f -.25f);
+				glTexCoord2f (1,0);	glVertex2f (CSIG_PG_LEFT + k/1.3f + .3f, -7.5f -.25f);
+				glTexCoord2f (1,1);	glVertex2f (CSIG_PG_LEFT + k/1.3f + .3f, -7.5f +.25f);
+			glEnd ();		
+		}
+		// BACK TO NON ALPHA TEST + PREVIOUS BLEND
+		glDisable(GL_ALPHA_TEST);
 	}
 }
 
