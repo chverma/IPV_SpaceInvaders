@@ -106,7 +106,7 @@ double msTotRTDSKMM=0;								//Total tiempo utilizado para gestión de memoria y
 	#endif
 #endif
 
-MAIN_END_TYPES WayToEnd=END_BY_FRAME;
+MAIN_END_TYPES WayToEnd=NO_END;
 bool endByTime	= false;
 bool endByFrame	= false;
 bool initReg	= false;

@@ -109,6 +109,8 @@ typedef enum {
 	CGS_KEYPRESSED,			///The player pressed a key to start a new game or level.
 	CSIG_2END,
 	CSIG_LIFE_LOST2,
+	CSIG_FADING2LOST2,
+	CSIG_PLAY2,
 	//v
 	CSIG_MAXTRANSITION		///For management purpouses only
 } CSIG_GAME_TRANSITIONS;	///Generic character possible states that can be any character by default

@@ -58,7 +58,7 @@ char CSIG_NameState[CSIG_MAXSTATE][GCHAR_TAG_MAX_LONG ] =
 	"PAUSED",			///The game stays on hold.
 	"WAITING FOR KEY",	///The game waits till the player presses any key.
 	"END",
-	"LOST LIFE"///The game is Fading to black while releasing all data internal structures
+	"LOST LIFE2"		///The Player2 has lost one life
 
 };
 
@@ -87,7 +87,9 @@ char CSIG_NameTransition[CSIG_MAXTRANSITION][GCHAR_TAG_MAX_LONG ] =
 	"CONTINUE",			///The player asks the game to continue
 	"KEY_PRESSED",		///The player pressed a key to start a new game or level.
 	"2END",
-	"LIFE LOST2"///v
+	"LIFE LOST2",
+	"FADING2LOST2",
+	"PLAY2"///v
 
 };
 ///Timers names
@@ -672,6 +674,31 @@ void CSIGame::Render(void)
 				Player[i].Explosion.Render();
 				if(!Player[i].Explosion.Alive && Player[i].Lives>0)
 					Player[i].Active = Player[i].Alive = true;
+			}
+		}
+
+		//Player2 Explosions
+		for(i=0;i<CP_MAX_PLAYERS;i++){
+			if(Player2[i].Explosion.Alive && Player2[i].Explosion.Active){
+				#ifdef DEF_RND_TIME
+				EndAccCounting(TmrRnd);
+				#endif
+				#ifdef DEF_RND_TIME
+				TimerManager.Timers[TmrUpd].InitCounting();
+				#endif
+
+				Player2[i].Explosion.Update();
+
+				#ifdef DEF_RND_TIME
+				EndAccCounting(TmrUpd);
+				#endif
+				#ifdef DEF_RND_TIME
+				TimerManager.Timers[TmrRnd].InitCounting();
+				#endif
+
+				Player2[i].Explosion.Render();
+				if(!Player2[i].Explosion.Alive && Player2[i].Lives>0)
+					Player2[i].Active = Player2[i].Alive = true;
 			}
 		}
 
@@ -1954,22 +1981,30 @@ void CSIGame::RunMainLoop(){
 			break;
 		case CSIG_LOST_LIFE:
 			if (--Player[CurrentPlayer].Lives <= 0) {
+				Player[CurrentPlayer].Active=false;
+				Player[CurrentPlayer].Alive=false;
+			}
+
+			if (Player[CurrentPlayer].Lives <= 0 && Player2[CurrentPlayer].Lives <= 0) {
 				GameEvent(CSIG_FADING2LOST); //v Controlado 8->13
 			}
 			else
 			{
-				//ACHTUNG: Do something here before restarting to play
 				GameEvent(CSIG_PLAY);  //v Controlado 8->4
 			}
 			break;
 		case CSIG_LOST_LIFE2:
 			if (--Player2[CurrentPlayer].Lives <= 0) {
-				GameEvent(CSIG_FADING2LOST); //v Controlado 8->13
+				Player2[CurrentPlayer].Active=false;
+				Player2[CurrentPlayer].Alive=false;
+			}
+			
+			if (Player[CurrentPlayer].Lives <= 0 && Player2[CurrentPlayer].Lives <= 0) {
+				GameEvent(CSIG_FADING2LOST2); //v Controlado 17->13
 			}
 			else
 			{
-				//ACHTUNG: Do something here before restarting to play
-				GameEvent(CSIG_PLAY);  //v Controlado 8->4
+				GameEvent(CSIG_PLAY2);  //v Controlado 17->4
 			}
 			break;
 		case CSIG_WON:		
