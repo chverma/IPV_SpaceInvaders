@@ -1473,7 +1473,7 @@ void CSIGame::Deinitialize (void)
 	ScoresManager.SetHiscore(Game.Score);
 
 	#ifdef UGKSND_FMOD375 
-			SoundsManager.MusicFadingOut();
+			//SoundsManager.MusicFadingOut();
 	#elif UGKSND_SDL			
 		// Stop the music
 		SoundsManager.StopMusic();
@@ -1871,6 +1871,7 @@ void CSIGame::RunMainLoop(){
 
 				//Player2 Update
 				Player2[CurrentPlayer].Update();
+
 				#ifdef DEF_IDL_TIME
 				TimerManager.Timers[TmrIdl].InitCounting();
 				#endif
@@ -2545,4 +2546,4 @@ void EndAccCounting(unsigned int indTmr){
 
 
 void MusicFadingIn	(void *dummy){Game.MusicFadeIn();};
-void MusicFadingOut	(void *dummy){Game.MusicFadeOut();};
+void MusicFadingOut	(void *dummy){/*Game.MusicFadeOut();*/};

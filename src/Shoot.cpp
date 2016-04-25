@@ -269,7 +269,7 @@ void CShoot::AI_Explode (void)
 {
 	SoundsManager.Play(CGS_TOUCH,UGKSND_LOW_VOLUME);
 	SoundsManager.SetPosition(CGS_TOUCH,UGKSND_STRD_POSITION );
-	SoundsManager.SetVolume(CGS_TOUCH, UGKSND_ULTRA_LOW_VOLUME);
+	//SoundsManager.SetVolume(CGS_TOUCH, UGKSND_ULTRA_LOW_VOLUME);
 	AI_Dye();
 }	
 
