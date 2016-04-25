@@ -20,8 +20,9 @@ CMeshesManager::CMeshesManager()
 */
 CMeshesManager::~CMeshesManager()
 {
-	for(unsigned int i=0;i<Meshes.size();i++)
-		delete(&Meshes[i]->modelo);
+	//>Da error
+	//for(unsigned int i=0;i<Meshes.size();i++)
+	//	delete(&Meshes[i]);
 }
 
 void CMeshesManager::AddModel(char *filename, unsigned int indexList)
