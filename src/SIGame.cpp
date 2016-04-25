@@ -2421,7 +2421,7 @@ glColor4f (1.0f, 1.0f, 1.0f, GUI.Fading);
 		int chif_texture = (int)(str_chif[i - long_0]) - 48; // como "0" = 48 en la tabla ASCII y el elenco (char *) no funciona para atoi ()
 
 		glColor4f (1.0f, 1.0f, 1.0f, 1.0f);
-		TexturesManager.Textures[CTM_NUMBER0]->SetTexture();
+		TexturesManager.Textures[chif_texture+CTM_NUMBER0]->SetTexture();
 		glBegin (GL_QUADS);
 			glTexCoord2f (0,1);	glVertex2f (-1.25f +i/1.9f - .6f, 0.0f +.6f);
 			glTexCoord2f (0,0);	glVertex2f (-1.25f +i/1.9f - .6f, 0.0f -.6f);
