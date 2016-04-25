@@ -34,7 +34,7 @@ class CBoometer
 	 ~CBoometer();
 
 	 ///Renders the boometer with the level indicated, should be ratio level/maxLevel
-	 void Render(float);
+	 void Render(float,float);
 
 
  };

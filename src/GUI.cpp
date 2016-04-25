@@ -1387,7 +1387,7 @@ void CGUI::display_text_frames()
 */
 void CGUI::display_Health()
 { //Afegir vida player 2 
-	boometer->Render(Player[CurrentPlayer].Health/Player[CurrentPlayer].MaxHealth);
+	boometer->Render(Player[CurrentPlayer].Health/Player[CurrentPlayer].MaxHealth,Player2[CurrentPlayer].Health/Player2[CurrentPlayer].MaxHealth);
 }
 
 /**   
