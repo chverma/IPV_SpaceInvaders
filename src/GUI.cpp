@@ -1465,8 +1465,6 @@ void CGUI::FadingInWon (void)
 	#elif UGKSND_SDL
 	#endif
 
-		//Passing from CSIG_CONFIGURE state to CSIG_FADING_IN state
-		Game.GameEvent(CSIG_FADED);		//v Controlado 11->9, 13->10, 12->14
 	}
 
 	glFlush ();															// flush the GL rendering pipeline

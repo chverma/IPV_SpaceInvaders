@@ -2019,8 +2019,9 @@ void CSIGame::RunMainLoop(){
 		case CSIG_FADING_OUT2WON:
 			SoundsManager.Play(CGS_APPLAUSE, UGKSND_MAX_VOLUME);
 			SoundsManager.SetPosition(CGS_APPLAUSE,NULL);
-			StartCameraMov();
+			//StartCameraMov();
 			GUI.FadingInWon();
+			//GameEvent(CSIG_LOADING);
 			GameEvent(CSIG_FADED);			//v Controlado 11->9
 			break;
 		case CSIG_FADING_OUT2END:
@@ -2033,6 +2034,7 @@ void CSIGame::RunMainLoop(){
 			break;
 		case CSIG_FADING_OUT2LOST:
 			GameEvent(CSIG_FADED);			//v Controlado 13->10
+
 			break;
 		case CSIG_PAUSED:
 			if(!Paused)
