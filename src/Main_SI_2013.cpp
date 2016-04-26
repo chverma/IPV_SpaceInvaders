@@ -368,7 +368,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		if(wmId>=MIN_LEVELS_HTML && wmId < MAX_LEVELS_HTML){
 			Game.NextHtmlInd2Load = wmId;
 			Game.OnlyOneLevel = true;
+			Game.Level = wmId;
 			AppControl = APP_INIT;
+
 		}
 		else{
 			std::string SourceLang, DefaultLang;
