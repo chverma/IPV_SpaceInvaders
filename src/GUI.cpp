@@ -635,7 +635,7 @@ void CGUI::display_below_lives()
 			if (CHAR_2D == Game.RenderMode)
 				TexturesManager.Textures[Player2[CurrentPlayer].IndTexture2D]->SetTexture();
 			else
-				TexturesManager.Textures[CTM_PLAYER3D]->SetTexture();
+				TexturesManager.Textures[CTM_PLAYER3D2]->SetTexture();
 
 			glBegin (GL_QUADS);
 				glTexCoord2f (0,1);	glVertex2f (CSIG_PG_LEFT + k/1.3f - .3f, -7.5f +.25f);

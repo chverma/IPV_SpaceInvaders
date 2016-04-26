@@ -202,7 +202,9 @@ void LoadTextures(void)
 		case CTM_TEXT_BONUS:
 			TexturesManager.CreateTexture("text_bonus.bmp", CTM_TEXT_BONUS);
 			break;
-		
+		case CTM_PLAYER3D2:			///This texture is to count lives of player2
+			TexturesManager.CreateTexture("player3d2.tga", CTM_PLAYER3D2);
+			break;
 		}
 	}
 }
