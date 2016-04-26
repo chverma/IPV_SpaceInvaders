@@ -677,7 +677,7 @@ void CSIGame::Render(void)
 			}
 		}
 
-		//Player2 Explosions
+		///Player 2: Render explosiones y ponerlo en activo si no esta muerto
 		for(i=0;i<CP_MAX_PLAYERS;i++){
 			if(Player2[i].Explosion.Alive && Player2[i].Explosion.Active){
 				#ifdef DEF_RND_TIME
@@ -724,10 +724,11 @@ void CSIGame::Render(void)
 			if(Player[i].Alive)
 				Player[i].Render();	
 
-		//Players.
-		//for(i=0;i<CP_MAX_PLAYERS;i++)
-			if(Player2[0].Alive)
-				Player2[0].Render();	
+		///Player 2: Render si esta vivo
+		for(i=0;i<CP_MAX_PLAYERS;i++){
+			if(Player2[i].Alive && Player2[i].Lives>0)
+					Player2[i].Render();	
+		}
 
 		// LUMIERE DES SHIPS (DEBUT) ET PLAYER (FIN)
 		if (CHAR_2D != Game.RenderMode)
@@ -1250,8 +1251,10 @@ bool CSIGame::Initialize (void)
 	for(i=0;i<CP_MAX_PLAYERS;i++)
 		Player[i] = defaultPlayer;
 
+	///Player2: crear los diversos jugadores a partir del por defecto
 	for(i=0;i<CP_MAX_PLAYERS;i++)
 		Player2[i] = defaultPlayer2;
+
 	StartAnimations();
 
 	//Creates a thread in order to speed up the loading of the sounds
@@ -1869,7 +1872,7 @@ void CSIGame::RunMainLoop(){
 				//Player Update
 				Player[CurrentPlayer].Update();
 
-				//Player2 Update
+				///Player2: call Update function
 				Player2[CurrentPlayer].Update();
 
 				#ifdef DEF_IDL_TIME
@@ -1981,11 +1984,12 @@ void CSIGame::RunMainLoop(){
 			GameEvent(CD_INTERMISS_FINISHED);	//v Controlado  7->8 
 			break;
 		case CSIG_LOST_LIFE:
+			///Player 1: Comprobación vidas para deshabilitarlo
 			if (--Player[CurrentPlayer].Lives <= 0) {
 				Player[CurrentPlayer].Active=false;
 				Player[CurrentPlayer].Alive=false;
 			}
-
+			///Player 1 y 2: Comprobación vidas de los dos para pasar al estado lost level
 			if (Player[CurrentPlayer].Lives <= 0 && Player2[CurrentPlayer].Lives <= 0) {
 				GameEvent(CSIG_FADING2LOST); //v Controlado 8->13
 			}
@@ -1995,11 +1999,12 @@ void CSIGame::RunMainLoop(){
 			}
 			break;
 		case CSIG_LOST_LIFE2:
+			///Player 2: Comprobación vidas para deshabilitarlo
 			if (--Player2[CurrentPlayer].Lives <= 0) {
 				Player2[CurrentPlayer].Active=false;
 				Player2[CurrentPlayer].Alive=false;
 			}
-			
+			///Player 1 y 2: Comprobación vidas de los dos para pasar al estado lost level
 			if (Player[CurrentPlayer].Lives <= 0 && Player2[CurrentPlayer].Lives <= 0) {
 				GameEvent(CSIG_FADING2LOST2); //v Controlado 17->13
 			}
@@ -2285,11 +2290,11 @@ void CSIGame::Loading ()
 		//Link every character in the game to its corresponding mesh
 		Log.Add("Assigning Meshes to characters");
 
-		for(i=0;i<CP_MAX_PLAYERS;i++){
+		/*for(i=0;i<CP_MAX_PLAYERS;i++){
 			Player[i].Mesh = MeshesManager.Meshes[Player[i].IndMesh];
 			Player[i].Laser[CP_LEFT_LASER].Mesh = MeshesManager.Meshes[Player[i].Laser[CP_LEFT_LASER].IndMesh];
 			Player[i].Laser[CP_RIGHT_LASER].Mesh = MeshesManager.Meshes[Player[i].Laser[CP_RIGHT_LASER].IndMesh];
-		}
+		}*/
 	
 		Navy.SetMeshes();
 
