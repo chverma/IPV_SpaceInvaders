@@ -1208,9 +1208,16 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 		StateStack.pop();
 		StateStack.push(LINE_L);
 		break;
-	case LIVES_L:		//Amount of ships the Player has still before finishing the game
-			Player[CurrentPlayer].Lives = atoi(rText);
-			Player2[CurrentPlayer].Lives = atoi(rText);
+	case LIVES_L:		//> Vidas del player 1 y 2
+		switch (CLeP_CharType)
+		{
+			case CHARS_PLAYER:
+				Player[CurrentPlayer].Lives = atoi(rText);
+				break;
+			case CHARS_PLAYER2:
+				 Player2[CurrentPlayer].Lives = atoi(rText);
+				 break;
+		}
 		break;
 	case MESH_CHARACTER_L:
 			switch (CLeP_CharType)

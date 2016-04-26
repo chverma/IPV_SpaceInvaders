@@ -745,38 +745,16 @@ LogFile << CP_ParserMsgs[LOG_PARSER_TEXT] << rText << std::endl;
 	case LANGUAGE:
 					strcpy(Application.LanguageFolder, rText);
 		break;
-	case LIVES:		//Amount of ships the Player has still before finishing the game
-			if(CP_INFINITE_LIVES == atoi(rText)){
-				defaultPlayer.Lives = CP_INFINITE_LIVES;
-				defaultPlayer2.Lives = CP_INFINITE_LIVES;
-			}
-			else if (0 > atoi(rText))
-				{
-					strcpy(msj, CIP_ParserMsgs[CIP_MIN_LIVES_NOT_DEF]);
-					strcat(msj, rText);
-					strcat(msj, CIP_ParserMsgs[CIP_LOWER_THAN_MIN]);
-					strcat(msj, CIP_ParserMsgs[CIP_AMOUNT_ALLOWED]);
-					strcat(msj, CIP_ParserMsgs[CIP_VALUE_CUT]);
-					strcat(msj, CIP_ParserMsgs[CIP_MINIMUM]);
-					ErrorParser (msj);
-					defaultPlayer.Lives = 1;
-					defaultPlayer2.Lives = 1;
-				}
-				else if (SHRT_MAX > atoi(rText)){
-					defaultPlayer.Lives = atoi(rText);
-					defaultPlayer2.Lives = atoi(rText);
-				} else	
-					 {
-						strcpy(msj, CIP_ParserMsgs[CIP_MAX_LIVES_NOT_DEF]);
-						strcat(msj, rText);
-						strcat(msj, CIP_ParserMsgs[CIP_LOWER_THAN_MIN]);
-						strcat(msj, CIP_ParserMsgs[CIP_AMOUNT_ALLOWED]);
-						strcat(msj, CIP_ParserMsgs[CIP_VALUE_CUT]);
-						strcat(msj, CIP_ParserMsgs[CIP_MAXIMUM]);
-						ErrorParser (msj);
-						defaultPlayer.Lives = SHRT_MAX;
-						defaultPlayer2.Lives = SHRT_MAX;
-					}
+	case LIVES:		///Vidas del player 1 y 2
+		switch (CharType)
+		{
+			case CHARS_PLAYER:
+				 defaultPlayer.Lives	= atof (rText);
+				 break;
+			case CHARS_PLAYER2:
+				 defaultPlayer2.Lives	= atof (rText);
+				 break;
+		}
 		break;
 	case MESH_CHARACTER:
 			switch (CharType)
