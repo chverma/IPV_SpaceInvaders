@@ -19,6 +19,7 @@ class CTexturesManager {
 public:
 	
 	vector <CTexture*> Textures;
+	vector <CTexture*> Aux;
 	char *FilesPath;
 	unsigned int LogIndex;
 

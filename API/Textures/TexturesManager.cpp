@@ -43,7 +43,11 @@ void CTexturesManager::CreateTexture(char *filename, unsigned int indexList){
 		Textures[indexList] = texAux;
 	}else if(indexList == Textures.size()){
 		Textures.push_back(texAux);
+		Aux=Textures;
 	}else{
+		if(Textures.size()<=0){
+			Textures=Aux;
+		}
 		Textures.resize(indexList);
 		Textures.push_back(texAux);
 	}
